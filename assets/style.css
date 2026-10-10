@@ -1,0 +1,96 @@
+@import url("fonts.css");
+
+:root{
+  --ink:#04060d; --navy:#070b17; --panel:rgba(7,11,24,.88);
+  --gold:#e3af4a; --gold-d:#c98f2e; --brown:#5a3718; --brown-d:#3a210d;
+  --rogue:#fff56a;           /* preserved rogue yellow */
+  --coral:#ee6a55; --coral-d:#b8483a;
+  --green:#2a9d78; --green-d:#0b4a36;
+  --blue:#4aa8ff; --blue-d:#0b3a78; --cyan:#4fd5e8;
+  --cream:#f4ecd8; --mute:#a9a490;
+  --must:#ef5e48; --good:#f5b941; --skip:#6e6656; --mount:#c7a2ff;
+  --pvp:#fff56a; --pve:#6db6ff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:var(--ink)}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--cream);position:relative;-webkit-font-smoothing:antialiased}
+.slide{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;
+  background:radial-gradient(1200px 800px at 50% 50%,#0b1224 0%,#05070f 70%,#03040a 100%)}
+.bg{position:absolute;inset:0;width:1920px;height:1080px}
+.speck{position:absolute;inset:0;pointer-events:none}
+.speck img{position:absolute;border-radius:18px;opacity:.16;border:3px solid rgba(227,175,74,.7);box-shadow:6px 6px 0 rgba(90,55,24,.7)}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,rgba(3,4,10,0) 40%,rgba(3,4,10,.55) 100%)}
+
+/* ---------- type ---------- */
+.disp{font-family:'Barlow Condensed',sans-serif;font-style:italic;font-weight:900;text-transform:uppercase;letter-spacing:.01em;line-height:.92}
+.x3d{color:var(--rogue);
+  text-shadow:1px 1px 0 #9a6a1f,2px 2px 0 #8a5c19,3px 3px 0 #6e4614,4px 4px 0 #5a3718,5px 5px 0 #4a2c12,6px 6px 0 #05070f,7px 7px 0 #05070f,0 0 28px rgba(255,245,106,.28)}
+.x3d.cream{color:var(--cream);text-shadow:1px 1px 0 #b6a98a,2px 2px 0 #8d7f60,3px 3px 0 #6e4614,4px 4px 0 #5a3718,5px 5px 0 #4a2c12,6px 6px 0 #05070f,7px 7px 0 #05070f}
+.yel{color:var(--rogue)} .cor{color:var(--coral)} .mut{color:var(--mute)} .cy{color:var(--cyan)}
+
+/* ---------- chrome ---------- */
+.hdr{position:absolute;left:56px;right:56px;top:30px;height:112px;display:flex;align-items:center;gap:26px;z-index:5}
+.hdr .logo{width:112px;height:112px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.7));flex:none}
+.hdr .kick{font:700 19px 'Barlow Condensed';letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+.hdr h1{font-size:76px;margin-top:4px}
+.hdr .sub{font:600 24px 'Barlow Condensed';letter-spacing:.14em;color:var(--mute);text-transform:uppercase;margin-left:8px;align-self:flex-end;padding-bottom:10px}
+.hdr .right{margin-left:auto;display:flex;align-items:center;gap:20px}
+.num{font-family:'Barlow Condensed';font-style:italic;font-weight:900;font-size:96px;line-height:.8;color:transparent;-webkit-text-stroke:2px var(--gold);letter-spacing:.02em}
+.num small{font-size:34px;-webkit-text-stroke:0;color:var(--mute)}
+.main{position:absolute;left:56px;right:56px;top:158px;bottom:66px;z-index:4}
+.ftr{position:absolute;left:56px;right:56px;bottom:20px;height:30px;display:flex;align-items:center;gap:18px;font:600 15px 'Barlow Condensed';letter-spacing:.28em;color:var(--mute);text-transform:uppercase;z-index:5}
+.ftr .dots{margin-left:auto;display:flex;gap:8px}
+.ftr .dots i{width:30px;height:7px;background:#232a3d;transform:skewX(-30deg)}
+.ftr .dots i.on{background:var(--rogue);box-shadow:0 0 10px rgba(255,245,106,.7)}
+.ftr b{color:var(--gold)}
+
+/* ---------- panel: chamfered esports plate ---------- */
+.panel{--c:26px;position:relative;padding:22px 26px 24px;color:var(--cream)}
+.panel::before,.panel::after{content:'';position:absolute;pointer-events:none}
+.panel::before{inset:0;background:linear-gradient(135deg,var(--edge1,#e3af4a) 0%,var(--edge2,#4a3a1e) 38%,var(--edge2,#4a3a1e) 62%,var(--edge1,#e3af4a) 100%);
+  clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c))}
+.panel::after{inset:2px;background:linear-gradient(160deg,rgba(14,19,36,.93),rgba(6,9,20,.93));
+  clip-path:polygon(calc(var(--c) - 1px) 0,100% 0,100% calc(100% - var(--c) + 1px),calc(100% - var(--c) + 1px) 100%,0 100%,0 calc(var(--c) - 1px))}
+.panel>*{position:relative;z-index:2}
+.panel.pvp{--edge1:#fff56a;--edge2:#5a4d14}
+.panel.pve{--edge1:#6db6ff;--edge2:#17375e}
+.ph{display:flex;align-items:baseline;gap:18px;margin-bottom:14px}
+.ph h2{font-size:48px;white-space:nowrap}
+.ph .tag{font:600 21px 'Barlow Condensed';letter-spacing:.12em;color:var(--mute);text-transform:uppercase}
+.tile{position:relative;background:linear-gradient(160deg,rgba(32,38,58,.85),rgba(17,21,36,.85));border:1px solid rgba(227,175,74,.18);border-radius:10px}
+
+/* ---------- icons: gold 3D frame (logo style) ---------- */
+.ic{--s:72px;position:relative;width:var(--s);height:var(--s);flex:none;border-radius:7px;border:3px solid var(--gold-d);background:#000;
+  box-shadow:0 0 0 2px #04060d,4px 4px 0 2px var(--brown),0 10px 16px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,236,170,.45)}
+.ic img{width:100%;height:100%;display:block;border-radius:3px;object-fit:cover}
+.ic::after{content:'';position:absolute;inset:0;border-radius:4px;background:linear-gradient(135deg,rgba(255,255,255,.22),rgba(255,255,255,0) 38%);pointer-events:none}
+.ic.new{border-color:var(--rogue);box-shadow:0 0 0 2px #04060d,0 0 20px rgba(255,245,106,.6),4px 4px 0 2px var(--brown),0 10px 16px rgba(0,0,0,.55)}
+.ic.amber{border-color:#ff9d2e;box-shadow:0 0 0 2px #04060d,0 0 22px rgba(255,157,46,.7),4px 4px 0 2px var(--brown),0 10px 16px rgba(0,0,0,.55)}
+.ic.off{border-color:#4b4636;filter:grayscale(1) brightness(.55);box-shadow:0 0 0 2px #04060d,3px 3px 0 2px #1d1a12}
+.ic .rk{position:absolute;right:-9px;bottom:-11px;font:800 17px 'Barlow Condensed';padding:1px 7px 2px;border-radius:5px;background:#0a1710;color:#7dffa6;border:2px solid #2f9a58;z-index:3;letter-spacing:.03em}
+.ic .rk.part{background:#1c1507;color:var(--good);border-color:var(--good)}
+.ic .rk.zero{background:#12131a;color:#8a8a96;border-color:#454555}
+.ic.sm{--s:56px} .ic.md{--s:72px} .ic.lg{--s:92px} .ic.xl{--s:120px} .ic.xxl{--s:150px}
+.lab{font:700 17px/1.05 'Barlow Condensed';letter-spacing:.04em;text-transform:uppercase;text-align:center;color:var(--cream);margin-top:11px}
+.lab.red{color:var(--coral)}
+.cell{display:flex;flex-direction:column;align-items:center}
+.arr{font:900 54px 'Barlow Condensed';color:var(--rogue);text-shadow:3px 3px 0 var(--brown),4px 4px 0 #04060d;line-height:1}
+
+/* ---------- chips / buttons ---------- */
+.cta{display:flex;align-items:center;justify-content:space-between;gap:14px;text-decoration:none;padding:14px 26px 14px 28px;min-width:430px;
+  clip-path:polygon(18px 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%,0 18px);color:#0a0c14;box-shadow:inset 0 -6px 0 rgba(0,0,0,.18)}
+.cta.pvp{background:linear-gradient(180deg,#fff98a,#ffe83a)}
+.cta.pve{background:linear-gradient(180deg,#9bd0ff,#4aa8ff)}
+.cta b{font:900 italic 34px 'Barlow Condensed';letter-spacing:.02em;text-transform:uppercase;display:block;line-height:1}
+.cta span{font:600 17px 'Inter';opacity:.8}
+.cta svg{width:34px;height:34px;flex:none}
+.chip{display:inline-block;font:800 18px 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase;padding:2px 11px 3px;border-radius:5px;color:#0a0c14;background:var(--gold);transform:skewX(-8deg)}
+.chip.great{background:#7be08e} .chip.solid{background:#6db6ff} .chip.pvp{background:#d9b26a} .chip.decent{background:#f5b941}
+.chip.ok{background:#a39b86} .chip.weak{background:#ef5e48}
+.badge{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:7px;font:900 italic 26px 'Barlow Condensed';color:#0a0c14}
+.t-S{background:#7be08e}.t-A{background:#7be08e}.t-B{background:#6db6ff}.t-C{background:#f5b941}.t-D{background:#ef5e48}
+.t-S{background:linear-gradient(135deg,#fff56a,#7be08e);box-shadow:0 0 14px rgba(255,245,106,.65)}
+
+.legend{display:flex;gap:26px;align-items:center;font:600 20px 'Barlow Condensed';letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.legend i{display:inline-block;width:20px;height:20px;border-radius:5px;margin-right:9px;vertical-align:-4px}
+.legend i.ol{background:transparent;border:3px solid var(--rogue)}
