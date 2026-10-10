@@ -12,6 +12,10 @@ if not os.path.exists('assets/banner.jpg'):
     Image.open('src/banner.png').convert('RGB').resize((1920, 1080), Image.LANCZOS).save('assets/banner.jpg', quality=93)
 
 CLS = json.load(open('src/cls.json'))
+TTD = json.load(open('data/tooltips.json', encoding='utf-8'))
+TT_ENTRIES, TT_BUILD = TTD['entries'], TTD['build']
+IMAP = json.load(open('data/icon_map.json', encoding='utf-8'))
+ICONS, TALENTS, GRID = IMAP['icons'], IMAP['talents'], IMAP['combat_grid']
 RAW = json.load(open('src/images.json'))
 ALL_ICONS = sorted(os.path.basename(f)[:-4] for f in glob.glob('assets/ic/*.png'))
 TOTAL = 10
@@ -21,16 +25,30 @@ PVE_URL = 'https://talents.standards.gg/rogue/000000000000000003200332110141'
 def esc(s): return html.escape(s, quote=False)
 
 # ------------------------------------------------------------------ components
-def ic(h, size='md', cls='', rank=None, rk_cls=''):
+def abil(h, level=None):
+    """Tooltip key for an ability icon: the rank the trainer teaches at `level` (default: best rank by level 30)."""
+    m = ICONS.get(h)
+    if not m:
+        return None
+    lv = 30 if level is None else level
+    ok = [r for r in m['ranks'] if r[0] <= lv]
+    return (ok[-1] if ok else m['ranks'][0])[1]
+
+def talent(name, rank):
+    return 'tl:%d:%d' % (TALENTS['Combat/' + name], rank)
+
+def ic(h, size='md', cls='', rank=None, rk_cls='', tt=None):
     r = ''
     if rank is not None:
         r = f'<span class="rk {rk_cls}">{rank}</span>'
-    return f'<div class="ic {size} {cls}"><img src="../assets/ic/{h}.png" alt="">{r}</div>'
+    key = abil(h) if tt is None else (tt or None)
+    a = f' data-tt="{key}"' if key else ''
+    return f'<div class="ic {size} {cls}"{a}><img src="../assets/ic/{h}.png" alt="">{r}</div>'
 
-def cell(h, label='', size='md', cls='', red=False, w=None):
+def cell(h, label='', size='md', cls='', red=False, w=None, tt=None):
     st = f' style="width:{w}px"' if w else ''
     lab = f'<div class="lab {"red" if red else ""}">{label}</div>' if label else ''
-    return f'<div class="cell"{st}>{ic(h,size,cls)}{lab}</div>'
+    return f'<div class="cell"{st}>{ic(h,size,cls,tt=tt)}{lab}</div>'
 
 ARROW = '<div class="arr">&#10132;</div>'
 
@@ -110,6 +128,12 @@ def frame(idx, title, sub, body, kicker='COMBAT ROGUE &middot; LEVEL 1 &rarr; 30
 </div></body></html>'''
 
 def save(n, slug, htmlstr):
+    import re as _re
+    keys = sorted(set(_re.findall(r'data-tt="([^"]+)"', htmlstr)))
+    data = {k: TT_ENTRIES[k] for k in keys}
+    inject = ('<script>window.TTBUILD=%s;window.TT=%s;</script><script src="../assets/tooltips.js"></script>'
+              % (json.dumps(TT_BUILD), json.dumps(data, ensure_ascii=False)))
+    htmlstr = htmlstr.replace('</body>', inject + '</body>')
     open(f'slides/{n:02d}-{slug}.html', 'w', encoding='utf-8').write(htmlstr)
 
 ARR_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#0a0c14" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>'
@@ -181,7 +205,9 @@ def tree(items, ranks):
         elif n == 0: c = 'off'
         nm = TREE_NAMES.get(a['h'], '') if n else ''
         nm = f'<div class="tn">{nm}</div>' if nm else '<div class="tn"></div>'
-        grid += (f'<div class="tc" style="grid-column:{col+1};grid-row:{row+1}">{ic(a["h"],"md",c,rk,rcls)}{nm}</div>')
+        tid = GRID.get('%d,%d' % (row, col))
+        key = 'tl:%d:%d' % (tid, n) if tid else False
+        grid += (f'<div class="tc" style="grid-column:{col+1};grid-row:{row+1}">{ic(a["h"],"md",c,rk,rcls,tt=key)}{nm}</div>')
     return f'<div class="tgrid">{grid}</div>'
 
 def builds():
@@ -193,10 +219,13 @@ def builds():
              ('17–19', '9a22', 'Deflection 3', ''), ('20', 'f7b4', 'Riposte 1', ''), ('21', 'f16a', 'Precision +1', ''),
              ('22', '1789', 'Endurance 1', 'amber'), ('23–24', '5770', 'Imp. Sprint 2', 'amber'), ('25', '3263', 'Flawless Exec. 1', ''),
              ('26–29', '490b', 'Dual Wield 4', ''), ('30', 'baac', 'Blade Flurry 1', 'new')]
+    tkeys = [('Improved Sinister Strike', 2), ('Improved Eviscerate', 3), ('Precision', 2), ('Deflection', 3), ('Riposte', 1),
+             ('Precision', 3), ('Endurance', 1), ('Improved Sprint', 2), ('Flawless Execution', 1), ('Dual Wield Specialization', 4),
+             ('Blade Flurry', 1)]
     cards = ''
-    for lv, h, nm, c in order:
+    for (lv, h, nm, c), (tn, tr) in zip(order, tkeys):
         hl = ' hl' if c == 'amber' else ''
-        cards += f'<div class="oc{hl}"><div class="lv disp">{lv}</div>{ic(h,"lg",c)}<div class="on">{nm}</div></div>'
+        cards += f'<div class="oc{hl}"><div class="lv disp">{lv}</div>{ic(h,"lg",c,tt=talent(tn,tr))}<div class="on">{nm}</div></div>'
     css = '''<style>
 .wrap{display:grid;grid-template-columns:488px 488px 1fr;grid-template-rows:minmax(0,1fr);gap:22px;height:100%}
 .tgrid{display:grid;grid-template-columns:repeat(4,106px);grid-template-rows:repeat(7,104px);justify-content:center;margin-top:4px}
@@ -285,9 +314,22 @@ def levelplan():
         right = [a for a in d if abs(a['bbox'][1] - y) < 6 and a['bbox'][0] > 1000]
         left.sort(key=lambda a: a['bbox'][0]); right.sort(key=lambda a: a['bbox'][0])
         rows.append((levels[i], prio[i], left, right))
+    # talent points the guide spends, one per level (see the TALENT ORDER on slide 2)
+    PT = ([('Improved Sinister Strike', 2)] * 0)
+    seq = []
+    for name, pts in (('Improved Sinister Strike', 2), ('Improved Eviscerate', 3), ('Precision', 2), ('Deflection', 3), ('Riposte', 1),
+                      ('Precision', 1), ('Endurance', 1), ('Improved Sprint', 2), ('Flawless Execution', 1),
+                      ('Dual Wield Specialization', 4), ('Blade Flurry', 1)):
+        have = sum(1 for n, _ in seq if n == name)
+        for k in range(pts):
+            seq.append((name, have + k + 1))
+    per_level = {10 + i: seq[i] for i in range(len(seq))}
+
     def row_html(lv, pr, left, right):
-        li = ''.join(ic(a['h'], 'md', 'new' if a['cls'] == 'new' else ('amber' if a['cls'] == 'amber' else '')) for a in left)
-        ri = ''.join(ic(a['h'], 'md', 'amber' if a['cls'] == 'amber' else ('new' if a['cls'] else '')) for a in right)
+        li = ''.join(ic(a['h'], 'md', 'new' if a['cls'] == 'new' else ('amber' if a['cls'] == 'amber' else ''), tt=(abil(a['h'], lv) or False)) for a in left)
+        pts = [per_level[l] for l in (lv, lv + 1) if l in per_level][:len(right)]
+        ri = ''.join(ic(a['h'], 'md', 'amber' if a['cls'] == 'amber' else ('new' if a['cls'] else ''),
+                        tt=(talent(*pts[i]) if i < len(pts) else False)) for i, a in enumerate(right))
         lab = labels.get(lv, '')
         tp = f'<div class="tp">{ri}</div>' if ri else '<div class="tp"></div>'
         return f'<div class="lr {pr}"><div class="lv disp">{lv}</div><div class="li">{li}</div><div class="lb">{lab}</div>{tp}</div>'
@@ -349,7 +391,7 @@ def gear():
                ('efd2', 'Wound', 'less healing &middot; PVP', False), ('a155', 'Mind-numbing', 'slower casts', False), ('PLUS', 'Thistle Tea', 'energy at 0 &rarr; spend', False)]
     ph = ''
     for h, n, s, hi in poisons:
-        if h == 'PLUS': icon = '<div class="plus">+100</div>'
+        if h == 'PLUS': icon = '<div class="plus" data-tt="it:7676">+100</div>'
         else: icon = ''.join(ic(x, 'lg' if hi else 'sm') for x in h.split())
         ph += f'<div class="pz {"hi" if hi else ""}">{icon}<div><b class="{"yel" if hi else ""}">{n}</b><span>{s}</span></div></div>'
     left = f'''<div class="col"><div class="panel"><div class="ph"><div style="margin-right:2px">{ic('1cdc','md')}</div><h2 class="disp x3d">POISONS</h2><span class="tag">Lv 20 &middot; rogue class quest</span></div><div class="pg">{ph}</div></div>
@@ -428,9 +470,28 @@ def races():
 .rc .cell .lab{font-size:15px;width:100px;margin-top:9px;letter-spacing:.02em}
 .rc.skip-card{opacity:.92}
 </style>'''
+    RAC_SLUG = {'Gnome': 'gnome', 'Night Elf': 'night-elf', 'Human': 'human', 'Dwarf': 'dwarf', 'Orc': 'orc',
+                'Forsaken': 'undead', 'Troll': 'troll'}
+    RAC_NAME = {'Eureka!': 'Eureka!', '105 energy': 'Expansive Mind', 'Escape Artist': 'Escape Artist', 'crit CD': "Elune's Light",
+                'Quickness': 'Quickness', 'Shadowmeld': 'Shadowmeld', '+2% crit swords': 'Sword Specialization',
+                'Will to Survive': 'Will to Survive', 'Perception': 'Perception', 'Mace Spec': 'Mace Specialization',
+                'Stoneform': 'Stoneform', '+1% haste': 'Wind Blessed', 'Walk on Air': 'Walk on Air', 'Ley Line': 'Read Ley Line',
+                'Skysight': 'Skysight', 'Blood Fury': 'Blood Fury', 'Axe Spec': 'Axe Specialization', 'short stuns': 'Hardiness',
+                'Shatter Curse': 'Shatter Curse', 'WotF': 'Will of the Forsaken', 'Touch of Grave': 'Touch of the Grave',
+                'Cannibalize': 'Cannibalize', 'Berserking': 'Berserking', 'Rapid Regen': 'Rapid Regeneration',
+                'Beast Slaying': 'Beast Slaying'}
+
+    def racial(race, label):
+        if race == 'Skyborne':
+            slug = 'high-order-skyborne' if label in ('Ley Line',) or getattr(racial, 'ally', False) else 'windshaper-skyborne'
+        else:
+            slug = RAC_SLUG[race]
+        return 'ra:%s:%s' % (slug, RAC_NAME[label])
+
     def card(n, bt, bc, ic_list, note, c):
         bgc = {'#7be08e': 'rgba(18,60,34,.7)', '#6db6ff': 'rgba(16,40,76,.7)', '#d9b26a': 'rgba(60,46,18,.7)', '#ef5e48': 'rgba(70,24,18,.7)', '#f5b941': 'rgba(60,42,12,.7)', '#a39b86': 'rgba(40,38,32,.7)'}[c]
-        icons = ''.join(cell(h, nm, 'md', w=100) for h, nm in ic_list)
+        racial.ally = any(l == 'Ley Line' for _, l in ic_list)
+        icons = ''.join(cell(h, nm, 'md', w=100, tt=racial(n, nm)) for h, nm in ic_list)
         nt = f'<div class="nt">{note}</div>' if note else ''
         return f'<div class="rc" style="--c:{c};--bgc:{bgc}"><div><h3>{n}</h3><span class="chip {bc}">{bt}</span>{nt}</div><div class="is">{icons}</div></div>'
     ally = f'<div class="fac"><div class="fh" style="color:#4a9dff">ALLIANCE</div>{"".join(card(*r) for r in A)}</div>'
@@ -557,7 +618,7 @@ def after30():
     for i, l in enumerate(L):
         p = P[i]
         # 60 is the big card: lay out in grid-row span handled by order
-        icons = ''.join(ic(a['h'], 'md', 'new' if a['cls'] else '') for a in cells[l])
+        icons = ''.join(ic(a['h'], 'md', 'new' if a['cls'] else '', tt=(abil(a['h'], l) or False)) for a in cells[l])
         mt = '<span class="mt">buy mount first</span>' if p == 'mount' else ''
         cards += f'<div class="lc {p}"><div class="lv">{l}</div><div class="is">{icons}</div>{mt}</div>'
     leg = '<div class="legend" style="margin-left:auto"><span><i style="background:var(--must)"></i>must</span><span><i style="background:var(--good)"></i>good</span><span><i style="background:var(--mount)"></i>40: buy mount first</span><span><i class="ol"></i>new ability</span></div>'

@@ -1,0 +1,3785 @@
+{
+ "build": "1.60.1.70338",
+ "entries": {
+  "sp:1752": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 1",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 3 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 1,
+   "id": 1752
+  },
+  "sp:1757": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 2",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 6 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 6,
+   "id": 1757
+  },
+  "sp:1758": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 3",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 10 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 14,
+   "id": 1758
+  },
+  "sp:1759": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 4",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 15 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 22,
+   "id": 1759
+  },
+  "sp:1760": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 5",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 22 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 30,
+   "id": 1760
+  },
+  "sp:8621": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 6",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 33 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 38,
+   "id": 8621
+  },
+  "sp:11293": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 7",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 52 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 46,
+   "id": 11293
+  },
+  "sp:11294": {
+   "k": "spell",
+   "n": "Sinister Strike",
+   "r": "Rank 8",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "An instant strike that causes 68 damage in addition to your normal weapon damage.  Awards 1 combo point.",
+   "lvl": 54,
+   "id": 11294
+  },
+  "sp:2098": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 1",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 6-10 damage\n   2 points: 11-15 damage\n   3 points: 16-20 damage\n   4 points: 21-25 damage\n   5 points: 26-30 damage",
+   "lvl": 1,
+   "id": 2098
+  },
+  "sp:6760": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 2",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 14-22 damage\n   2 points: 25-33 damage\n   3 points: 36-44 damage\n   4 points: 47-55 damage\n   5 points: 58-66 damage",
+   "lvl": 8,
+   "id": 6760
+  },
+  "sp:6761": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 3",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 25-39 damage\n   2 points: 44-58 damage\n   3 points: 63-77 damage\n   4 points: 82-96 damage\n   5 points: 101-115 damage",
+   "lvl": 16,
+   "id": 6761
+  },
+  "sp:6762": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 4",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 41-61 damage\n   2 points: 72-92 damage\n   3 points: 103-123 damage\n   4 points: 134-154 damage\n   5 points: 165-185 damage",
+   "lvl": 24,
+   "id": 6762
+  },
+  "sp:8623": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 5",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 60-90 damage\n   2 points: 105-135 damage\n   3 points: 150-180 damage\n   4 points: 195-225 damage\n   5 points: 240-270 damage",
+   "lvl": 32,
+   "id": 8623
+  },
+  "sp:8624": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 6",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 93-137 damage\n   2 points: 164-208 damage\n   3 points: 235-279 damage\n   4 points: 306-350 damage\n   5 points: 377-421 damage",
+   "lvl": 40,
+   "id": 8624
+  },
+  "sp:11299": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 7",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 144-212 damage\n   2 points: 254-322 damage\n   3 points: 364-432 damage\n   4 points: 474-542 damage\n   5 points: 584-652 damage",
+   "lvl": 48,
+   "id": 11299
+  },
+  "sp:11300": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 8",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 199-295 damage\n   2 points: 350-446 damage\n   3 points: 501-597 damage\n   4 points: 652-748 damage\n   5 points: 803-899 damage",
+   "lvl": 56,
+   "id": 11300
+  },
+  "sp:31016": {
+   "k": "spell",
+   "n": "Eviscerate",
+   "r": "Rank 9",
+   "cost": "35 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage per combo point, increased by Attack Power:\n   1 point  : 224-332 damage\n   2 points: 394-502 damage\n   3 points: 564-672 damage\n   4 points: 734-842 damage\n   5 points: 904-1012 damage",
+   "lvl": 60,
+   "id": 31016
+  },
+  "sp:5171": {
+   "k": "spell",
+   "n": "Slice and Dice",
+   "r": "Rank 1",
+   "cost": "25 Energy",
+   "range": "100 yd range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that increases melee attack speed by 20%.  Lasts longer per combo point:\n   1 point  : 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds",
+   "lvl": 10,
+   "id": 5171
+  },
+  "sp:6774": {
+   "k": "spell",
+   "n": "Slice and Dice",
+   "r": "Rank 2",
+   "cost": "25 Energy",
+   "range": "100 yd range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that increases melee attack speed by 30%.  Lasts longer per combo point:\n   1 point  : 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds",
+   "lvl": 42,
+   "id": 6774
+  },
+  "sp:1776": {
+   "k": "spell",
+   "n": "Gouge",
+   "r": "Rank 1",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Causes 10 damage, stops your attack, and incapacitates the target for 4 sec.  The target must be facing you.  Any damage taken will break the effect.  Awards 1 combo point.",
+   "lvl": 6,
+   "id": 1776
+  },
+  "sp:1777": {
+   "k": "spell",
+   "n": "Gouge",
+   "r": "Rank 2",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Causes 20 damage, stops your attack, and incapacitates the target for 4 sec.  The target must be facing you.  Any damage taken will break the effect.  Awards 1 combo point.",
+   "lvl": 18,
+   "id": 1777
+  },
+  "sp:8629": {
+   "k": "spell",
+   "n": "Gouge",
+   "r": "Rank 3",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Causes 32 damage, stops your attack, and incapacitates the target for 4 sec.  The target must be facing you.  Any damage taken will break the effect.  Awards 1 combo point.",
+   "lvl": 32,
+   "id": 8629
+  },
+  "sp:11285": {
+   "k": "spell",
+   "n": "Gouge",
+   "r": "Rank 4",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Causes 55 damage, stops your attack, and incapacitates the target for 4 sec.  The target must be facing you.  Any damage taken will break the effect.  Awards 1 combo point.",
+   "lvl": 46,
+   "id": 11285
+  },
+  "sp:11286": {
+   "k": "spell",
+   "n": "Gouge",
+   "r": "Rank 5",
+   "cost": "45 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Causes 75 damage, stops your attack, and incapacitates the target for 4 sec.  The target must be facing you.  Any damage taken will break the effect.  Awards 1 combo point.",
+   "lvl": 60,
+   "id": 11286
+  },
+  "sp:2983": {
+   "k": "spell",
+   "n": "Sprint",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Increases the rogue's movement speed by 50% for 15 sec.  Does not break stealth.",
+   "lvl": 10,
+   "id": 2983
+  },
+  "sp:8696": {
+   "k": "spell",
+   "n": "Sprint",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Increases the rogue's movement speed by 60% for 15 sec.  Does not break stealth.",
+   "lvl": 34,
+   "id": 8696
+  },
+  "sp:11305": {
+   "k": "spell",
+   "n": "Sprint",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Increases the rogue's movement speed by 70% for 15 sec.  Does not break stealth.",
+   "lvl": 58,
+   "id": 11305
+  },
+  "sp:1856": {
+   "k": "spell",
+   "n": "Vanish",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Allows the rogue to vanish from sight, entering an improved stealth mode for 10 sec. Also breaks movement impairing effects.",
+   "lvl": 22,
+   "id": 1856
+  },
+  "sp:1857": {
+   "k": "spell",
+   "n": "Vanish",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Allows the rogue to vanish from sight, entering an improved stealth mode for 10 sec.  Also breaks movement impairing effects. More effective than Vanish (Rank 1).",
+   "lvl": 42,
+   "id": 1857
+  },
+  "sp:1766": {
+   "k": "spell",
+   "n": "Kick",
+   "r": "Rank 1",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "A quick kick that injures a single foe for 15 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for 5 sec.",
+   "lvl": 12,
+   "id": 1766
+  },
+  "sp:1767": {
+   "k": "spell",
+   "n": "Kick",
+   "r": "Rank 2",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "A quick kick that injures a single foe for 30 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for 5 sec.",
+   "lvl": 26,
+   "id": 1767
+  },
+  "sp:1768": {
+   "k": "spell",
+   "n": "Kick",
+   "r": "Rank 3",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "A quick kick that injures a single foe for 45 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for 5 sec.",
+   "lvl": 42,
+   "id": 1768
+  },
+  "sp:1769": {
+   "k": "spell",
+   "n": "Kick",
+   "r": "Rank 4",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "A quick kick that injures a single foe for 80 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for 5 sec.",
+   "lvl": 58,
+   "id": 1769
+  },
+  "sp:1784": {
+   "k": "spell",
+   "n": "Stealth",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Allows the rogue to sneak around, but reduces your speed by 50%.  Lasts until cancelled.",
+   "lvl": 1,
+   "id": 1784
+  },
+  "sp:1785": {
+   "k": "spell",
+   "n": "Stealth",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Allows the rogue to sneak around, but reduces your speed by 40%.  Lasts until cancelled.",
+   "lvl": 20,
+   "id": 1785
+  },
+  "sp:1786": {
+   "k": "spell",
+   "n": "Stealth",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Allows the rogue to sneak around, but reduces your speed by 35%.  Lasts until cancelled.",
+   "lvl": 40,
+   "id": 1786
+  },
+  "sp:1787": {
+   "k": "spell",
+   "n": "Stealth",
+   "r": "Rank 4",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Allows the rogue to sneak around, but reduces your speed by 30%.  Lasts until cancelled.",
+   "lvl": 60,
+   "id": 1787
+  },
+  "sp:6770": {
+   "k": "spell",
+   "n": "Sap",
+   "r": "Rank 1",
+   "cost": "65 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Incapacitates the target for up to 25 sec. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only 1 target may be sapped at a time. Does not break Stealth.",
+   "lvl": 10,
+   "id": 6770
+  },
+  "sp:2070": {
+   "k": "spell",
+   "n": "Sap",
+   "r": "Rank 2",
+   "cost": "65 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Incapacitates the target for up to 35 sec. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only 1 target may be sapped at a time. Does not break Stealth.",
+   "lvl": 28,
+   "id": 2070
+  },
+  "sp:11297": {
+   "k": "spell",
+   "n": "Sap",
+   "r": "Rank 3",
+   "cost": "65 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Incapacitates the target for up to 45 sec. Only works on Humanoids that are not in combat.  Any damage taken will break the effect. Only 1 target may be sapped at a time. Does not break Stealth.",
+   "lvl": 48,
+   "id": 11297
+  },
+  "sp:53": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 1",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 10 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 4,
+   "id": 53
+  },
+  "sp:2589": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 2",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 20 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 12,
+   "id": 2589
+  },
+  "sp:2590": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 3",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 32 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 20,
+   "id": 2590
+  },
+  "sp:2591": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 4",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 46 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 28,
+   "id": 2591
+  },
+  "sp:8721": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 5",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 60 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 36,
+   "id": 8721
+  },
+  "sp:11279": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 6",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 90 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 44,
+   "id": 11279
+  },
+  "sp:11280": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 7",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 110 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 52,
+   "id": 11280
+  },
+  "sp:11281": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 8",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 140 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 60,
+   "id": 11281
+  },
+  "sp:25300": {
+   "k": "spell",
+   "n": "Backstab",
+   "r": "Rank 9",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Backstab the target, causing 150% weapon damage plus 150 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 60,
+   "id": 25300
+  },
+  "sp:8647": {
+   "k": "spell",
+   "n": "Expose Armor",
+   "r": "Rank 1",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that exposes the target for 30 sec, reducing Armor per combo point:\n   1 point  : 90 Armor\n   2 points: 180 Armor\n   3 points: 270 Armor\n   4 points: 360 Armor\n   5 points: 450 Armor",
+   "lvl": 14,
+   "id": 8647
+  },
+  "sp:8649": {
+   "k": "spell",
+   "n": "Expose Armor",
+   "r": "Rank 2",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that exposes the target for 30 sec, reducing Armor per combo point:\n   1 point  : 180 Armor\n   2 points: 360 Armor\n   3 points: 540 Armor\n   4 points: 720 Armor\n   5 points: 900 Armor",
+   "lvl": 26,
+   "id": 8649
+  },
+  "sp:8650": {
+   "k": "spell",
+   "n": "Expose Armor",
+   "r": "Rank 3",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that exposes the target for 30 sec, reducing Armor per combo point:\n   1 point  : 270 Armor\n   2 points: 540 Armor\n   3 points: 810 Armor\n   4 points: 1080 Armor\n   5 points: 1350 Armor",
+   "lvl": 36,
+   "id": 8650
+  },
+  "sp:11197": {
+   "k": "spell",
+   "n": "Expose Armor",
+   "r": "Rank 4",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that exposes the target for 30 sec, reducing Armor per combo point:\n   1 point  : 360 Armor\n   2 points: 720 Armor\n   3 points: 1080 Armor\n   4 points: 1440 Armor\n   5 points: 1800 Armor",
+   "lvl": 46,
+   "id": 11197
+  },
+  "sp:11198": {
+   "k": "spell",
+   "n": "Expose Armor",
+   "r": "Rank 5",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that exposes the target for 30 sec, reducing Armor per combo point:\n   1 point  : 450 Armor\n   2 points: 900 Armor\n   3 points: 1350 Armor\n   4 points: 1800 Armor\n   5 points: 2250 Armor",
+   "lvl": 56,
+   "id": 11198
+  },
+  "sp:703": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 1",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 144 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 14,
+   "id": 703
+  },
+  "sp:8631": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 2",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 204 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 22,
+   "id": 8631
+  },
+  "sp:8632": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 3",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 282 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 30,
+   "id": 8632
+  },
+  "sp:8633": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 4",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 354 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 38,
+   "id": 8633
+  },
+  "sp:11289": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 5",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 444 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 46,
+   "id": 11289
+  },
+  "sp:11290": {
+   "k": "spell",
+   "n": "Garrote",
+   "r": "Rank 6",
+   "cost": "50 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Garrote the enemy, causing 552 damage over 18 sec, increased by your Attack Power.  Must be stealthed and behind the target.  Awards 1 combo point.",
+   "lvl": 54,
+   "id": 11290
+  },
+  "sp:1966": {
+   "k": "spell",
+   "n": "Feint",
+   "r": "Rank 1",
+   "cost": "20 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Performs a feint, causing no damage but lowering your threat by a small amount, making the enemy less likely to attack you.",
+   "lvl": 16,
+   "id": 1966
+  },
+  "sp:6768": {
+   "k": "spell",
+   "n": "Feint",
+   "r": "Rank 2",
+   "cost": "20 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Performs a feint, causing no damage but lowering your threat by a medium amount, making the enemy less likely to attack you.",
+   "lvl": 28,
+   "id": 6768
+  },
+  "sp:8637": {
+   "k": "spell",
+   "n": "Feint",
+   "r": "Rank 3",
+   "cost": "20 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Performs a feint, causing no damage but lowering your threat by a large amount, making the enemy less likely to attack you.",
+   "lvl": 40,
+   "id": 8637
+  },
+  "sp:11303": {
+   "k": "spell",
+   "n": "Feint",
+   "r": "Rank 4",
+   "cost": "20 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Performs a feint, causing no damage but lowering your threat by a large amount, making the enemy less likely to attack you.",
+   "lvl": 52,
+   "id": 11303
+  },
+  "sp:25302": {
+   "k": "spell",
+   "n": "Feint",
+   "r": "Rank 5",
+   "cost": "20 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "10 sec cooldown",
+   "d": "Performs a feint, causing no damage but lowering your threat by a large amount, making the enemy less likely to attack you.",
+   "lvl": 60,
+   "id": 25302
+  },
+  "sp:8676": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 1",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 70 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 18,
+   "id": 8676
+  },
+  "sp:8724": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 2",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 100 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 26,
+   "id": 8724
+  },
+  "sp:8725": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 3",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 125 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 34,
+   "id": 8725
+  },
+  "sp:11267": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 4",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 185 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 42,
+   "id": 11267
+  },
+  "sp:11268": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 5",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 230 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 50,
+   "id": 11268
+  },
+  "sp:11269": {
+   "k": "spell",
+   "n": "Ambush",
+   "r": "Rank 6",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Ambush the target, causing 250% weapon damage plus 290 to the target.  Must be stealthed and behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.",
+   "lvl": 58,
+   "id": 11269
+  },
+  "sp:1943": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 1",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 24 damage over 8 secs\n   2 points: 36 damage over 10 secs\n   3 points: 51 damage over 12 secs\n   4 points: 68 damage over 14 secs\n   5 points: 87 damage over 16 secs",
+   "lvl": 20,
+   "id": 1943
+  },
+  "sp:8639": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 2",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 35 damage over 8 secs\n   2 points: 52 damage over 10 secs\n   3 points: 74 damage over 12 secs\n   4 points: 98 damage over 14 secs\n   5 points: 127 damage over 16 secs",
+   "lvl": 28,
+   "id": 8639
+  },
+  "sp:8640": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 3",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 53 damage over 8 secs\n   2 points: 78 damage over 10 secs\n   3 points: 108 damage over 12 secs\n   4 points: 143 damage over 14 secs\n   5 points: 182 damage over 16 secs",
+   "lvl": 36,
+   "id": 8640
+  },
+  "sp:11273": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 4",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 75 damage over 8 secs\n   2 points: 109 damage over 10 secs\n   3 points: 149 damage over 12 secs\n   4 points: 194 damage over 14 secs\n   5 points: 246 damage over 16 secs",
+   "lvl": 44,
+   "id": 11273
+  },
+  "sp:11274": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 5",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 104 damage over 8 secs\n   2 points: 151 damage over 10 secs\n   3 points: 206 damage over 12 secs\n   4 points: 269 damage over 14 secs\n   5 points: 341 damage over 16 secs",
+   "lvl": 52,
+   "id": 11274
+  },
+  "sp:11275": {
+   "k": "spell",
+   "n": "Rupture",
+   "r": "Rank 6",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Finishing move that causes damage over time, increased by your Attack Power.  Lasts longer per combo point:\n   1 point  : 158 damage over 8 secs\n   2 points: 222 damage over 10 secs\n   3 points: 295 damage over 12 secs\n   4 points: 377 damage over 14 secs\n   5 points: 469 damage over 16 secs",
+   "lvl": 60,
+   "id": 11275
+  },
+  "sp:408": {
+   "k": "spell",
+   "n": "Kidney Shot",
+   "r": "Rank 1",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "20 sec cooldown",
+   "d": "Finishing move that stuns the target.  Lasts longer per combo point:\n   1 point  : 1 second\n   2 points: 2 seconds\n   3 points: 3 seconds\n   4 points: 4 seconds\n   5 points: 5 seconds",
+   "lvl": 30,
+   "id": 408
+  },
+  "sp:8643": {
+   "k": "spell",
+   "n": "Kidney Shot",
+   "r": "Rank 2",
+   "cost": "25 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "20 sec cooldown",
+   "d": "Finishing move that stuns the target.  Lasts longer per combo point:\n   1 point  : 2 seconds\n   2 points: 3 seconds\n   3 points: 4 seconds\n   4 points: 5 seconds\n   5 points: 6 seconds",
+   "lvl": 50,
+   "id": 8643
+  },
+  "sp:5277": {
+   "k": "spell",
+   "n": "Evasion",
+   "r": "",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "The rogue's dodge chance will increase by 50% for 15 sec.",
+   "lvl": 8,
+   "id": 5277
+  },
+  "sp:13877": {
+   "k": "spell",
+   "n": "Blade Flurry",
+   "r": "",
+   "cost": "25 Energy",
+   "range": "",
+   "cast": "Instant",
+   "cd": "2 min cooldown",
+   "d": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+   "lvl": 1,
+   "id": 13877
+  },
+  "sp:14251": {
+   "k": "spell",
+   "n": "Riposte",
+   "r": "",
+   "cost": "10 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "6 sec cooldown",
+   "d": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec.",
+   "lvl": 0,
+   "id": 14251
+  },
+  "sp:921": {
+   "k": "spell",
+   "n": "Pick Pocket",
+   "r": "",
+   "cost": "",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Pick the target's pocket.",
+   "lvl": 4,
+   "id": 921
+  },
+  "sp:1725": {
+   "k": "spell",
+   "n": "Distract",
+   "r": "",
+   "cost": "30 Energy",
+   "range": "30 yd range",
+   "cast": "Instant",
+   "cd": "30 sec cooldown",
+   "d": "Throws a distraction, attracting the attention of all nearby enemies and reducing their Stealth detection as if they were 1 level lower for 10 seconds. Does not break stealth.",
+   "lvl": 22,
+   "id": 1725
+  },
+  "sp:2094": {
+   "k": "spell",
+   "n": "Blind",
+   "r": "",
+   "cost": "30 Energy",
+   "range": "10 yd range",
+   "cast": "Instant",
+   "cd": "5 min cooldown",
+   "d": "Blinds the target, causing it to wander disoriented for up to 10 sec.  Any damage caused will remove the effect.",
+   "lvl": 34,
+   "id": 2094
+  },
+  "sp:6510": {
+   "k": "spell",
+   "n": "Blinding Powder",
+   "r": "",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Create the reagent for the Blind ability.",
+   "lvl": 0,
+   "id": 6510
+  },
+  "sp:2836": {
+   "k": "spell",
+   "n": "Detect Traps",
+   "r": "Passive",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Greatly increased chance to detect traps.",
+   "lvl": 0,
+   "id": 2836
+  },
+  "sp:1842": {
+   "k": "spell",
+   "n": "Disarm Trap",
+   "r": "",
+   "cost": "",
+   "range": "Melee Range",
+   "cast": "2 sec cast",
+   "cd": "",
+   "d": "Sneak up on the trap in order to disarm it.  Don't get too close or the trap will go off.",
+   "lvl": 30,
+   "id": 1842
+  },
+  "sp:1860": {
+   "k": "spell",
+   "n": "Safe Fall",
+   "r": "Passive",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Reduces damage from falling.",
+   "lvl": 0,
+   "id": 1860
+  },
+  "sp:3273": {
+   "k": "spell",
+   "n": "First Aid",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows the creation and use bandages up to a potential skill of 75.   The cloth used to make those bandages are found on humanoids in the world.",
+   "lvl": 0,
+   "id": 3273
+  },
+  "sp:8613": {
+   "k": "spell",
+   "n": "Skinning",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "Melee Range",
+   "cast": "2 sec cast",
+   "cd": "",
+   "d": "The basics of how to skin animals for their pelts and furs for use in Leatherworking.  Gives a potential skinning skill of 75.  Requires a Skinning Knife.",
+   "lvl": 0,
+   "id": 8613
+  },
+  "sp:2108": {
+   "k": "spell",
+   "n": "Leatherworking",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows a leatherworker to make leather armor, up to a maximum potential skill of 75.  Requires leather scraps and hides gathered with the Skinning skill.",
+   "lvl": 0,
+   "id": 2108
+  },
+  "sp:2575": {
+   "k": "spell",
+   "n": "Mining",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "Melee Range",
+   "cast": "3.2 sec cast",
+   "cd": "",
+   "d": "How to pull ore and stone from mineral veins for use in Engineering and Blacksmithing.  Gives a potential mining skill of 75.  Requires a Mining Pick.",
+   "lvl": 0,
+   "id": 2575
+  },
+  "sp:2366": {
+   "k": "spell",
+   "n": "Herbalism",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "Melee Range",
+   "cast": "5 sec cast",
+   "cd": "",
+   "d": "The basics of how to gather herbs from bushes and other plants for use in Alchemy.  Gives a potential herbalism skill of 75.",
+   "lvl": 0,
+   "id": 2366
+  },
+  "sp:2550": {
+   "k": "spell",
+   "n": "Cooking",
+   "r": "Apprentice ",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows a cook to make basic recipes up to a maximum potential skill of 75.  Requires meat from beasts and fire to make food.",
+   "lvl": 0,
+   "id": 2550
+  },
+  "sp:2259": {
+   "k": "spell",
+   "n": "Alchemy",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows an alchemist to brew basic potions up to a maximum potential skill of 75.  Requires Herbs found with the Herbalism skill.",
+   "lvl": 0,
+   "id": 2259
+  },
+  "sp:7620": {
+   "k": "spell",
+   "n": "Fishing",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "20 yd range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Equip a fishing pole and find a body of water to fish.  Right-Click on the bob in the water when it splashes to catch your fish.  Higher skill increases your chance of fishing successfully in higher level areas.",
+   "lvl": 0,
+   "id": 7620
+  },
+  "sp:7411": {
+   "k": "spell",
+   "n": "Enchanting",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows an enchanter to enchant basic items up to a maximum potential skill of 75.  Requires Dusts and Essences found by disenchanting magic items.",
+   "lvl": 0,
+   "id": 7411
+  },
+  "sp:4036": {
+   "k": "spell",
+   "n": "Engineering",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows an engineer to make basic contraptions up to a maximum potential skill of 75.  Requires stone and metal found with the mining skill.",
+   "lvl": 0,
+   "id": 4036
+  },
+  "sp:3908": {
+   "k": "spell",
+   "n": "Tailoring",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows a tailor to make basic cloth armors up to a maximum potential skill of 75.  Requires cloth found on humanoids.",
+   "lvl": 0,
+   "id": 3908
+  },
+  "sp:2018": {
+   "k": "spell",
+   "n": "Blacksmithing",
+   "r": "Apprentice",
+   "cost": "",
+   "range": "",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Allows a Blacksmith to make basic weapons and armor up to a maximum potential skill of 75.  Requires stone and metal found with the mining skill.",
+   "lvl": 0,
+   "id": 2018
+  },
+  "sp:8681": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 15 Nature damage.  60 charges.",
+   "lvl": 20,
+   "id": 8681
+  },
+  "sp:8687": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 23 Nature damage.  85 charges.",
+   "lvl": 28,
+   "id": 8687
+  },
+  "sp:8691": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 33 Nature damage.  105 charges.",
+   "lvl": 36,
+   "id": 8691
+  },
+  "sp:11341": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 4",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30  minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 51 Nature damage.  1800 charges.",
+   "lvl": 44,
+   "id": 11341
+  },
+  "sp:11342": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 5",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 71 Nature damage.  150 charges.",
+   "lvl": 52,
+   "id": 11342
+  },
+  "sp:11343": {
+   "k": "spell",
+   "n": "Instant Poison",
+   "r": "Rank 6",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy which instantly inflicts 88 Nature damage.  175 charges.",
+   "lvl": 60,
+   "id": 11343
+  },
+  "sp:2835": {
+   "k": "spell",
+   "n": "Deadly Poison",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 24 Nature damage over 12 sec.  Stacks up to $2818u times on a single target.  90 charges.",
+   "lvl": 30,
+   "id": 2835
+  },
+  "sp:2837": {
+   "k": "spell",
+   "n": "Deadly Poison",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 36 Nature damage over 12 sec.  Stacks up to $2819u times on a single target.  115 charges.",
+   "lvl": 38,
+   "id": 2837
+  },
+  "sp:11357": {
+   "k": "spell",
+   "n": "Deadly Poison",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 56 Nature damage over 12 sec.  Stacks up to $11353u times on a single target.  135 charges.",
+   "lvl": 46,
+   "id": 11357
+  },
+  "sp:11358": {
+   "k": "spell",
+   "n": "Deadly Poison",
+   "r": "Rank 4",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 72 Nature damage over 12 sec.  Stacks up to $11354u times on a single target.  160 charges.",
+   "lvl": 54,
+   "id": 11358
+  },
+  "sp:25347": {
+   "k": "spell",
+   "n": "Deadly Poison",
+   "r": "Rank 5",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy for 92 Nature damage over 12 sec.  Stacks up to $25349u times on a single target.  180 charges.",
+   "lvl": 60,
+   "id": 25347
+  },
+  "sp:3420": {
+   "k": "spell",
+   "n": "Crippling Poison",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, slowing their movement speed by 50% for 12 sec.",
+   "lvl": 20,
+   "id": 3420
+  },
+  "sp:3421": {
+   "k": "spell",
+   "n": "Crippling Poison",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, slowing their movement speed by 70% for 12 sec.",
+   "lvl": 50,
+   "id": 3421
+  },
+  "sp:13220": {
+   "k": "spell",
+   "n": "Wound Poison",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 67 for 15 sec.  Stacks up to $13218u times on a single target.  90 charges.",
+   "lvl": 32,
+   "id": 13220
+  },
+  "sp:13228": {
+   "k": "spell",
+   "n": "Wound Poison",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 92 for 15 sec.  Stacks up to $13222u times on a single target.  115 charges.",
+   "lvl": 40,
+   "id": 13228
+  },
+  "sp:13229": {
+   "k": "spell",
+   "n": "Wound Poison",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 128 for 15 sec.  Stacks up to $13223u times on a single target.  135 charges.",
+   "lvl": 48,
+   "id": 13229
+  },
+  "sp:13230": {
+   "k": "spell",
+   "n": "Wound Poison",
+   "r": "Rank 4",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 30% chance of poisoning the enemy, reducing all healing effects used on them by 165 for 15 sec.  Stacks up to $13224u times on a single target.  160 charges.",
+   "lvl": 56,
+   "id": 13230
+  },
+  "sp:5763": {
+   "k": "spell",
+   "n": "Mind-numbing Poison",
+   "r": "Rank 1",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 40% for 10 sec.  75 charges.",
+   "lvl": 24,
+   "id": 5763
+  },
+  "sp:8694": {
+   "k": "spell",
+   "n": "Mind-numbing Poison",
+   "r": "Rank 2",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 50% for 12 sec.  115 charges.",
+   "lvl": 38,
+   "id": 8694
+  },
+  "sp:11400": {
+   "k": "spell",
+   "n": "Mind-numbing Poison",
+   "r": "Rank 3",
+   "cost": "",
+   "range": "",
+   "cast": "3 sec cast",
+   "cd": "",
+   "d": "Coats a weapon with poison that lasts for 30 minutes.\nEach strike has a 20% chance of poisoning the enemy, increasing their casting time by 60% for 14 sec.  150 charges.",
+   "lvl": 52,
+   "id": 11400
+  },
+  "sp:1833": {
+   "k": "spell",
+   "n": "Cheap Shot",
+   "r": "",
+   "cost": "60 Energy",
+   "range": "Melee Range",
+   "cast": "Instant",
+   "cd": "",
+   "d": "Stuns the target for 4 sec.  Must be stealthed.  Awards 2 combo points.",
+   "lvl": 26,
+   "id": 1833
+  },
+  "it:7676": {
+   "k": "item",
+   "n": "Thistle Tea",
+   "q": 1,
+   "bind": "",
+   "lvl": 5,
+   "use": "Instantly restores 100 energy.",
+   "stack": 10,
+   "id": 7676
+  },
+  "tl:203:0": {
+   "k": "talent",
+   "n": "Improved Gouge",
+   "rk": "Rank 0/3",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases the duration of your Gouge ability by 0.5 sec.",
+   "next": ""
+  },
+  "tl:203:1": {
+   "k": "talent",
+   "n": "Improved Gouge",
+   "rk": "Rank 1/3",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases the duration of your Gouge ability by 0.5 sec.",
+   "next": "Increases the duration of your Gouge ability by 1 sec."
+  },
+  "tl:203:2": {
+   "k": "talent",
+   "n": "Improved Gouge",
+   "rk": "Rank 2/3",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases the duration of your Gouge ability by 1 sec.",
+   "next": "Increases the duration of your Gouge ability by 1.5 sec."
+  },
+  "tl:203:3": {
+   "k": "talent",
+   "n": "Improved Gouge",
+   "rk": "Rank 3/3",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases the duration of your Gouge ability by 1.5 sec.",
+   "next": ""
+  },
+  "tl:272:0": {
+   "k": "talent",
+   "n": "Remorseless Attacks",
+   "rk": "Rank 0/2",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "After killing a non-trivial enemy, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec.",
+   "next": ""
+  },
+  "tl:272:1": {
+   "k": "talent",
+   "n": "Remorseless Attacks",
+   "rk": "Rank 1/2",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "After killing a non-trivial enemy, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec.",
+   "next": "After killing a non-trivial enemy, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec."
+  },
+  "tl:272:2": {
+   "k": "talent",
+   "n": "Remorseless Attacks",
+   "rk": "Rank 2/2",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "After killing a non-trivial enemy, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec.",
+   "next": ""
+  },
+  "tl:270:0": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 0/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 1%.",
+   "next": ""
+  },
+  "tl:270:1": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 1/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 1%.",
+   "next": "Increases your critical strike chance with all attacks and Poisons by 2%."
+  },
+  "tl:270:2": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 2/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 2%.",
+   "next": "Increases your critical strike chance with all attacks and Poisons by 3%."
+  },
+  "tl:270:3": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 3/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 3%.",
+   "next": "Increases your critical strike chance with all attacks and Poisons by 4%."
+  },
+  "tl:270:4": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 4/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 4%.",
+   "next": "Increases your critical strike chance with all attacks and Poisons by 5%."
+  },
+  "tl:270:5": {
+   "k": "talent",
+   "n": "Malice",
+   "rk": "Rank 5/5",
+   "tree": "Assassination",
+   "need": 0,
+   "req": [],
+   "d": "Increases your critical strike chance with all attacks and Poisons by 5%.",
+   "next": ""
+  },
+  "tl:273:0": {
+   "k": "talent",
+   "n": "Ruthlessness",
+   "rk": "Rank 0/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Gives your finishing moves a 20% chance to add a combo point to your target.",
+   "next": ""
+  },
+  "tl:273:1": {
+   "k": "talent",
+   "n": "Ruthlessness",
+   "rk": "Rank 1/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Gives your finishing moves a 20% chance to add a combo point to your target.",
+   "next": "Gives your finishing moves a 40% chance to add a combo point to your target."
+  },
+  "tl:273:2": {
+   "k": "talent",
+   "n": "Ruthlessness",
+   "rk": "Rank 2/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Gives your finishing moves a 40% chance to add a combo point to your target.",
+   "next": "Gives your finishing moves a 60% chance to add a combo point to your target."
+  },
+  "tl:273:3": {
+   "k": "talent",
+   "n": "Ruthlessness",
+   "rk": "Rank 3/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Gives your finishing moves a 60% chance to add a combo point to your target.",
+   "next": ""
+  },
+  "tl:274:0": {
+   "k": "talent",
+   "n": "Murder",
+   "rk": "Rank 0/2",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases all damage dealt by 2% against Humanoid and Giant targets.",
+   "next": ""
+  },
+  "tl:274:1": {
+   "k": "talent",
+   "n": "Murder",
+   "rk": "Rank 1/2",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases all damage dealt by 2% against Humanoid and Giant targets.",
+   "next": "Increases all damage dealt by 4% against Humanoid and Giant targets."
+  },
+  "tl:274:2": {
+   "k": "talent",
+   "n": "Murder",
+   "rk": "Rank 2/2",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases all damage dealt by 4% against Humanoid and Giant targets.",
+   "next": ""
+  },
+  "tl:277:0": {
+   "k": "talent",
+   "n": "Improved Slice and Dice",
+   "rk": "Rank 0/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases the duration of your Slice and Dice ability by 15%.",
+   "next": ""
+  },
+  "tl:277:1": {
+   "k": "talent",
+   "n": "Improved Slice and Dice",
+   "rk": "Rank 1/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases the duration of your Slice and Dice ability by 15%.",
+   "next": "Increases the duration of your Slice and Dice ability by 30%."
+  },
+  "tl:277:2": {
+   "k": "talent",
+   "n": "Improved Slice and Dice",
+   "rk": "Rank 2/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases the duration of your Slice and Dice ability by 30%.",
+   "next": "Increases the duration of your Slice and Dice ability by 45%."
+  },
+  "tl:277:3": {
+   "k": "talent",
+   "n": "Improved Slice and Dice",
+   "rk": "Rank 3/3",
+   "tree": "Assassination",
+   "need": 5,
+   "req": [],
+   "d": "Increases the duration of your Slice and Dice ability by 45%.",
+   "next": ""
+  },
+  "tl:281:0": {
+   "k": "talent",
+   "n": "Relentless Strikes",
+   "rk": "Rank 0/1",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [],
+   "d": "Your finishing moves have a 20% chance per combo point to restore 25 energy.",
+   "next": ""
+  },
+  "tl:281:1": {
+   "k": "talent",
+   "n": "Relentless Strikes",
+   "rk": "Rank 1/1",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [],
+   "d": "Your finishing moves have a 20% chance per combo point to restore 25 energy.",
+   "next": ""
+  },
+  "tl:278:0": {
+   "k": "talent",
+   "n": "Improved Expose Armor",
+   "rk": "Rank 0/2",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
+   "next": ""
+  },
+  "tl:278:1": {
+   "k": "talent",
+   "n": "Improved Expose Armor",
+   "rk": "Rank 1/2",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the Energy cost of your Expose Armor ability by 5, and refunds 1 Combo Point when cast with 5 Combo Points.",
+   "next": "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 1 Combo Point when cast with 5 Combo Points."
+  },
+  "tl:278:2": {
+   "k": "talent",
+   "n": "Improved Expose Armor",
+   "rk": "Rank 2/2",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 1 Combo Point when cast with 5 Combo Points.",
+   "next": ""
+  },
+  "tl:269:0": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 0/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 6%.",
+   "next": ""
+  },
+  "tl:269:1": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 1/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 6%.",
+   "next": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 12%."
+  },
+  "tl:269:2": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 2/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 12%.",
+   "next": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 18%."
+  },
+  "tl:269:3": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 3/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 18%.",
+   "next": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 24%."
+  },
+  "tl:269:4": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 4/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 24%.",
+   "next": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 30%."
+  },
+  "tl:269:5": {
+   "k": "talent",
+   "n": "Lethality",
+   "rk": "Rank 5/5",
+   "tree": "Assassination",
+   "need": 10,
+   "req": [
+    "Malice rank 5"
+   ],
+   "d": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 30%.",
+   "next": ""
+  },
+  "tl:682:0": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 0/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+   "next": ""
+  },
+  "tl:682:1": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 1/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+   "next": "Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects."
+  },
+  "tl:682:2": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 2/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+   "next": "Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects."
+  },
+  "tl:682:3": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 3/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+   "next": "Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects."
+  },
+  "tl:682:4": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 4/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
+   "next": "Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
+  },
+  "tl:682:5": {
+   "k": "talent",
+   "n": "Vile Poisons",
+   "rk": "Rank 5/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects.",
+   "next": ""
+  },
+  "tl:280:0": {
+   "k": "talent",
+   "n": "Cold Blood",
+   "rk": "Rank 0/1",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, Eviscerate, or Mutilate by 100%.",
+   "next": ""
+  },
+  "tl:280:1": {
+   "k": "talent",
+   "n": "Cold Blood",
+   "rk": "Rank 1/1",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, Eviscerate, or Mutilate by 100%.",
+   "next": ""
+  },
+  "tl:268:0": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 0/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 2%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": ""
+  },
+  "tl:268:1": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 1/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 2%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": "Increases the chance to apply Poisons to your target by 4%, and gives Poison applications a 10% chance to not consume a charge."
+  },
+  "tl:268:2": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 2/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 4%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": "Increases the chance to apply Poisons to your target by 6%, and gives Poison applications a 10% chance to not consume a charge."
+  },
+  "tl:268:3": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 3/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 6%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": "Increases the chance to apply Poisons to your target by 8%, and gives Poison applications a 10% chance to not consume a charge."
+  },
+  "tl:268:4": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 4/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 8%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": "Increases the chance to apply Poisons to your target by 10%, and gives Poison applications a 10% chance to not consume a charge."
+  },
+  "tl:268:5": {
+   "k": "talent",
+   "n": "Improved Poisons",
+   "rk": "Rank 5/5",
+   "tree": "Assassination",
+   "need": 15,
+   "req": [],
+   "d": "Increases the chance to apply Poisons to your target by 10%, and gives Poison applications a 10% chance to not consume a charge.",
+   "next": ""
+  },
+  "tl:382:0": {
+   "k": "talent",
+   "n": "Vigor",
+   "rk": "Rank 0/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Increases your maximum Energy by 5.",
+   "next": ""
+  },
+  "tl:382:1": {
+   "k": "talent",
+   "n": "Vigor",
+   "rk": "Rank 1/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Increases your maximum Energy by 5.",
+   "next": "Increases your maximum Energy by 10."
+  },
+  "tl:382:2": {
+   "k": "talent",
+   "n": "Vigor",
+   "rk": "Rank 2/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Increases your maximum Energy by 10.",
+   "next": ""
+  },
+  "tl:90113:0": {
+   "k": "talent",
+   "n": "Mutilate",
+   "rk": "Rank 0/1",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points.",
+   "next": ""
+  },
+  "tl:90113:1": {
+   "k": "talent",
+   "n": "Mutilate",
+   "rk": "Rank 1/1",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points.",
+   "next": ""
+  },
+  "tl:279:0": {
+   "k": "talent",
+   "n": "Improved Kidney Shot",
+   "rk": "Rank 0/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Enemies Stunned by your Kidney Shot ability take 5% increased damage from your poisons and attacks.",
+   "next": ""
+  },
+  "tl:279:1": {
+   "k": "talent",
+   "n": "Improved Kidney Shot",
+   "rk": "Rank 1/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Enemies Stunned by your Kidney Shot ability take 5% increased damage from your poisons and attacks.",
+   "next": "Enemies Stunned by your Kidney Shot ability take 10% increased damage from your poisons and attacks."
+  },
+  "tl:279:2": {
+   "k": "talent",
+   "n": "Improved Kidney Shot",
+   "rk": "Rank 2/2",
+   "tree": "Assassination",
+   "need": 20,
+   "req": [],
+   "d": "Enemies Stunned by your Kidney Shot ability take 10% increased damage from your poisons and attacks.",
+   "next": ""
+  },
+  "tl:283:0": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 0/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 20% chance to add an additional combo point.",
+   "next": ""
+  },
+  "tl:283:1": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 1/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 20% chance to add an additional combo point.",
+   "next": "Your critical strikes from abilities that add combo points  have a 40% chance to add an additional combo point."
+  },
+  "tl:283:2": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 2/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 40% chance to add an additional combo point.",
+   "next": "Your critical strikes from abilities that add combo points  have a 60% chance to add an additional combo point."
+  },
+  "tl:283:3": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 3/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 60% chance to add an additional combo point.",
+   "next": "Your critical strikes from abilities that add combo points  have a 80% chance to add an additional combo point."
+  },
+  "tl:283:4": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 4/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 80% chance to add an additional combo point.",
+   "next": "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point."
+  },
+  "tl:283:5": {
+   "k": "talent",
+   "n": "Seal Fate",
+   "rk": "Rank 5/5",
+   "tree": "Assassination",
+   "need": 25,
+   "req": [],
+   "d": "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point.",
+   "next": ""
+  },
+  "tl:90114:0": {
+   "k": "talent",
+   "n": "Venom",
+   "rk": "Rank 0/1",
+   "tree": "Assassination",
+   "need": 30,
+   "req": [
+    "Mutilate rank 1"
+   ],
+   "d": "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n   1 point: 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds",
+   "next": ""
+  },
+  "tl:90114:1": {
+   "k": "talent",
+   "n": "Venom",
+   "rk": "Rank 1/1",
+   "tree": "Assassination",
+   "need": 30,
+   "req": [
+    "Mutilate rank 1"
+   ],
+   "d": "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n   1 point: 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds",
+   "next": ""
+  },
+  "tl:276:0": {
+   "k": "talent",
+   "n": "Improved Eviscerate",
+   "rk": "Rank 0/3",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage done by your Eviscerate ability by 7%.",
+   "next": ""
+  },
+  "tl:276:1": {
+   "k": "talent",
+   "n": "Improved Eviscerate",
+   "rk": "Rank 1/3",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage done by your Eviscerate ability by 7%.",
+   "next": "Increases the damage done by your Eviscerate ability by 14%."
+  },
+  "tl:276:2": {
+   "k": "talent",
+   "n": "Improved Eviscerate",
+   "rk": "Rank 2/3",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage done by your Eviscerate ability by 14%.",
+   "next": "Increases the damage done by your Eviscerate ability by 21%."
+  },
+  "tl:276:3": {
+   "k": "talent",
+   "n": "Improved Eviscerate",
+   "rk": "Rank 3/3",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage done by your Eviscerate ability by 21%.",
+   "next": ""
+  },
+  "tl:201:0": {
+   "k": "talent",
+   "n": "Improved Sinister Strike",
+   "rk": "Rank 0/2",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sinister Strike ability by 3.",
+   "next": ""
+  },
+  "tl:201:1": {
+   "k": "talent",
+   "n": "Improved Sinister Strike",
+   "rk": "Rank 1/2",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sinister Strike ability by 3.",
+   "next": "Reduces the Energy cost of your Sinister Strike ability by 5."
+  },
+  "tl:201:2": {
+   "k": "talent",
+   "n": "Improved Sinister Strike",
+   "rk": "Rank 2/2",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sinister Strike ability by 5.",
+   "next": ""
+  },
+  "tl:186:0": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 0/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 1%.",
+   "next": ""
+  },
+  "tl:186:1": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 1/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 1%.",
+   "next": "Increases your Dodge chance by 2%."
+  },
+  "tl:186:2": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 2/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 2%.",
+   "next": "Increases your Dodge chance by 3%."
+  },
+  "tl:186:3": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 3/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 3%.",
+   "next": "Increases your Dodge chance by 4%."
+  },
+  "tl:186:4": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 4/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 4%.",
+   "next": "Increases your Dodge chance by 5%."
+  },
+  "tl:186:5": {
+   "k": "talent",
+   "n": "Lightning Reflexes",
+   "rk": "Rank 5/5",
+   "tree": "Combat",
+   "need": 0,
+   "req": [],
+   "d": "Increases your Dodge chance by 5%.",
+   "next": ""
+  },
+  "tl:90110:0": {
+   "k": "talent",
+   "n": "Puncturing Wounds",
+   "rk": "Rank 0/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point.",
+   "next": ""
+  },
+  "tl:90110:1": {
+   "k": "talent",
+   "n": "Puncturing Wounds",
+   "rk": "Rank 1/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point.",
+   "next": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 30% chance to add an additional Combo Point."
+  },
+  "tl:90110:2": {
+   "k": "talent",
+   "n": "Puncturing Wounds",
+   "rk": "Rank 2/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 30% chance to add an additional Combo Point.",
+   "next": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 45% chance to add an additional Combo Point."
+  },
+  "tl:90110:3": {
+   "k": "talent",
+   "n": "Puncturing Wounds",
+   "rk": "Rank 3/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 45% chance to add an additional Combo Point.",
+   "next": ""
+  },
+  "tl:187:0": {
+   "k": "talent",
+   "n": "Deflection",
+   "rk": "Rank 0/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your Parry chance by 2%.",
+   "next": ""
+  },
+  "tl:187:1": {
+   "k": "talent",
+   "n": "Deflection",
+   "rk": "Rank 1/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your Parry chance by 2%.",
+   "next": "Increases your Parry chance by 4%."
+  },
+  "tl:187:2": {
+   "k": "talent",
+   "n": "Deflection",
+   "rk": "Rank 2/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your Parry chance by 4%.",
+   "next": "Increases your Parry chance by 6%."
+  },
+  "tl:187:3": {
+   "k": "talent",
+   "n": "Deflection",
+   "rk": "Rank 3/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your Parry chance by 6%.",
+   "next": ""
+  },
+  "tl:181:0": {
+   "k": "talent",
+   "n": "Precision",
+   "rk": "Rank 0/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your chance to hit with all attacks and Poisons by 1%.",
+   "next": ""
+  },
+  "tl:181:1": {
+   "k": "talent",
+   "n": "Precision",
+   "rk": "Rank 1/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your chance to hit with all attacks and Poisons by 1%.",
+   "next": "Increases your chance to hit with all attacks and Poisons by 2%."
+  },
+  "tl:181:2": {
+   "k": "talent",
+   "n": "Precision",
+   "rk": "Rank 2/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your chance to hit with all attacks and Poisons by 2%.",
+   "next": "Increases your chance to hit with all attacks and Poisons by 3%."
+  },
+  "tl:181:3": {
+   "k": "talent",
+   "n": "Precision",
+   "rk": "Rank 3/3",
+   "tree": "Combat",
+   "need": 5,
+   "req": [],
+   "d": "Increases your chance to hit with all attacks and Poisons by 3%.",
+   "next": ""
+  },
+  "tl:204:0": {
+   "k": "talent",
+   "n": "Endurance",
+   "rk": "Rank 0/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the cooldown of your Sprint and Evasion abilities by 30%.",
+   "next": ""
+  },
+  "tl:204:1": {
+   "k": "talent",
+   "n": "Endurance",
+   "rk": "Rank 1/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the cooldown of your Sprint and Evasion abilities by 30%.",
+   "next": "Reduces the cooldown of your Sprint and Evasion abilities by 60%."
+  },
+  "tl:204:2": {
+   "k": "talent",
+   "n": "Endurance",
+   "rk": "Rank 2/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Reduces the cooldown of your Sprint and Evasion abilities by 60%.",
+   "next": ""
+  },
+  "tl:175:0": {
+   "k": "talent",
+   "n": "Riposte",
+   "rk": "Rank 0/1",
+   "tree": "Combat",
+   "need": 10,
+   "req": [
+    "Deflection rank 3"
+   ],
+   "d": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec.",
+   "next": ""
+  },
+  "tl:175:1": {
+   "k": "talent",
+   "n": "Riposte",
+   "rk": "Rank 1/1",
+   "tree": "Combat",
+   "need": 10,
+   "req": [
+    "Deflection rank 3"
+   ],
+   "d": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec.",
+   "next": ""
+  },
+  "tl:222:0": {
+   "k": "talent",
+   "n": "Improved Sprint",
+   "rk": "Rank 0/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
+   "next": ""
+  },
+  "tl:222:1": {
+   "k": "talent",
+   "n": "Improved Sprint",
+   "rk": "Rank 1/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
+   "next": "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
+  },
+  "tl:222:2": {
+   "k": "talent",
+   "n": "Improved Sprint",
+   "rk": "Rank 2/2",
+   "tree": "Combat",
+   "need": 10,
+   "req": [],
+   "d": "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability.",
+   "next": ""
+  },
+  "tl:206:0": {
+   "k": "talent",
+   "n": "Improved Kick",
+   "rk": "Rank 0/2",
+   "tree": "Combat",
+   "need": 15,
+   "req": [],
+   "d": "Gives your Kick ability a 50% chance to silence the target for 2 sec.",
+   "next": ""
+  },
+  "tl:206:1": {
+   "k": "talent",
+   "n": "Improved Kick",
+   "rk": "Rank 1/2",
+   "tree": "Combat",
+   "need": 15,
+   "req": [],
+   "d": "Gives your Kick ability a 50% chance to silence the target for 2 sec.",
+   "next": "Gives your Kick ability a 100% chance to silence the target for 2 sec."
+  },
+  "tl:206:2": {
+   "k": "talent",
+   "n": "Improved Kick",
+   "rk": "Rank 2/2",
+   "tree": "Combat",
+   "need": 15,
+   "req": [],
+   "d": "Gives your Kick ability a 100% chance to silence the target for 2 sec.",
+   "next": ""
+  },
+  "tl:90111:0": {
+   "k": "talent",
+   "n": "Flawless Execution",
+   "rk": "Rank 0/1",
+   "tree": "Combat",
+   "need": 15,
+   "req": [],
+   "d": "Reduces the Energy cost of your Eviscerate ability by 10.",
+   "next": ""
+  },
+  "tl:90111:1": {
+   "k": "talent",
+   "n": "Flawless Execution",
+   "rk": "Rank 1/1",
+   "tree": "Combat",
+   "need": 15,
+   "req": [],
+   "d": "Reduces the Energy cost of your Eviscerate ability by 10.",
+   "next": ""
+  },
+  "tl:221:0": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 0/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 5%.",
+   "next": ""
+  },
+  "tl:221:1": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 1/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 5%.",
+   "next": "Increases the damage done by your off-hand weapon by 10%."
+  },
+  "tl:221:2": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 2/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 10%.",
+   "next": "Increases the damage done by your off-hand weapon by 15%."
+  },
+  "tl:221:3": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 3/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 15%.",
+   "next": "Increases the damage done by your off-hand weapon by 20%."
+  },
+  "tl:221:4": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 4/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 20%.",
+   "next": "Increases the damage done by your off-hand weapon by 25%."
+  },
+  "tl:221:5": {
+   "k": "talent",
+   "n": "Dual Wield Specialization",
+   "rk": "Rank 5/5",
+   "tree": "Combat",
+   "need": 15,
+   "req": [
+    "Precision rank 3"
+   ],
+   "d": "Increases the damage done by your off-hand weapon by 25%.",
+   "next": ""
+  },
+  "tl:223:0": {
+   "k": "talent",
+   "n": "Blade Flurry",
+   "rk": "Rank 0/1",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+   "next": ""
+  },
+  "tl:223:1": {
+   "k": "talent",
+   "n": "Blade Flurry",
+   "rk": "Rank 1/1",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+   "next": ""
+  },
+  "tl:90112:0": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 0/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": ""
+  },
+  "tl:90112:1": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 1/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor."
+  },
+  "tl:90112:2": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 2/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor."
+  },
+  "tl:90112:3": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 3/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor."
+  },
+  "tl:90112:4": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 4/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor."
+  },
+  "tl:90112:5": {
+   "k": "talent",
+   "n": "Hack and Slash",
+   "rk": "Rank 5/5",
+   "tree": "Combat",
+   "need": 20,
+   "req": [],
+   "d": "Gives your melee weapon attacks a benefit depending on the weapon:\n\n   Axe/Sword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target.\n\n   Dagger/Fist: Increases your critical strike chance by 1%.\n\n   Mace: Your attacks ignore 3% of your target's armor.",
+   "next": ""
+  },
+  "tl:1703:0": {
+   "k": "talent",
+   "n": "Weapon Expertise",
+   "rk": "Rank 0/2",
+   "tree": "Combat",
+   "need": 25,
+   "req": [
+    "Blade Flurry rank 1"
+   ],
+   "d": "Reduces the chance for your attacks to be Dodged or Parried by 1%.",
+   "next": ""
+  },
+  "tl:1703:1": {
+   "k": "talent",
+   "n": "Weapon Expertise",
+   "rk": "Rank 1/2",
+   "tree": "Combat",
+   "need": 25,
+   "req": [
+    "Blade Flurry rank 1"
+   ],
+   "d": "Reduces the chance for your attacks to be Dodged or Parried by 1%.",
+   "next": "Reduces the chance for your attacks to be Dodged or Parried by 2%."
+  },
+  "tl:1703:2": {
+   "k": "talent",
+   "n": "Weapon Expertise",
+   "rk": "Rank 2/2",
+   "tree": "Combat",
+   "need": 25,
+   "req": [
+    "Blade Flurry rank 1"
+   ],
+   "d": "Reduces the chance for your attacks to be Dodged or Parried by 2%.",
+   "next": ""
+  },
+  "tl:1122:0": {
+   "k": "talent",
+   "n": "Aggression",
+   "rk": "Rank 0/3",
+   "tree": "Combat",
+   "need": 25,
+   "req": [],
+   "d": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.",
+   "next": ""
+  },
+  "tl:1122:1": {
+   "k": "talent",
+   "n": "Aggression",
+   "rk": "Rank 1/3",
+   "tree": "Combat",
+   "need": 25,
+   "req": [],
+   "d": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.",
+   "next": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%."
+  },
+  "tl:1122:2": {
+   "k": "talent",
+   "n": "Aggression",
+   "rk": "Rank 2/3",
+   "tree": "Combat",
+   "need": 25,
+   "req": [],
+   "d": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%.",
+   "next": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%."
+  },
+  "tl:1122:3": {
+   "k": "talent",
+   "n": "Aggression",
+   "rk": "Rank 3/3",
+   "tree": "Combat",
+   "need": 25,
+   "req": [],
+   "d": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%.",
+   "next": ""
+  },
+  "tl:205:0": {
+   "k": "talent",
+   "n": "Adrenaline Rush",
+   "rk": "Rank 0/1",
+   "tree": "Combat",
+   "need": 30,
+   "req": [],
+   "d": "Increases your Energy regeneration rate by 100% for 15 sec.",
+   "next": ""
+  },
+  "tl:205:1": {
+   "k": "talent",
+   "n": "Adrenaline Rush",
+   "rk": "Rank 1/1",
+   "tree": "Combat",
+   "need": 30,
+   "req": [],
+   "d": "Increases your Energy regeneration rate by 100% for 15 sec.",
+   "next": ""
+  },
+  "tl:244:0": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 0/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 3% and reduces its cooldown by 2 sec.",
+   "next": ""
+  },
+  "tl:244:1": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 1/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 3% and reduces its cooldown by 2 sec.",
+   "next": "Reduces your speed penalty from your Stealth ability by 6% and reduces its cooldown by 4 sec."
+  },
+  "tl:244:2": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 2/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 6% and reduces its cooldown by 4 sec.",
+   "next": "Reduces your speed penalty from your Stealth ability by 9% and reduces its cooldown by 6 sec."
+  },
+  "tl:244:3": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 3/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 9% and reduces its cooldown by 6 sec.",
+   "next": "Reduces your speed penalty from your Stealth ability by 12% and reduces its cooldown by 8 sec."
+  },
+  "tl:244:4": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 4/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 12% and reduces its cooldown by 8 sec.",
+   "next": "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 10 sec."
+  },
+  "tl:244:5": {
+   "k": "talent",
+   "n": "Camouflage",
+   "rk": "Rank 5/5",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 10 sec.",
+   "next": ""
+  },
+  "tl:241:0": {
+   "k": "talent",
+   "n": "Master of Deception",
+   "rk": "Rank 0/3",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 1 level higher.",
+   "next": ""
+  },
+  "tl:241:1": {
+   "k": "talent",
+   "n": "Master of Deception",
+   "rk": "Rank 1/3",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 1 level higher.",
+   "next": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 2 level higher."
+  },
+  "tl:241:2": {
+   "k": "talent",
+   "n": "Master of Deception",
+   "rk": "Rank 2/3",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 2 level higher.",
+   "next": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 level higher."
+  },
+  "tl:241:3": {
+   "k": "talent",
+   "n": "Master of Deception",
+   "rk": "Rank 3/3",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 level higher.",
+   "next": ""
+  },
+  "tl:261:0": {
+   "k": "talent",
+   "n": "Opportunity",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 5%.",
+   "next": ""
+  },
+  "tl:261:1": {
+   "k": "talent",
+   "n": "Opportunity",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 5%.",
+   "next": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 10%."
+  },
+  "tl:261:2": {
+   "k": "talent",
+   "n": "Opportunity",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 0,
+   "req": [],
+   "d": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 10%.",
+   "next": ""
+  },
+  "tl:246:0": {
+   "k": "talent",
+   "n": "Setup",
+   "rk": "Rank 0/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Gives you a 33% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
+   "next": ""
+  },
+  "tl:246:1": {
+   "k": "talent",
+   "n": "Setup",
+   "rk": "Rank 1/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Gives you a 33% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
+   "next": "Gives you a 66% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells."
+  },
+  "tl:246:2": {
+   "k": "talent",
+   "n": "Setup",
+   "rk": "Rank 2/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Gives you a 66% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
+   "next": "Gives you a 100% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells."
+  },
+  "tl:246:3": {
+   "k": "talent",
+   "n": "Setup",
+   "rk": "Rank 3/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Gives you a 100% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells.",
+   "next": ""
+  },
+  "tl:247:0": {
+   "k": "talent",
+   "n": "Elusiveness",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+   "next": ""
+  },
+  "tl:247:1": {
+   "k": "talent",
+   "n": "Elusiveness",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+   "next": "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
+  },
+  "tl:247:2": {
+   "k": "talent",
+   "n": "Elusiveness",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min.",
+   "next": ""
+  },
+  "tl:90115:0": {
+   "k": "talent",
+   "n": "Dirty Tricks",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sap and Blind abilities by 25%.",
+   "next": ""
+  },
+  "tl:90115:1": {
+   "k": "talent",
+   "n": "Dirty Tricks",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sap and Blind abilities by 25%.",
+   "next": "Reduces the Energy cost of your Sap and Blind abilities by 50%."
+  },
+  "tl:90115:2": {
+   "k": "talent",
+   "n": "Dirty Tricks",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Reduces the Energy cost of your Sap and Blind abilities by 50%.",
+   "next": ""
+  },
+  "tl:263:0": {
+   "k": "talent",
+   "n": "Improved Ambush",
+   "rk": "Rank 0/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Ambush ability by 15%.",
+   "next": ""
+  },
+  "tl:263:1": {
+   "k": "talent",
+   "n": "Improved Ambush",
+   "rk": "Rank 1/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Ambush ability by 15%.",
+   "next": "Increases the critical strike chance of your Ambush ability by 30%."
+  },
+  "tl:263:2": {
+   "k": "talent",
+   "n": "Improved Ambush",
+   "rk": "Rank 2/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Ambush ability by 30%.",
+   "next": "Increases the critical strike chance of your Ambush ability by 45%."
+  },
+  "tl:263:3": {
+   "k": "talent",
+   "n": "Improved Ambush",
+   "rk": "Rank 3/3",
+   "tree": "Subtlety",
+   "need": 5,
+   "req": [],
+   "d": "Increases the critical strike chance of your Ambush ability by 45%.",
+   "next": ""
+  },
+  "tl:245:0": {
+   "k": "talent",
+   "n": "Initiative",
+   "rk": "Rank 0/3",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Gives you a 33% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+   "next": ""
+  },
+  "tl:245:1": {
+   "k": "talent",
+   "n": "Initiative",
+   "rk": "Rank 1/3",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Gives you a 33% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+   "next": "Gives you a 66% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+  },
+  "tl:245:2": {
+   "k": "talent",
+   "n": "Initiative",
+   "rk": "Rank 2/3",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Gives you a 66% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+   "next": "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+  },
+  "tl:245:3": {
+   "k": "talent",
+   "n": "Initiative",
+   "rk": "Rank 3/3",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+   "next": ""
+  },
+  "tl:303:0": {
+   "k": "talent",
+   "n": "Ghostly Strike",
+   "rk": "Rank 0/1",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+   "next": ""
+  },
+  "tl:303:1": {
+   "k": "talent",
+   "n": "Ghostly Strike",
+   "rk": "Rank 1/1",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "A strike that deals 125% (180% if a Dagger is equipped in your Main Hand) weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+   "next": ""
+  },
+  "tl:90116:0": {
+   "k": "talent",
+   "n": "Improved Distract",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
+   "next": ""
+  },
+  "tl:90116:1": {
+   "k": "talent",
+   "n": "Improved Distract",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
+   "next": "Increases the radius of your Distract ability by 6 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower."
+  },
+  "tl:90116:2": {
+   "k": "talent",
+   "n": "Improved Distract",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 10,
+   "req": [],
+   "d": "Increases the radius of your Distract ability by 6 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower.",
+   "next": ""
+  },
+  "tl:1701:0": {
+   "k": "talent",
+   "n": "Heightened Senses",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
+   "next": ""
+  },
+  "tl:1701:1": {
+   "k": "talent",
+   "n": "Heightened Senses",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 2%.",
+   "next": "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 4%."
+  },
+  "tl:1701:2": {
+   "k": "talent",
+   "n": "Heightened Senses",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Increases your Stealth detection as if you were 1 level higher and reduces your chance to be hit by spells and ranged attacks by 4%.",
+   "next": ""
+  },
+  "tl:381:0": {
+   "k": "talent",
+   "n": "Premeditation",
+   "rk": "Rank 0/1",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Adds 2 Combo Points to your target. You must add to or use those combo points within 20 sec or the combo points are lost.",
+   "next": ""
+  },
+  "tl:381:1": {
+   "k": "talent",
+   "n": "Premeditation",
+   "rk": "Rank 1/1",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Adds 2 Combo Points to your target. You must add to or use those combo points within 20 sec or the combo points are lost.",
+   "next": ""
+  },
+  "tl:1123:0": {
+   "k": "talent",
+   "n": "Serrated Blades",
+   "rk": "Rank 0/3",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 10%.",
+   "next": ""
+  },
+  "tl:1123:1": {
+   "k": "talent",
+   "n": "Serrated Blades",
+   "rk": "Rank 1/3",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 10%.",
+   "next": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 20%."
+  },
+  "tl:1123:2": {
+   "k": "talent",
+   "n": "Serrated Blades",
+   "rk": "Rank 2/3",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 20%.",
+   "next": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 30%."
+  },
+  "tl:1123:3": {
+   "k": "talent",
+   "n": "Serrated Blades",
+   "rk": "Rank 3/3",
+   "tree": "Subtlety",
+   "need": 15,
+   "req": [],
+   "d": "Causes your attacks to ignore 3% of your target's Armor and increases the damage dealt by your Rupture ability by 30%.",
+   "next": ""
+  },
+  "tl:265:0": {
+   "k": "talent",
+   "n": "Dirty Deeds",
+   "rk": "Rank 0/2",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [],
+   "d": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your Garrote ability no longer requires you to be behind your target.",
+   "next": ""
+  },
+  "tl:265:1": {
+   "k": "talent",
+   "n": "Dirty Deeds",
+   "rk": "Rank 1/2",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [],
+   "d": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10, and your Garrote ability no longer requires you to be behind your target.",
+   "next": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target."
+  },
+  "tl:265:2": {
+   "k": "talent",
+   "n": "Dirty Deeds",
+   "rk": "Rank 2/2",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [],
+   "d": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target.",
+   "next": ""
+  },
+  "tl:264:0": {
+   "k": "talent",
+   "n": "Preparation",
+   "rk": "Rank 0/1",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [],
+   "d": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities.",
+   "next": ""
+  },
+  "tl:264:1": {
+   "k": "talent",
+   "n": "Preparation",
+   "rk": "Rank 1/1",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [],
+   "d": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities.",
+   "next": ""
+  },
+  "tl:176:0": {
+   "k": "talent",
+   "n": "Hemorrhage",
+   "rk": "Rank 0/1",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [
+    "Serrated Blades rank 3"
+   ],
+   "d": "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point.",
+   "next": ""
+  },
+  "tl:176:1": {
+   "k": "talent",
+   "n": "Hemorrhage",
+   "rk": "Rank 1/1",
+   "tree": "Subtlety",
+   "need": 20,
+   "req": [
+    "Serrated Blades rank 3"
+   ],
+   "d": "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point.",
+   "next": ""
+  },
+  "tl:90117:0": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 0/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health.",
+   "next": ""
+  },
+  "tl:90117:1": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 1/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health.",
+   "next": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 4% more damage against targets below 35% health."
+  },
+  "tl:90117:2": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 2/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 4% more damage against targets below 35% health.",
+   "next": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 6% more damage against targets below 35% health."
+  },
+  "tl:90117:3": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 3/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 6% more damage against targets below 35% health.",
+   "next": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 8% more damage against targets below 35% health."
+  },
+  "tl:90117:4": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 4/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 8% more damage against targets below 35% health.",
+   "next": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 10% more damage against targets below 35% health."
+  },
+  "tl:90117:5": {
+   "k": "talent",
+   "n": "Quietus",
+   "rk": "Rank 5/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [
+    "Dirty Deeds rank 2"
+   ],
+   "d": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 10% more damage against targets below 35% health.",
+   "next": ""
+  },
+  "tl:90118:0": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 0/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": ""
+  },
+  "tl:90118:1": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 1/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": "Your Backstab has a 6% chance to cause your next Ambush within 10 sec to not require Stealth."
+  },
+  "tl:90118:2": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 2/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 6% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": "Your Backstab has a 9% chance to cause your next Ambush within 10 sec to not require Stealth."
+  },
+  "tl:90118:3": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 3/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 9% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": "Your Backstab has a 12% chance to cause your next Ambush within 10 sec to not require Stealth."
+  },
+  "tl:90118:4": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 4/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 12% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": "Your Backstab has a 15% chance to cause your next Ambush within 10 sec to not require Stealth."
+  },
+  "tl:90118:5": {
+   "k": "talent",
+   "n": "Cutthroat",
+   "rk": "Rank 5/5",
+   "tree": "Subtlety",
+   "need": 25,
+   "req": [],
+   "d": "Your Backstab has a 15% chance to cause your next Ambush within 10 sec to not require Stealth.",
+   "next": ""
+  },
+  "tl:90119:0": {
+   "k": "talent",
+   "n": "Thousand Cuts",
+   "rk": "Rank 0/1",
+   "tree": "Subtlety",
+   "need": 30,
+   "req": [
+    "Preparation rank 1"
+   ],
+   "d": "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times.",
+   "next": ""
+  },
+  "tl:90119:1": {
+   "k": "talent",
+   "n": "Thousand Cuts",
+   "rk": "Rank 1/1",
+   "tree": "Subtlety",
+   "need": 30,
+   "req": [
+    "Preparation rank 1"
+   ],
+   "d": "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times.",
+   "next": ""
+  },
+  "ra:orc:Blood Fury": {
+   "k": "racial",
+   "n": "Blood Fury",
+   "race": "Orc",
+   "passive": false,
+   "cd": "2 min",
+   "d": "Increases Attack Power and Spell Power by 10% for 15 sec."
+  },
+  "ra:orc:Shatter Curse": {
+   "k": "racial",
+   "n": "Shatter Curse",
+   "race": "Orc",
+   "passive": false,
+   "cd": "",
+   "d": "Immunity to Curses and Banes and reduces Magical Damage taken for 8 sec."
+  },
+  "ra:orc:Axe Specialization": {
+   "k": "racial",
+   "n": "Axe Specialization",
+   "race": "Orc",
+   "passive": true,
+   "cd": "",
+   "d": "Axes increase spell and ability critical strike chance by 1%."
+  },
+  "ra:orc:Hardiness": {
+   "k": "racial",
+   "n": "Hardiness",
+   "race": "Orc",
+   "passive": true,
+   "cd": "",
+   "d": "Duration of Stun effects reduced by 20%."
+  },
+  "ra:undead:Will of the Forsaken": {
+   "k": "racial",
+   "n": "Will of the Forsaken",
+   "race": "Undead",
+   "passive": false,
+   "cd": "2 min",
+   "d": "Removes any Charm, Fear, or Sleep effect."
+  },
+  "ra:undead:Cannibalize": {
+   "k": "racial",
+   "n": "Cannibalize",
+   "race": "Undead",
+   "passive": false,
+   "cd": "2 min",
+   "d": "When activated, regenerates 7% of total Health and Mana every 2 sec for 10 sec. Only works on Humanoid or Undead corpses within 5 yards. Any movement, action, or damage taken while Cannibalizing will cancel the effect."
+  },
+  "ra:undead:Underwater Breathing": {
+   "k": "racial",
+   "n": "Underwater Breathing",
+   "race": "Undead",
+   "passive": true,
+   "cd": "",
+   "d": "Underwater breath lasts 300% longer."
+  },
+  "ra:undead:Touch of the Grave": {
+   "k": "racial",
+   "n": "Touch of the Grave",
+   "race": "Undead",
+   "passive": true,
+   "cd": "",
+   "d": "Your spells and attacks have a 5% chance to drain Health from the target, up to 5% of your maximum Health."
+  },
+  "ra:tauren:War Stomp": {
+   "k": "racial",
+   "n": "War Stomp",
+   "race": "Tauren",
+   "passive": false,
+   "cd": "1.5 min",
+   "d": "Stuns up to 5 enemies within 8 yards for 2 sec."
+  },
+  "ra:tauren:Cultivation": {
+   "k": "racial",
+   "n": "Cultivation",
+   "race": "Tauren",
+   "passive": true,
+   "cd": "",
+   "d": "Nearby herbs can be cultivated into a duplicate you can gather without needing Herbalism — or double if you already have it. Each herb can only be cultivated once."
+  },
+  "ra:tauren:Plainsrunning": {
+   "k": "racial",
+   "n": "Plainsrunning",
+   "race": "Tauren",
+   "passive": true,
+   "cd": "",
+   "d": "Gain increased movement speed the longer you remain moving."
+  },
+  "ra:tauren:Endurance": {
+   "k": "racial",
+   "n": "Endurance",
+   "race": "Tauren",
+   "passive": true,
+   "cd": "",
+   "d": "Total Health increased by 5% and Hit Chance increased by 1%."
+  },
+  "ra:troll:Berserking": {
+   "k": "racial",
+   "n": "Berserking",
+   "race": "Troll",
+   "passive": false,
+   "cd": "3 min",
+   "d": "Increases your attack and casting speed by 10% for 10 sec."
+  },
+  "ra:troll:Rapid Regeneration": {
+   "k": "racial",
+   "n": "Rapid Regeneration",
+   "race": "Troll",
+   "passive": false,
+   "cd": "3 min",
+   "d": "Regenerates 50% of your maximum Health over 6 sec."
+  },
+  "ra:troll:Beast Slaying": {
+   "k": "racial",
+   "n": "Beast Slaying",
+   "race": "Troll",
+   "passive": true,
+   "cd": "",
+   "d": "Damage dealt versus Beasts increased by 5%."
+  },
+  "ra:troll:Regeneration": {
+   "k": "racial",
+   "n": "Regeneration",
+   "race": "Troll",
+   "passive": true,
+   "cd": "",
+   "d": "10% of Health regeneration continues during combat."
+  },
+  "ra:windshaper-skyborne:Walk on Air": {
+   "k": "racial",
+   "n": "Walk on Air",
+   "race": "Windshaper Skyborne",
+   "passive": false,
+   "cd": "",
+   "d": "Glide downward through the air for 10 sec, controlling your direction of travel."
+  },
+  "ra:windshaper-skyborne:Skysight": {
+   "k": "racial",
+   "n": "Skysight",
+   "race": "Windshaper Skyborne",
+   "passive": false,
+   "cd": "",
+   "d": "Draw power from a nearby elemental convergence, increasing movement and mounted speed by 10%. Lasts 15 min near a convergence, or 30 sec without one."
+  },
+  "ra:windshaper-skyborne:Wind Blessed": {
+   "k": "racial",
+   "n": "Wind Blessed",
+   "race": "Windshaper Skyborne",
+   "passive": true,
+   "cd": "",
+   "d": "Increases your spellcasting, melee, and ranged Haste by 1%."
+  },
+  "ra:windshaper-skyborne:Elemental Insight": {
+   "k": "racial",
+   "n": "Elemental Insight",
+   "race": "Windshaper Skyborne",
+   "passive": true,
+   "cd": "",
+   "d": "Damage dealt versus Elementals increased by 5%."
+  },
+  "ra:high-order-skyborne:Walk on Air": {
+   "k": "racial",
+   "n": "Walk on Air",
+   "race": "High Order Skyborne",
+   "passive": false,
+   "cd": "",
+   "d": "Glide downward through the air for 10 sec, controlling your direction of travel."
+  },
+  "ra:high-order-skyborne:Read Ley Line": {
+   "k": "racial",
+   "n": "Read Ley Line",
+   "race": "High Order Skyborne",
+   "passive": false,
+   "cd": "",
+   "d": "Draw power from a nearby ley line, increasing Health and Mana regeneration by 100%. Lasts 15 min near a ley line, or 15 sec without one."
+  },
+  "ra:high-order-skyborne:Wind Blessed": {
+   "k": "racial",
+   "n": "Wind Blessed",
+   "race": "High Order Skyborne",
+   "passive": true,
+   "cd": "",
+   "d": "Increases your spellcasting, melee, and ranged Haste by 1%."
+  },
+  "ra:high-order-skyborne:Elemental Insight": {
+   "k": "racial",
+   "n": "Elemental Insight",
+   "race": "High Order Skyborne",
+   "passive": true,
+   "cd": "",
+   "d": "Damage dealt versus Elementals increased by 5%."
+  },
+  "ra:human:Will to Survive": {
+   "k": "racial",
+   "n": "Will to Survive",
+   "race": "Human",
+   "passive": false,
+   "cd": "3 min",
+   "d": "Removes all Stun effects."
+  },
+  "ra:human:Perception": {
+   "k": "racial",
+   "n": "Perception",
+   "race": "Human",
+   "passive": false,
+   "cd": "3 min",
+   "d": "Dramatically increases stealth detection for 20 sec."
+  },
+  "ra:human:Sword Specialization": {
+   "k": "racial",
+   "n": "Sword Specialization",
+   "race": "Human",
+   "passive": true,
+   "cd": "",
+   "d": "Swords increase spell and ability critical strike chance by 2%."
+  },
+  "ra:human:The Human Spirit": {
+   "k": "racial",
+   "n": "The Human Spirit",
+   "race": "Human",
+   "passive": true,
+   "cd": "",
+   "d": "Spirit increased by 5%."
+  },
+  "ra:dwarf:Find Treasure": {
+   "k": "racial",
+   "n": "Find Treasure",
+   "race": "Dwarf",
+   "passive": false,
+   "cd": "Active",
+   "d": "Allows the dwarf to sense nearby treasure, making it appear on the minimap. Lasts until cancelled."
+  },
+  "ra:dwarf:Stoneform": {
+   "k": "racial",
+   "n": "Stoneform",
+   "race": "Dwarf",
+   "passive": false,
+   "cd": "2 min",
+   "d": "Removes and grants immunity to all Bleed, Poison, and Disease effects, and reduces Physical damage taken by 10% for 8 sec."
+  },
+  "ra:dwarf:Mace Specialization": {
+   "k": "racial",
+   "n": "Mace Specialization",
+   "race": "Dwarf",
+   "passive": true,
+   "cd": "",
+   "d": "Maces increase spell and ability critical strike chance by 1%."
+  },
+  "ra:dwarf:Big Game Hunter": {
+   "k": "racial",
+   "n": "Big Game Hunter",
+   "race": "Dwarf",
+   "passive": true,
+   "cd": "",
+   "d": "Damage to Beasts increased by 5%."
+  },
+  "ra:night-elf:Elune's Light": {
+   "k": "racial",
+   "n": "Elune's Light",
+   "race": "Night Elf",
+   "passive": false,
+   "cd": "",
+   "d": "Increases critical strike chance by 10% for 15 sec."
+  },
+  "ra:night-elf:Elune's Grace": {
+   "k": "racial",
+   "n": "Elune's Grace",
+   "race": "Night Elf",
+   "passive": false,
+   "cd": "5 min",
+   "d": "Reduces the chance you'll be hit by melee and ranged attacks by 50% for 15 sec or until you are missed 3 times."
+  },
+  "ra:night-elf:Shadowmeld": {
+   "k": "racial",
+   "n": "Shadowmeld",
+   "race": "Night Elf",
+   "passive": false,
+   "cd": "",
+   "d": "Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. Using it in combat discourages enemies from attacking you, but its cooldown increases to 2 min."
+  },
+  "ra:night-elf:Quickness": {
+   "k": "racial",
+   "n": "Quickness",
+   "race": "Night Elf",
+   "passive": true,
+   "cd": "",
+   "d": "1% increased Dodge chance and 2% increased run speed. Rogues and Druids are also harder to detect while Stealthed, as though 1 level higher."
+  },
+  "ra:night-elf:Wisp Spirit": {
+   "k": "racial",
+   "n": "Wisp Spirit",
+   "race": "Night Elf",
+   "passive": true,
+   "cd": "",
+   "d": "Transform into a wisp upon death, increasing speed by 75% while dead."
+  },
+  "ra:gnome:Eureka!": {
+   "k": "racial",
+   "n": "Eureka!",
+   "race": "Gnome",
+   "passive": false,
+   "cd": "",
+   "d": "Reduces the cost of your next 3 spells or abilities and increases their damage or healing by 10%."
+  },
+  "ra:gnome:Expansive Mind": {
+   "k": "racial",
+   "n": "Expansive Mind",
+   "race": "Gnome",
+   "passive": true,
+   "cd": "",
+   "d": "Maximum Mana increased by 5%."
+  },
+  "ra:gnome:Engineering Specialization": {
+   "k": "racial",
+   "n": "Engineering Specialization",
+   "race": "Gnome",
+   "passive": true,
+   "cd": "",
+   "d": "Reduces the chance for your engineering devices to fail or backfire by 20%."
+  },
+  "ra:gnome:Escape Artist": {
+   "k": "racial",
+   "n": "Escape Artist",
+   "race": "Gnome",
+   "passive": false,
+   "cd": "1.5 min",
+   "d": "Instantly escape the effects of any movement-impairing effect and gain immunity to them for 3 sec."
+  }
+ }
+}

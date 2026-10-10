@@ -1,0 +1,786 @@
+{
+ "icons": {
+  "7ac9": {
+   "name": "Sinister Strike",
+   "ranks": [
+    [
+     1,
+     "sp:1752"
+    ],
+    [
+     6,
+     "sp:1757"
+    ],
+    [
+     14,
+     "sp:1758"
+    ],
+    [
+     22,
+     "sp:1759"
+    ],
+    [
+     30,
+     "sp:1760"
+    ],
+    [
+     38,
+     "sp:8621"
+    ],
+    [
+     46,
+     "sp:11293"
+    ],
+    [
+     54,
+     "sp:11294"
+    ]
+   ]
+  },
+  "58c6": {
+   "name": "Eviscerate",
+   "ranks": [
+    [
+     1,
+     "sp:2098"
+    ],
+    [
+     8,
+     "sp:6760"
+    ],
+    [
+     16,
+     "sp:6761"
+    ],
+    [
+     24,
+     "sp:6762"
+    ],
+    [
+     32,
+     "sp:8623"
+    ],
+    [
+     40,
+     "sp:8624"
+    ],
+    [
+     48,
+     "sp:11299"
+    ],
+    [
+     56,
+     "sp:11300"
+    ],
+    [
+     60,
+     "sp:31016"
+    ]
+   ]
+  },
+  "f8bc": {
+   "name": "Slice and Dice",
+   "ranks": [
+    [
+     10,
+     "sp:5171"
+    ],
+    [
+     42,
+     "sp:6774"
+    ]
+   ]
+  },
+  "44a5": {
+   "name": "Gouge",
+   "ranks": [
+    [
+     6,
+     "sp:1776"
+    ],
+    [
+     18,
+     "sp:1777"
+    ],
+    [
+     32,
+     "sp:8629"
+    ],
+    [
+     46,
+     "sp:11285"
+    ],
+    [
+     60,
+     "sp:11286"
+    ]
+   ]
+  },
+  "5770": {
+   "name": "Sprint",
+   "ranks": [
+    [
+     10,
+     "sp:2983"
+    ],
+    [
+     34,
+     "sp:8696"
+    ],
+    [
+     58,
+     "sp:11305"
+    ]
+   ]
+  },
+  "202b": {
+   "name": "Vanish",
+   "ranks": [
+    [
+     22,
+     "sp:1856"
+    ],
+    [
+     42,
+     "sp:1857"
+    ]
+   ]
+  },
+  "e8a5": {
+   "name": "Kick",
+   "ranks": [
+    [
+     12,
+     "sp:1766"
+    ],
+    [
+     26,
+     "sp:1767"
+    ],
+    [
+     42,
+     "sp:1768"
+    ],
+    [
+     58,
+     "sp:1769"
+    ]
+   ]
+  },
+  "89db": {
+   "name": "Stealth",
+   "ranks": [
+    [
+     1,
+     "sp:1784"
+    ],
+    [
+     20,
+     "sp:1785"
+    ],
+    [
+     40,
+     "sp:1786"
+    ],
+    [
+     60,
+     "sp:1787"
+    ]
+   ]
+  },
+  "7abb": {
+   "name": "Sap",
+   "ranks": [
+    [
+     10,
+     "sp:6770"
+    ],
+    [
+     28,
+     "sp:2070"
+    ],
+    [
+     48,
+     "sp:11297"
+    ]
+   ]
+  },
+  "872c": {
+   "name": "Backstab",
+   "ranks": [
+    [
+     4,
+     "sp:53"
+    ],
+    [
+     12,
+     "sp:2589"
+    ],
+    [
+     20,
+     "sp:2590"
+    ],
+    [
+     28,
+     "sp:2591"
+    ],
+    [
+     36,
+     "sp:8721"
+    ],
+    [
+     44,
+     "sp:11279"
+    ],
+    [
+     52,
+     "sp:11280"
+    ],
+    [
+     60,
+     "sp:11281"
+    ],
+    [
+     60,
+     "sp:25300"
+    ]
+   ]
+  },
+  "eee5": {
+   "name": "Expose Armor",
+   "ranks": [
+    [
+     14,
+     "sp:8647"
+    ],
+    [
+     26,
+     "sp:8649"
+    ],
+    [
+     36,
+     "sp:8650"
+    ],
+    [
+     46,
+     "sp:11197"
+    ],
+    [
+     56,
+     "sp:11198"
+    ]
+   ]
+  },
+  "a1e7": {
+   "name": "Garrote",
+   "ranks": [
+    [
+     14,
+     "sp:703"
+    ],
+    [
+     22,
+     "sp:8631"
+    ],
+    [
+     30,
+     "sp:8632"
+    ],
+    [
+     38,
+     "sp:8633"
+    ],
+    [
+     46,
+     "sp:11289"
+    ],
+    [
+     54,
+     "sp:11290"
+    ]
+   ]
+  },
+  "dbce": {
+   "name": "Feint",
+   "ranks": [
+    [
+     16,
+     "sp:1966"
+    ],
+    [
+     28,
+     "sp:6768"
+    ],
+    [
+     40,
+     "sp:8637"
+    ],
+    [
+     52,
+     "sp:11303"
+    ],
+    [
+     60,
+     "sp:25302"
+    ]
+   ]
+  },
+  "18a1": {
+   "name": "Ambush",
+   "ranks": [
+    [
+     18,
+     "sp:8676"
+    ],
+    [
+     26,
+     "sp:8724"
+    ],
+    [
+     34,
+     "sp:8725"
+    ],
+    [
+     42,
+     "sp:11267"
+    ],
+    [
+     50,
+     "sp:11268"
+    ],
+    [
+     58,
+     "sp:11269"
+    ]
+   ]
+  },
+  "f240": {
+   "name": "Rupture",
+   "ranks": [
+    [
+     20,
+     "sp:1943"
+    ],
+    [
+     28,
+     "sp:8639"
+    ],
+    [
+     36,
+     "sp:8640"
+    ],
+    [
+     44,
+     "sp:11273"
+    ],
+    [
+     52,
+     "sp:11274"
+    ],
+    [
+     60,
+     "sp:11275"
+    ]
+   ]
+  },
+  "0d10": {
+   "name": "Kidney Shot",
+   "ranks": [
+    [
+     30,
+     "sp:408"
+    ],
+    [
+     50,
+     "sp:8643"
+    ]
+   ]
+  },
+  "1789": {
+   "name": "Evasion",
+   "ranks": [
+    [
+     0,
+     "sp:5277"
+    ]
+   ]
+  },
+  "baac": {
+   "name": "Blade Flurry",
+   "ranks": [
+    [
+     0,
+     "sp:13877"
+    ]
+   ]
+  },
+  "f7b4": {
+   "name": "Riposte",
+   "ranks": [
+    [
+     0,
+     "sp:14251"
+    ]
+   ]
+  },
+  "2097": {
+   "name": "Pick Pocket",
+   "ranks": [
+    [
+     0,
+     "sp:921"
+    ]
+   ]
+  },
+  "4a9e": {
+   "name": "Distract",
+   "ranks": [
+    [
+     0,
+     "sp:1725"
+    ]
+   ]
+  },
+  "c3cb": {
+   "name": "Blind",
+   "ranks": [
+    [
+     0,
+     "sp:2094"
+    ]
+   ]
+  },
+  "881e": {
+   "name": "Blinding Powder",
+   "ranks": [
+    [
+     0,
+     "sp:6510"
+    ]
+   ]
+  },
+  "19c8": {
+   "name": "Detect Traps",
+   "ranks": [
+    [
+     0,
+     "sp:2836"
+    ]
+   ]
+  },
+  "683d": {
+   "name": "Disarm Trap",
+   "ranks": [
+    [
+     0,
+     "sp:1842"
+    ]
+   ]
+  },
+  "9041": {
+   "name": "Safe Fall",
+   "ranks": [
+    [
+     0,
+     "sp:1860"
+    ]
+   ]
+  },
+  "e9a2": {
+   "name": "First Aid",
+   "ranks": [
+    [
+     0,
+     "sp:3273"
+    ]
+   ]
+  },
+  "eaf3": {
+   "name": "Skinning",
+   "ranks": [
+    [
+     0,
+     "sp:8613"
+    ]
+   ]
+  },
+  "4b66": {
+   "name": "Leatherworking",
+   "ranks": [
+    [
+     0,
+     "sp:2108"
+    ]
+   ]
+  },
+  "417f": {
+   "name": "Mining",
+   "ranks": [
+    [
+     0,
+     "sp:2575"
+    ]
+   ]
+  },
+  "88ca": {
+   "name": "Herbalism",
+   "ranks": [
+    [
+     0,
+     "sp:2366"
+    ]
+   ]
+  },
+  "a8e1": {
+   "name": "Cooking",
+   "ranks": [
+    [
+     0,
+     "sp:2550"
+    ]
+   ]
+  },
+  "9331": {
+   "name": "Alchemy",
+   "ranks": [
+    [
+     0,
+     "sp:2259"
+    ]
+   ]
+  },
+  "5310": {
+   "name": "Fishing",
+   "ranks": [
+    [
+     0,
+     "sp:7620"
+    ]
+   ]
+  },
+  "0aa1": {
+   "name": "Enchanting",
+   "ranks": [
+    [
+     0,
+     "sp:7411"
+    ]
+   ]
+  },
+  "27ea": {
+   "name": "Engineering",
+   "ranks": [
+    [
+     0,
+     "sp:4036"
+    ]
+   ]
+  },
+  "58f1": {
+   "name": "Tailoring",
+   "ranks": [
+    [
+     0,
+     "sp:3908"
+    ]
+   ]
+  },
+  "ee21": {
+   "name": "Blacksmithing",
+   "ranks": [
+    [
+     0,
+     "sp:2018"
+    ]
+   ]
+  },
+  "1cdc": {
+   "name": "Instant Poison",
+   "ranks": [
+    [
+     20,
+     "sp:8681"
+    ],
+    [
+     28,
+     "sp:8687"
+    ],
+    [
+     36,
+     "sp:8691"
+    ],
+    [
+     44,
+     "sp:11341"
+    ],
+    [
+     52,
+     "sp:11342"
+    ],
+    [
+     60,
+     "sp:11343"
+    ]
+   ]
+  },
+  "b915": {
+   "name": "Deadly Poison",
+   "ranks": [
+    [
+     30,
+     "sp:2835"
+    ],
+    [
+     38,
+     "sp:2837"
+    ],
+    [
+     46,
+     "sp:11357"
+    ],
+    [
+     54,
+     "sp:11358"
+    ],
+    [
+     60,
+     "sp:25347"
+    ]
+   ]
+  },
+  "dd2a": {
+   "name": "Crippling Poison",
+   "ranks": [
+    [
+     20,
+     "sp:3420"
+    ],
+    [
+     50,
+     "sp:3421"
+    ]
+   ]
+  },
+  "efd2": {
+   "name": "Wound Poison",
+   "ranks": [
+    [
+     32,
+     "sp:13220"
+    ],
+    [
+     40,
+     "sp:13228"
+    ],
+    [
+     48,
+     "sp:13229"
+    ],
+    [
+     56,
+     "sp:13230"
+    ]
+   ]
+  },
+  "a155": {
+   "name": "Mind-numbing Poison",
+   "ranks": [
+    [
+     24,
+     "sp:5763"
+    ],
+    [
+     38,
+     "sp:8694"
+    ],
+    [
+     52,
+     "sp:11400"
+    ]
+   ]
+  },
+  "0819": {
+   "name": "Cheap Shot",
+   "ranks": [
+    [
+     0,
+     "sp:1833"
+    ]
+   ]
+  }
+ },
+ "talents": {
+  "Assassination/Improved Gouge": 203,
+  "Assassination/Remorseless Attacks": 272,
+  "Assassination/Malice": 270,
+  "Assassination/Ruthlessness": 273,
+  "Assassination/Murder": 274,
+  "Assassination/Improved Slice and Dice": 277,
+  "Assassination/Relentless Strikes": 281,
+  "Assassination/Improved Expose Armor": 278,
+  "Assassination/Lethality": 269,
+  "Assassination/Vile Poisons": 682,
+  "Assassination/Cold Blood": 280,
+  "Assassination/Improved Poisons": 268,
+  "Assassination/Vigor": 382,
+  "Assassination/Mutilate": 90113,
+  "Assassination/Improved Kidney Shot": 279,
+  "Assassination/Seal Fate": 283,
+  "Assassination/Venom": 90114,
+  "Combat/Improved Eviscerate": 276,
+  "Combat/Improved Sinister Strike": 201,
+  "Combat/Lightning Reflexes": 186,
+  "Combat/Puncturing Wounds": 90110,
+  "Combat/Deflection": 187,
+  "Combat/Precision": 181,
+  "Combat/Endurance": 204,
+  "Combat/Riposte": 175,
+  "Combat/Improved Sprint": 222,
+  "Combat/Improved Kick": 206,
+  "Combat/Flawless Execution": 90111,
+  "Combat/Dual Wield Specialization": 221,
+  "Combat/Blade Flurry": 223,
+  "Combat/Hack and Slash": 90112,
+  "Combat/Weapon Expertise": 1703,
+  "Combat/Aggression": 1122,
+  "Combat/Adrenaline Rush": 205,
+  "Subtlety/Camouflage": 244,
+  "Subtlety/Master of Deception": 241,
+  "Subtlety/Opportunity": 261,
+  "Subtlety/Setup": 246,
+  "Subtlety/Elusiveness": 247,
+  "Subtlety/Dirty Tricks": 90115,
+  "Subtlety/Improved Ambush": 263,
+  "Subtlety/Initiative": 245,
+  "Subtlety/Ghostly Strike": 303,
+  "Subtlety/Improved Distract": 90116,
+  "Subtlety/Heightened Senses": 1701,
+  "Subtlety/Premeditation": 381,
+  "Subtlety/Serrated Blades": 1123,
+  "Subtlety/Dirty Deeds": 265,
+  "Subtlety/Preparation": 264,
+  "Subtlety/Hemorrhage": 176,
+  "Subtlety/Quietus": 90117,
+  "Subtlety/Cutthroat": 90118,
+  "Subtlety/Thousand Cuts": 90119
+ },
+ "combat_grid": {
+  "0,0": 276,
+  "0,1": 201,
+  "0,2": 186,
+  "1,0": 90110,
+  "1,1": 187,
+  "1,2": 181,
+  "2,0": 204,
+  "2,1": 175,
+  "2,3": 222,
+  "3,0": 206,
+  "3,1": 90111,
+  "3,2": 221,
+  "4,1": 223,
+  "4,2": 90112,
+  "5,1": 1703,
+  "5,2": 1122,
+  "6,1": 205
+ }
+}
