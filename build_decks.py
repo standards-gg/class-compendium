@@ -242,14 +242,13 @@ def cover(cx):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{E(c['name'])} · WoW Forever</title>
 <link rel="stylesheet" href="../../assets/style.css"><style>:root{{--rogue:{c['color']};--acc:{c['color']}}}{css}</style></head><body><div class="slide">
 <div class="cov"></div><div class="scrim"></div><div class="vig"></div>
-<div class="tag-top"><span>WoW FOREVER BETA</span><span>{E(c['name']).upper()} &middot; LEVELING GUIDE TEMPLATE</span></div>
+<div class="tag-top"><span>WoW FOREVER BETA</span><span>{E(c['name']).upper()} &middot; LEVELING GUIDE</span></div>
 {side(stats[:2], 'l')}{side(stats[2:], 'r')}
 <div class="emb"><img src="../../assets/icf/{c['emblem']}.png" alt=""></div>
 <div class="ttl"><h1 class="disp x3d">{E(c['name']).upper()}</h1><div class="l2"><b>{E(g['spec']).upper()}</b> &nbsp;&middot;&nbsp; LEVEL <b>1 &rarr; 30</b> &nbsp;&middot;&nbsp; WoW FOREVER BETA</div></div>
 <div class="specs">{specs}</div>
 <div class="ctas"><a class="cta cls" href="{url}"><div><b>OPEN THIS {E(g['spec']).upper()} BUILD</b><span>talents.standards.gg &middot; recommended 21-point build</span></div>
 <svg viewBox="0 0 24 24" fill="none" stroke="#0a0c14" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
-<div class="src">template condensed from {E(g['source']['name'])} &middot; {E(g['source']['author'])} &middot; edit freely</div>
 </div></body></html>'''
 
 

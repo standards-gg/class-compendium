@@ -4,21 +4,21 @@
 
 **[Open the live site →](https://standards-gg.github.io/class-compendium/)** Pick a class, get **10 slides**: build and talent order, rotation and panic buttons, a level plan with every trainer rank, stats and gear, dungeons, races, professions, macros and the 31–60 trainer list. Hover any icon for its in-game tooltip.
 
-> The slides are an **editable starting point**. Builds, rotations and picks are condensed from public leveling guides and are the authors' opinions, not official knowledge. Edit `data/guides/<class>.json` and rebuild to make them yours.
+> The slides are an **editable starting point**: builds, rotations and picks are a matter of taste, not official knowledge. Edit `data/guides/<class>.json` and rebuild to make them yours.
 
 ## Classes
 
-| Class | Guide spec | Condensed from |
-|-------|-----------|----------------|
-| [Warrior](https://standards-gg.github.io/class-compendium/warrior/) | Protection | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide) |
-| [Paladin](https://standards-gg.github.io/class-compendium/paladin/) | Retribution | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide) |
-| [Hunter](https://standards-gg.github.io/class-compendium/hunter/) | Beast Mastery | [Mobalytics](https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide) |
-| [Rogue](https://standards-gg.github.io/class-compendium/rogue/) | Combat | [DonTheCrown](https://mobalytics.gg/wow-forever/classes/rogue-leveling-donthecrown) (hand-made deck, with PDF) |
-| [Priest](https://standards-gg.github.io/class-compendium/priest/) | Shadow | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/priest-leveling-guide) |
-| [Shaman](https://standards-gg.github.io/class-compendium/shaman/) | Enhancement | [NickTew](https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide) |
-| [Mage](https://standards-gg.github.io/class-compendium/mage/) | Frost | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/mage-leveling-guide) |
-| [Warlock](https://standards-gg.github.io/class-compendium/warlock/) | Affliction | [Crix](https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide) |
-| [Druid](https://standards-gg.github.io/class-compendium/druid/) | Feral | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/druid-leveling-guide) |
+| Class | Spec |
+|-------|------|
+| [Warrior](https://standards-gg.github.io/class-compendium/warrior/) | Protection |
+| [Paladin](https://standards-gg.github.io/class-compendium/paladin/) | Retribution |
+| [Hunter](https://standards-gg.github.io/class-compendium/hunter/) | Beast Mastery |
+| [Rogue](https://standards-gg.github.io/class-compendium/rogue/) | Combat |
+| [Priest](https://standards-gg.github.io/class-compendium/priest/) | Shadow |
+| [Shaman](https://standards-gg.github.io/class-compendium/shaman/) | Enhancement |
+| [Mage](https://standards-gg.github.io/class-compendium/mage/) | Frost |
+| [Warlock](https://standards-gg.github.io/class-compendium/warlock/) | Affliction |
+| [Druid](https://standards-gg.github.io/class-compendium/druid/) | Feral |
 
 ## The 10 slides
 
@@ -62,4 +62,4 @@ The hand-made Combat Rogue deck is `build.py` + `render.py` (PNGs and a PDF in `
 
 ## Credits
 
-Guide content condensed from the Mobalytics WoW Forever leveling guides linked above. The CASC reader and BLP decoder in `scripts/client` come from [wow.export](https://github.com/Kruithne/wow.export) (MIT, see `scripts/client/WOW_EXPORT_LICENSE.txt`). Game icons and text are property of Blizzard Entertainment; this is an unofficial fan project.
+The CASC reader and BLP decoder in `scripts/client` come from [wow.export](https://github.com/Kruithne/wow.export) (MIT, see `scripts/client/WOW_EXPORT_LICENSE.txt`). Game icons and text are property of Blizzard Entertainment; this is an unofficial fan project.
