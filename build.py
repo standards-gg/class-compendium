@@ -139,7 +139,7 @@ def save(n, slug, htmlstr):
 ARR_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="#0a0c14" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>'
 def cta(kind, title, sub):
     url = PVP_URL if kind == 'pvp' else PVE_URL
-    return f'<a class="cta {kind}" href="{url}"><div><b>{title}</b><span>{sub}</span></div>{ARR_SVG}</a>'
+    return f'<a class="cta {kind}" href="{url}" target="_blank" rel="noopener"><div><b>{title}</b><span>{sub}</span></div>{ARR_SVG}</a>'
 
 # =================================================================== 01 COVER
 def cover():
