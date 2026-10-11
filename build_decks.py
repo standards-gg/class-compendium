@@ -442,9 +442,9 @@ def stats_slide(cx):
 .sr b{font:900 italic 38px 'Barlow Condensed';text-transform:uppercase;line-height:1}
 .sr p{font:500 18px/1.38 Inter;color:#cfc9b4;margin-top:4px}
 .col{display:flex;flex-direction:column;gap:22px;min-height:0}
-.gi{display:flex;gap:14px;align-items:flex-start;padding:10px 14px;margin-bottom:9px;border-radius:10px;background:rgba(255,255,255,.04)}
+.gi{display:flex;gap:14px;align-items:flex-start;padding:7px 14px;margin-bottom:7px;border-radius:10px;background:rgba(255,255,255,.04)}
 .gi i{width:12px;height:12px;border-radius:3px;background:var(--acc);margin-top:7px;flex:none;transform:rotate(45deg)}
-.gi p{font:500 17px/1.4 Inter;color:#e1dcc8}
+.gi p{font:500 16px/1.32 Inter;color:#e1dcc8}
 '''
     body = f'''<div class="g"><div class="panel" style="height:100%"><div class="ph"><h2 class="disp x3d">STAT PRIORITY</h2><span class="tag">highest first</span></div>{st}</div>
 <div class="col"><div class="panel" style="flex:0 0 auto"><div class="ph"><h2 class="disp x3d">GEAR &amp; WEAPONS</h2></div>{gear}</div>
