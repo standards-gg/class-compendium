@@ -42,6 +42,7 @@ class Db:
         for r in _rd("SpellXDescriptionVariables"):
             self.vars.setdefault(r["SpellID"], []).append(sv.get(r["SpellDescriptionVariablesID"], ""))
         self.aura_opts = {r["SpellID"]: r for r in _rd("SpellAuraOptions")}
+        self.targets = {r["SpellID"]: r for r in _rd("SpellTargetRestrictions")}
 
     # ------------------------------------------------------------------ values
     def eff(self, sid, idx):
@@ -132,6 +133,28 @@ class Renderer:
                 return 0
             r = d.radius.get(e["EffectRadiusIndex_0"])
             return float(r["Radius"]) if r else 0
+        if kind == "n":
+            ao = d.aura_opts.get(str(s))
+            return int(ao["ProcCharges"]) if ao else 0
+        if kind == "u":
+            ao = d.aura_opts.get(str(s))
+            return int(ao["CumulativeAura"]) if ao else 0
+        if kind == "i":
+            tr = d.targets.get(str(s))
+            return int(tr["MaxTargets"]) if tr else 0
+        if kind == "v":
+            tr = d.targets.get(str(s))
+            return int(tr["MaxTargetLevel"]) if tr else 0
+        if kind == "q":
+            e = d.eff(s, idx)
+            return abs(int(float(e["EffectMiscValue_0"]))) if e else 0
+        if kind == "e":
+            e = d.eff(s, idx)
+            return float(e["EffectAmplitude"]) if e else 0
+        if kind == "r":
+            m = d.misc.get(str(s))
+            r = d.range.get(m["RangeIndex"]) if m else None
+            return float(r["RangeMax_0"]) if r else 0
         if kind == "h":
             ao = d.aura_opts.get(str(s))
             return int(ao["ProcChance"]) if ao else 0
@@ -152,7 +175,7 @@ class Renderer:
             return str(self._token_num(m.group(0), sid, vars_, depth))
         e = re.sub(r"\$\?[sa]\d+\[[^\]]*\]\[[^\]]*\]", lambda m: str(self._cond_num(m.group(0), sid, vars_, depth)), expr)
         e = re.sub(r"\$<(\w+)>", lambda m: str(self._var_num(m.group(1), sid, vars_, depth)), e)
-        e = re.sub(r"\$(\d+)?([smMboOdtTwxah])(\d*)", repl_tok, e)
+        e = re.sub(r"\$(\d+)?([smMboOdtTwxahniuvqer])(\d*)", repl_tok, e)
         e = re.sub(r"\$PL", str(self.level), e)
         e = e.replace("$@", "")
         if not re.fullmatch(r"[0-9eE+\-*/(). ]*", e):
@@ -163,7 +186,7 @@ class Renderer:
             return 0
 
     def _token_num(self, tok, sid, vars_, depth):
-        m = re.fullmatch(r"\$(\d+)?([smMboOdtTwxah])(\d*)", tok)
+        m = re.fullmatch(r"\$(\d+)?([smMboOdtTwxahniuvqer])(\d*)", tok)
         other = m.group(1)
         kind = m.group(2)
         idx = int(m.group(3)) if m.group(3) else 1
@@ -205,11 +228,16 @@ class Renderer:
         t = text.replace("\r", "")
         # conditionals: choose else-branch (talents / auras not active). Nested brackets are rare; handle one level.
         for _ in range(4):
-            t2 = re.sub(r"\$\?[sa]\d+\[((?:[^\[\]]|\[[^\]]*\])*)\]\[((?:[^\[\]]|\[[^\]]*\])*)\]", lambda m: m.group(2), t)
-            t2 = re.sub(r"\$\?[sa]\d+\[((?:[^\[\]]|\[[^\]]*\])*)\]", "", t2)
+            t2 = re.sub(r"\$\?\$?[sapcr]\d+\[((?:[^\[\]]|\[[^\]]*\])*)\]\[((?:[^\[\]]|\[[^\]]*\])*)\]", lambda m: m.group(2), t)
+            t2 = re.sub(r"\$\?\$?[sapcr]\d+\[((?:[^\[\]]|\[[^\]]*\])*)\]", "", t2)
             if t2 == t:
                 break
             t = t2
+        def opsub(m):
+            op, num, other, kind, idx = m.group(1), float(m.group(2)), m.group(3), m.group(4), int(m.group(5) or 1)
+            v = self._val(sid, kind, idx, other)
+            return fmt_num(math.floor((v / num if op == "/" else v * num) + 1e-9))
+        t = re.sub(r"\$([/*])(\d+);(\d+)?([smMboOtTwxahniuvqer])(\d*)", opsub, t)
         # ${expr}[.n]
         def expr_sub(m):
             try:
@@ -225,7 +253,7 @@ class Renderer:
         def tok_sub(m):
             v = self._val(sid, m.group(2), int(m.group(3) or 1), m.group(1))
             return fmt_num(v)
-        t = re.sub(r"\$(\d+)?([smMboOtTwxah])(\d*)", tok_sub, t)
+        t = re.sub(r"\$(\d+)?([smMboOtTwxahniuvqer])(\d*)", tok_sub, t)
         # plurals: "$lpoint:points;" -> depends on previous number
         def plural(m):
             nums = re.findall(r"\d+(?:\.\d+)?", t_prefix[0])

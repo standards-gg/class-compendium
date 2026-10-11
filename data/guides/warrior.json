@@ -1,0 +1,102 @@
+{
+  "slug": "warrior",
+  "spec": "Protection",
+  "title": "PROTECTION WARRIOR",
+  "source": {"author": "Mobalytics-Oli", "name": "Mobalytics WoW Forever · Warrior Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide", "updated": "Sep 29, 2026"},
+  "headline": "Protection from level 16: Revenge and Shield Slam hit hard, and Shield Specialization plus Master of Defense keep the Rage flowing.",
+  "build": {
+    "tree": "Protection",
+    "early": "Levels 10-15: take Improved Rend (3/3), then Cruelty (3/5). At 16 you learn Shield Block: respec into Protection (1 silver).",
+    "order": [["Protection", "Shield Specialization", 5], ["Protection", "Improved Thunder Clap", 3], ["Protection", "Improved Bloodrage", 2], ["Protection", "Improved Revenge", 3], ["Protection", "Master of Defense", 2], ["Protection", "Vanguard", 1], ["Protection", "Improved Sunder Armor", 3], ["Protection", "Last Stand", 1], ["Protection", "Bastion", 1]],
+    "why": {"Shield Specialization": "Block chance, and Rage whenever you block.", "Improved Thunder Clap": "Much cheaper Thunder Clap.", "Improved Bloodrage": "More Rage from Bloodrage.", "Improved Revenge": "Revenge becomes the main damage button.", "Master of Defense": "Even more Rage generation.", "Vanguard": "Charge from Defensive Stance without dumping your Rage.", "Improved Sunder Armor": "Your core threat skill costs less.", "Last Stand": "Panic button.", "Bastion": "A little extra damage."},
+    "skip": "Concussion Blow is not needed."
+  },
+  "core": [
+    {"a": "Revenge", "t": "Cast it whenever it procs; it is the main damage skill from 16."},
+    {"a": "Shield Block", "t": "Use on cooldown, just before enemies hit you, to enable Revenge."},
+    {"a": "Sunder Armor", "t": "Keep stacking it until the target is around 50% HP (5 stacks on elites)."},
+    {"a": "Battle Shout", "t": "Keep it up at all times."},
+    {"a": "Victory Rush", "t": "Use before the kill buff expires, but skip it above 90% HP."}
+  ],
+  "steps": [
+    {"lv": "1-15", "items": [
+      {"a": "Charge", "t": "engage the target"},
+      {"a": "Battle Shout", "t": "keep it up"},
+      {"a": "Bloodrage", "t": "on cooldown, unless you must save the Rage"},
+      {"a": "Rend", "t": "apply to every target"},
+      {"a": "Overpower", "t": "whenever it procs"},
+      {"a": "Sunder Armor", "t": "until the target is near 50% HP"},
+      {"a": "Heroic Strike", "t": "only with spare Rage"}]},
+    {"lv": "16+", "items": [
+      {"a": "Charge", "t": "from Battle Stance, unless you are already close"},
+      {"a": "Shield Block", "t": "whenever it is up"},
+      {"a": "Revenge", "t": "whenever it procs"},
+      {"a": "Thunder Clap", "t": "on hard fights, always on multiple enemies"},
+      {"a": "Demoralizing Shout", "t": "on hard fights or several enemies"},
+      {"a": "Sunder Armor", "t": "keep stacking"},
+      {"a": "Victory Rush", "t": "before the kill buff ends"}]}
+  ],
+  "tips": [
+    {"a": "Last Stand", "t": "panic button"},
+    {"a": "Shield Bash", "t": "interrupt casters"},
+    {"a": "Hamstring", "t": "kite extra pulls"},
+    {"a": "Taunt", "t": "take aggro back"},
+    {"a": "Bloodrage", "t": "avoid 0 Rage"}
+  ],
+  "notes": [
+    "Rage is the resource: you are far stronger at 50 Rage than at 0, so hop from fight to fight without dropping to zero.",
+    "Warriors are weak against several enemies until Protection with decent gear: hit one or two and Hamstring-kite the rest.",
+    "Take First Aid and keep levelling it; Victory Rush only triggers after a kill, so bandages cover the gaps.",
+    "Train weapon skill on low-level mobs when you pick up a new weapon type: weapon skill is your chance to hit."
+  ],
+  "stats": [
+    {"n": "Strength", "t": "2 Attack Power per point; boosts most of your damage."},
+    {"n": "Spirit", "t": "Big health regeneration and damage uptime. Usually first, but Protection is tanky enough that it matters less."},
+    {"n": "Agility", "t": "Gives crit chance."},
+    {"n": "Stamina", "t": "Mainly matters when tanking dungeons."}
+  ],
+  "gear": [
+    "Upgrade your weapon whenever you can: it is the biggest lever for a Warrior.",
+    "Prefer faster weapons in Protection: Revenge and Shield Slam do not scale with weapon damage.",
+    "Take Blacksmithing and always use Sharpening Stones (free damage; faster weapons benefit more).",
+    "Sword and shield are the default setup for Protection."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "Highest threat: Revenge, Sunder Armor, Heroic Strike / Cleave, Rend, Thunder Clap (higher on groups).",
+    "Pull casters around a corner so they run into melee, or open with your ranged weapon on tricky pulls.",
+    "Charge in and keep walking when you are speed-running a dungeon.",
+    "Sunder bosses to 5 stacks. Demoralizing Shout currently gives no threat, so do not open with it."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Night Elf", "rating": "GREAT", "note": "Elune's Light is one of the strongest PvE cooldowns; Quickness helps with travel."},
+      {"race": "Gnome", "rating": "GREAT", "note": "Escape Artist for PvP, Eureka! for burst, Engineering Specialization."},
+      {"race": "Human", "rating": "SOLID", "note": "Will to Survive breaks stuns; Sword Specialization is +2% crit with swords."},
+      {"race": "Dwarf", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Skyborne", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "horde": [
+      {"race": "Orc", "rating": "GREAT", "note": "Best overall: Blood Fury and Axe Specialization plus Hardiness and Shatter Curse."},
+      {"race": "Undead", "rating": "SOLID", "note": "Touch of the Grave is great for Fury and for leveling; Will of the Forsaken overlaps Berserker Rage."},
+      {"race": "Troll", "rating": "OK", "note": "Berserking is a good cooldown and Regeneration is great for leveling."},
+      {"race": "Tauren", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Skyborne", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "pick": "If you want one per faction: Night Elf or Gnome, and Orc or Undead."
+  },
+  "professions": [
+    {"n": "First Aid", "tier": "S", "note": "Bandages heal between fights; keep levelling it."},
+    {"n": "Blacksmithing", "tier": "A", "note": "Sharpening Stones are free damage."},
+    {"n": "Engineering", "tier": "B", "note": "Solid for Warriors and nearly mandatory in PvP."}
+  ],
+  "macros": [
+    {"label": "Charge + attack", "a": ["Charge"], "lines": ["#showtooltip", "/cast Charge", "/startattack"]},
+    {"label": "Sword and board", "a": ["Defensive Stance"], "lines": ["/equipslot 17 [shield name]", "/equipslot 16 [weapon name]", "/cast Defensive Stance"]},
+    {"label": "Taunt (mouseover)", "a": ["Taunt"], "lines": ["#showtooltip", "/startattack [harm,nodead]", "/cast Defensive Stance", "/cast [@mouseover,harm,nodead] Taunt"]},
+    {"label": "Mocking Blow (mouseover)", "a": ["Mocking Blow"], "lines": ["#showtooltip", "/startattack [harm,nodead]", "/cast Battle Stance", "/cast [@mouseover,harm,nodead] Mocking Blow"]},
+    {"label": "Battle Shout (no waste)", "a": ["Battle Shout"], "lines": ["#showtooltip", "/cast [nobuff:Battle Shout] Battle Shout"]}
+  ],
+  "trainers": [],
+  "after30": "The guide has a separate 31-60 variant; add your notes here."
+}

@@ -1,0 +1,361 @@
+{
+ "warrior": {
+  "name": "Warrior",
+  "color": "#C79C6E",
+  "spec": "Protection",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever · Warrior Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide",
+   "updated": "Sep 29, 2026"
+  },
+  "trees": [
+   "Arms",
+   "Fury",
+   "Protection"
+  ],
+  "slides": [
+   "slides/warrior/01-cover.html",
+   "slides/warrior/02-build.html",
+   "slides/warrior/03-rotation.html",
+   "slides/warrior/04-level-plan.html",
+   "slides/warrior/05-stats-gear.html",
+   "slides/warrior/06-dungeons-gear.html",
+   "slides/warrior/07-races.html",
+   "slides/warrior/08-professions.html",
+   "slides/warrior/09-macros.html",
+   "slides/warrior/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/warrior/01.jpg",
+   "thumbs/warrior/02.jpg",
+   "thumbs/warrior/03.jpg",
+   "thumbs/warrior/04.jpg",
+   "thumbs/warrior/05.jpg",
+   "thumbs/warrior/06.jpg",
+   "thumbs/warrior/07.jpg",
+   "thumbs/warrior/08.jpg",
+   "thumbs/warrior/09.jpg",
+   "thumbs/warrior/10.jpg"
+  ]
+ },
+ "paladin": {
+  "name": "Paladin",
+  "color": "#F58CBA",
+  "spec": "Retribution",
+  "source": {
+   "author": "Ruse_Cruize",
+   "name": "Mobalytics WoW Forever · Paladin Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide",
+   "updated": "Oct 7, 2026"
+  },
+  "trees": [
+   "Holy",
+   "Protection",
+   "Retribution"
+  ],
+  "slides": [
+   "slides/paladin/01-cover.html",
+   "slides/paladin/02-build.html",
+   "slides/paladin/03-rotation.html",
+   "slides/paladin/04-level-plan.html",
+   "slides/paladin/05-stats-gear.html",
+   "slides/paladin/06-dungeons-gear.html",
+   "slides/paladin/07-races.html",
+   "slides/paladin/08-professions.html",
+   "slides/paladin/09-macros.html",
+   "slides/paladin/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/paladin/01.jpg",
+   "thumbs/paladin/02.jpg",
+   "thumbs/paladin/03.jpg",
+   "thumbs/paladin/04.jpg",
+   "thumbs/paladin/05.jpg",
+   "thumbs/paladin/06.jpg",
+   "thumbs/paladin/07.jpg",
+   "thumbs/paladin/08.jpg",
+   "thumbs/paladin/09.jpg",
+   "thumbs/paladin/10.jpg"
+  ]
+ },
+ "hunter": {
+  "name": "Hunter",
+  "color": "#ABD473",
+  "spec": "Beast Mastery",
+  "source": {
+   "author": "Mobalytics",
+   "name": "Mobalytics WoW Forever · Hunter Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide",
+   "updated": "Oct 1, 2026"
+  },
+  "trees": [
+   "Beast Mastery",
+   "Marksmanship",
+   "Survival"
+  ],
+  "slides": [
+   "slides/hunter/01-cover.html",
+   "slides/hunter/02-build.html",
+   "slides/hunter/03-rotation.html",
+   "slides/hunter/04-level-plan.html",
+   "slides/hunter/05-stats-gear.html",
+   "slides/hunter/06-dungeons-gear.html",
+   "slides/hunter/07-races.html",
+   "slides/hunter/08-professions.html",
+   "slides/hunter/09-macros.html",
+   "slides/hunter/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/hunter/01.jpg",
+   "thumbs/hunter/02.jpg",
+   "thumbs/hunter/03.jpg",
+   "thumbs/hunter/04.jpg",
+   "thumbs/hunter/05.jpg",
+   "thumbs/hunter/06.jpg",
+   "thumbs/hunter/07.jpg",
+   "thumbs/hunter/08.jpg",
+   "thumbs/hunter/09.jpg",
+   "thumbs/hunter/10.jpg"
+  ]
+ },
+ "rogue": {
+  "name": "Rogue",
+  "color": "#FFF569",
+  "spec": "Combat",
+  "source": {
+   "author": "DonTheCrown",
+   "name": "Mobalytics WoW Forever · Rogue Leveling guide",
+   "url": "https://mobalytics.gg/wow-forever/classes/rogue-leveling-donthecrown"
+  },
+  "trees": [
+   "Assassination",
+   "Combat",
+   "Subtlety"
+  ],
+  "slides": [
+   "slides/01-cover.html",
+   "slides/02-talent-builds.html",
+   "slides/03-rotation.html",
+   "slides/04-level-plan.html",
+   "slides/05-poisons-weapons-stats.html",
+   "slides/06-dungeon-weapons.html",
+   "slides/07-races.html",
+   "slides/08-professions.html",
+   "slides/09-macros-trainers.html",
+   "slides/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/rogue/01.jpg",
+   "thumbs/rogue/02.jpg",
+   "thumbs/rogue/03.jpg",
+   "thumbs/rogue/04.jpg",
+   "thumbs/rogue/05.jpg",
+   "thumbs/rogue/06.jpg",
+   "thumbs/rogue/07.jpg",
+   "thumbs/rogue/08.jpg",
+   "thumbs/rogue/09.jpg",
+   "thumbs/rogue/10.jpg"
+  ]
+ },
+ "priest": {
+  "name": "Priest",
+  "color": "#FFFFFF",
+  "spec": "Shadow",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever · Priest Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/priest-leveling-guide",
+   "updated": "Sep 23, 2026"
+  },
+  "trees": [
+   "Discipline",
+   "Holy",
+   "Shadow Magic"
+  ],
+  "slides": [
+   "slides/priest/01-cover.html",
+   "slides/priest/02-build.html",
+   "slides/priest/03-rotation.html",
+   "slides/priest/04-level-plan.html",
+   "slides/priest/05-stats-gear.html",
+   "slides/priest/06-dungeons-gear.html",
+   "slides/priest/07-races.html",
+   "slides/priest/08-professions.html",
+   "slides/priest/09-macros.html",
+   "slides/priest/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/priest/01.jpg",
+   "thumbs/priest/02.jpg",
+   "thumbs/priest/03.jpg",
+   "thumbs/priest/04.jpg",
+   "thumbs/priest/05.jpg",
+   "thumbs/priest/06.jpg",
+   "thumbs/priest/07.jpg",
+   "thumbs/priest/08.jpg",
+   "thumbs/priest/09.jpg",
+   "thumbs/priest/10.jpg"
+  ]
+ },
+ "shaman": {
+  "name": "Shaman",
+  "color": "#0070DE",
+  "spec": "Enhancement",
+  "source": {
+   "author": "NickTew",
+   "name": "Mobalytics WoW Forever · Shaman Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide",
+   "updated": "Oct 10, 2026"
+  },
+  "trees": [
+   "Elemental",
+   "Enhancement",
+   "Restoration"
+  ],
+  "slides": [
+   "slides/shaman/01-cover.html",
+   "slides/shaman/02-build.html",
+   "slides/shaman/03-rotation.html",
+   "slides/shaman/04-level-plan.html",
+   "slides/shaman/05-stats-gear.html",
+   "slides/shaman/06-dungeons-gear.html",
+   "slides/shaman/07-races.html",
+   "slides/shaman/08-professions.html",
+   "slides/shaman/09-macros.html",
+   "slides/shaman/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/shaman/01.jpg",
+   "thumbs/shaman/02.jpg",
+   "thumbs/shaman/03.jpg",
+   "thumbs/shaman/04.jpg",
+   "thumbs/shaman/05.jpg",
+   "thumbs/shaman/06.jpg",
+   "thumbs/shaman/07.jpg",
+   "thumbs/shaman/08.jpg",
+   "thumbs/shaman/09.jpg",
+   "thumbs/shaman/10.jpg"
+  ]
+ },
+ "mage": {
+  "name": "Mage",
+  "color": "#69CCF0",
+  "spec": "Frost",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever · Mage Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/mage-leveling-guide",
+   "updated": "Sep 28, 2026"
+  },
+  "trees": [
+   "Arcane",
+   "Fire",
+   "Frost"
+  ],
+  "slides": [
+   "slides/mage/01-cover.html",
+   "slides/mage/02-build.html",
+   "slides/mage/03-rotation.html",
+   "slides/mage/04-level-plan.html",
+   "slides/mage/05-stats-gear.html",
+   "slides/mage/06-dungeons-gear.html",
+   "slides/mage/07-races.html",
+   "slides/mage/08-professions.html",
+   "slides/mage/09-macros.html",
+   "slides/mage/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/mage/01.jpg",
+   "thumbs/mage/02.jpg",
+   "thumbs/mage/03.jpg",
+   "thumbs/mage/04.jpg",
+   "thumbs/mage/05.jpg",
+   "thumbs/mage/06.jpg",
+   "thumbs/mage/07.jpg",
+   "thumbs/mage/08.jpg",
+   "thumbs/mage/09.jpg",
+   "thumbs/mage/10.jpg"
+  ]
+ },
+ "warlock": {
+  "name": "Warlock",
+  "color": "#9482C9",
+  "spec": "Affliction",
+  "source": {
+   "author": "Crix",
+   "name": "Mobalytics WoW Forever · Warlock Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide",
+   "updated": "Oct 10, 2026"
+  },
+  "trees": [
+   "Affliction",
+   "Demonology",
+   "Destruction"
+  ],
+  "slides": [
+   "slides/warlock/01-cover.html",
+   "slides/warlock/02-build.html",
+   "slides/warlock/03-rotation.html",
+   "slides/warlock/04-level-plan.html",
+   "slides/warlock/05-stats-gear.html",
+   "slides/warlock/06-dungeons-gear.html",
+   "slides/warlock/07-races.html",
+   "slides/warlock/08-professions.html",
+   "slides/warlock/09-macros.html",
+   "slides/warlock/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/warlock/01.jpg",
+   "thumbs/warlock/02.jpg",
+   "thumbs/warlock/03.jpg",
+   "thumbs/warlock/04.jpg",
+   "thumbs/warlock/05.jpg",
+   "thumbs/warlock/06.jpg",
+   "thumbs/warlock/07.jpg",
+   "thumbs/warlock/08.jpg",
+   "thumbs/warlock/09.jpg",
+   "thumbs/warlock/10.jpg"
+  ]
+ },
+ "druid": {
+  "name": "Druid",
+  "color": "#FF7D0A",
+  "spec": "Feral",
+  "source": {
+   "author": "Ruse_Cruize",
+   "name": "Mobalytics WoW Forever · Druid Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/druid-leveling-guide",
+   "updated": "Oct 9, 2026"
+  },
+  "trees": [
+   "Balance",
+   "Feral Combat",
+   "Restoration"
+  ],
+  "slides": [
+   "slides/druid/01-cover.html",
+   "slides/druid/02-build.html",
+   "slides/druid/03-rotation.html",
+   "slides/druid/04-level-plan.html",
+   "slides/druid/05-stats-gear.html",
+   "slides/druid/06-dungeons-gear.html",
+   "slides/druid/07-races.html",
+   "slides/druid/08-professions.html",
+   "slides/druid/09-macros.html",
+   "slides/druid/10-after-30.html"
+  ],
+  "thumbs": [
+   "thumbs/druid/01.jpg",
+   "thumbs/druid/02.jpg",
+   "thumbs/druid/03.jpg",
+   "thumbs/druid/04.jpg",
+   "thumbs/druid/05.jpg",
+   "thumbs/druid/06.jpg",
+   "thumbs/druid/07.jpg",
+   "thumbs/druid/08.jpg",
+   "thumbs/druid/09.jpg",
+   "thumbs/druid/10.jpg"
+  ]
+ }
+}

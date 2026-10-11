@@ -1,0 +1,170 @@
+{
+ "warrior": {
+  "files": [
+   "slides/warrior/01-cover.html",
+   "slides/warrior/02-build.html",
+   "slides/warrior/03-rotation.html",
+   "slides/warrior/04-level-plan.html",
+   "slides/warrior/05-stats-gear.html",
+   "slides/warrior/06-dungeons-gear.html",
+   "slides/warrior/07-races.html",
+   "slides/warrior/08-professions.html",
+   "slides/warrior/09-macros.html",
+   "slides/warrior/10-after-30.html"
+  ],
+  "spec": "Protection",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever \u00b7 Warrior Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide",
+   "updated": "Sep 29, 2026"
+  }
+ },
+ "paladin": {
+  "files": [
+   "slides/paladin/01-cover.html",
+   "slides/paladin/02-build.html",
+   "slides/paladin/03-rotation.html",
+   "slides/paladin/04-level-plan.html",
+   "slides/paladin/05-stats-gear.html",
+   "slides/paladin/06-dungeons-gear.html",
+   "slides/paladin/07-races.html",
+   "slides/paladin/08-professions.html",
+   "slides/paladin/09-macros.html",
+   "slides/paladin/10-after-30.html"
+  ],
+  "spec": "Retribution",
+  "source": {
+   "author": "Ruse_Cruize",
+   "name": "Mobalytics WoW Forever \u00b7 Paladin Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide",
+   "updated": "Oct 7, 2026"
+  }
+ },
+ "hunter": {
+  "files": [
+   "slides/hunter/01-cover.html",
+   "slides/hunter/02-build.html",
+   "slides/hunter/03-rotation.html",
+   "slides/hunter/04-level-plan.html",
+   "slides/hunter/05-stats-gear.html",
+   "slides/hunter/06-dungeons-gear.html",
+   "slides/hunter/07-races.html",
+   "slides/hunter/08-professions.html",
+   "slides/hunter/09-macros.html",
+   "slides/hunter/10-after-30.html"
+  ],
+  "spec": "Beast Mastery",
+  "source": {
+   "author": "Mobalytics",
+   "name": "Mobalytics WoW Forever \u00b7 Hunter Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide",
+   "updated": "Oct 1, 2026"
+  }
+ },
+ "priest": {
+  "files": [
+   "slides/priest/01-cover.html",
+   "slides/priest/02-build.html",
+   "slides/priest/03-rotation.html",
+   "slides/priest/04-level-plan.html",
+   "slides/priest/05-stats-gear.html",
+   "slides/priest/06-dungeons-gear.html",
+   "slides/priest/07-races.html",
+   "slides/priest/08-professions.html",
+   "slides/priest/09-macros.html",
+   "slides/priest/10-after-30.html"
+  ],
+  "spec": "Shadow",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever \u00b7 Priest Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/priest-leveling-guide",
+   "updated": "Sep 23, 2026"
+  }
+ },
+ "shaman": {
+  "files": [
+   "slides/shaman/01-cover.html",
+   "slides/shaman/02-build.html",
+   "slides/shaman/03-rotation.html",
+   "slides/shaman/04-level-plan.html",
+   "slides/shaman/05-stats-gear.html",
+   "slides/shaman/06-dungeons-gear.html",
+   "slides/shaman/07-races.html",
+   "slides/shaman/08-professions.html",
+   "slides/shaman/09-macros.html",
+   "slides/shaman/10-after-30.html"
+  ],
+  "spec": "Enhancement",
+  "source": {
+   "author": "NickTew",
+   "name": "Mobalytics WoW Forever \u00b7 Shaman Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide",
+   "updated": "Oct 10, 2026"
+  }
+ },
+ "mage": {
+  "files": [
+   "slides/mage/01-cover.html",
+   "slides/mage/02-build.html",
+   "slides/mage/03-rotation.html",
+   "slides/mage/04-level-plan.html",
+   "slides/mage/05-stats-gear.html",
+   "slides/mage/06-dungeons-gear.html",
+   "slides/mage/07-races.html",
+   "slides/mage/08-professions.html",
+   "slides/mage/09-macros.html",
+   "slides/mage/10-after-30.html"
+  ],
+  "spec": "Frost",
+  "source": {
+   "author": "Mobalytics-Oli",
+   "name": "Mobalytics WoW Forever \u00b7 Mage Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/mage-leveling-guide",
+   "updated": "Sep 28, 2026"
+  }
+ },
+ "warlock": {
+  "files": [
+   "slides/warlock/01-cover.html",
+   "slides/warlock/02-build.html",
+   "slides/warlock/03-rotation.html",
+   "slides/warlock/04-level-plan.html",
+   "slides/warlock/05-stats-gear.html",
+   "slides/warlock/06-dungeons-gear.html",
+   "slides/warlock/07-races.html",
+   "slides/warlock/08-professions.html",
+   "slides/warlock/09-macros.html",
+   "slides/warlock/10-after-30.html"
+  ],
+  "spec": "Affliction",
+  "source": {
+   "author": "Crix",
+   "name": "Mobalytics WoW Forever \u00b7 Warlock Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide",
+   "updated": "Oct 10, 2026"
+  }
+ },
+ "druid": {
+  "files": [
+   "slides/druid/01-cover.html",
+   "slides/druid/02-build.html",
+   "slides/druid/03-rotation.html",
+   "slides/druid/04-level-plan.html",
+   "slides/druid/05-stats-gear.html",
+   "slides/druid/06-dungeons-gear.html",
+   "slides/druid/07-races.html",
+   "slides/druid/08-professions.html",
+   "slides/druid/09-macros.html",
+   "slides/druid/10-after-30.html"
+  ],
+  "spec": "Feral",
+  "source": {
+   "author": "Ruse_Cruize",
+   "name": "Mobalytics WoW Forever \u00b7 Druid Leveling Guide (Level 1-30)",
+   "url": "https://mobalytics.gg/wow-forever/classes/druid-leveling-guide",
+   "updated": "Oct 9, 2026"
+  }
+ }
+}

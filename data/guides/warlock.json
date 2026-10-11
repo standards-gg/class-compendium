@@ -1,0 +1,93 @@
+{
+  "slug": "warlock",
+  "spec": "Affliction",
+  "title": "AFFLICTION WARLOCK",
+  "source": {"author": "Crix", "name": "Mobalytics WoW Forever · Warlock Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide", "updated": "Oct 10, 2026"},
+  "headline": "Get your DoTs rolling, let the demon tank, wand the rest; Life Tap and Drain Life make health and mana one pool.",
+  "build": {
+    "tree": "Affliction",
+    "early": "Everyone also receives 5 extra 'legacy' talent points (Blizzard gave 16 Legacy Points; five spent on Talented unlock five more) that you can place anywhere: the guide suggests Unholy Power or Malevolence. The guide also has a Demonology variant.",
+    "order": [["Affliction", "Improved Corruption", 5], ["Affliction", "Suppression", 3], ["Affliction", "Malediction", 5], ["Affliction", "Pandemic", 3], ["Affliction", "Nightfall", 2], ["Affliction", "Amplify Curse", 1], ["Affliction", "Improved Bane of Agony", 2]],
+    "why": {"Improved Corruption": "Instant-cast Corruption and +10% damage.", "Suppression": "Hit chance and lower threat.", "Malediction": "+5% damage on all your DoTs.", "Pandemic": "Boosts the crit damage of your main spells: one of the strongest Affliction talents.", "Nightfall": "Chance for an instant Shadow Bolt (Shadow Trance).", "Amplify Curse": "Empowers your next curse; macro it with Bane of Agony.", "Improved Bane of Agony": "Buffs one of your main DoTs."}
+  },
+  "core": [
+    {"a": "Bane of Agony", "t": "Your first DoT on long fights: longest duration, least threat."},
+    {"a": "Corruption", "t": "Instant with 5 points in Improved Corruption; use on elites and big targets."},
+    {"a": "Immolate", "t": "On elites or high-health targets."},
+    {"a": "Shadow Bolt", "t": "Filler, or wand it. Instant on a Nightfall proc."},
+    {"a": "Drain Life", "t": "When you need health; Life Tap when you need mana."}
+  ],
+  "steps": [
+    {"lv": "1-30", "items": [
+      {"a": "Summon Imp", "t": "send your demon in first for threat"},
+      {"a": "Amplify Curse", "t": "before Bane of Agony on long fights (3 min)"},
+      {"a": "Bane of Agony", "t": "if the target will live long enough"},
+      {"a": "Corruption", "t": "on elites and high-health targets"},
+      {"a": "Immolate", "t": "on elites and high-health targets"},
+      {"a": "Shadow Bolt", "t": "filler; instant on Nightfall"},
+      {"a": "Drain Soul", "t": "to finish when you need shards"}]}
+  ],
+  "tips": [
+    {"a": "Fear", "t": "crowd control"},
+    {"a": "Howl of Terror", "t": "melee-range AoE fear"},
+    {"a": "Life Tap", "t": "health into mana"},
+    {"a": "Create Soulstone", "t": "self-resurrect"},
+    {"a": "Create Healthstone", "t": "quick heal"}
+  ],
+  "notes": [
+    "Visit your trainer every two levels (2, 4, 6 ...) and re-check your action bars after training so you use the new rank.",
+    "Keep your armor buff up: Demon Skin early, Demon Armor at level 20 (they do not stack).",
+    "Let your DoTs finish the job: do not spend mana on another spell when they will already kill the target.",
+    "Always carry Soul Shards: Drain Soul from level 10; shards fuel demons, Healthstones, Soulstones and Ritual of Summoning.",
+    "Class quests unlock your demons: Voidwalker at 10, Succubus at 20 (plus Staff of Soran'ruk, Orb and a Soul Pouch), Felhunter at 30.",
+    "Use Life Tap only when you have enough health to do it safely, and carry food and water anyway."
+  ],
+  "stats": [
+    {"n": "Spell Power", "t": "Your strongest stat. 100 extra Spell Power adds about 160 damage to a full Bane of Agony and 80 to a full Corruption."},
+    {"n": "Hit chance", "t": "Fewer misses. Suppression can give you 5%."},
+    {"n": "Intellect", "t": "Your main primary stat: it should be on every piece."},
+    {"n": "Crit chance", "t": "Your DoTs and Hellfire can crit."},
+    {"n": "Spirit", "t": "Life Tap scales with Spirit."},
+    {"n": "Stamina", "t": "Comes with most gear anyway."}
+  ],
+  "gear": [
+    "Spell Power is already on low-level gear in Forever, so you can stack a decent amount early.",
+    "Haste is not on gear yet, and your DoTs and Drains are not affected by it.",
+    "At this level, the Blackfathom Deeps quest wand (Gravestone Scepter) is described as overpowered: rely on it over Shadow Bolt.",
+    "Consumables from the Auction House: Lesser Arcane Elixir (15 Spell Power), Lesser Mageblood Elixir (mp5), Elixir of Wisdom, Briny Seafood Stew (14 Spell Power, 5% XP)."
+  ],
+  "dungeon_gear": [
+    {"dungeon": "Blackfathom Deeps", "items": "Gravestone Scepter wand from the class quest chain; the guide calls it overpowered at this level."}
+  ],
+  "dungeon_tips": [
+    "Curse of the Elements raises your group's magic damage; Curse of Recklessness raises physical damage. Pick by group on bosses and elites.",
+    "Use Summon Succubus for damage once you unlock her at level 20, or Voidwalker if you prefer safety.",
+    "You can summon allies with Ritual of Summoning when two party members help click the portal.",
+    "Soulstone and Healthstone support the whole party."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Human", "rating": "SOLID", "note": "2% spell crit while a sword is equipped and 5% Spirit, which also boosts Life Tap."},
+      {"race": "Gnome", "rating": "SOLID", "note": "Expansive Mind now gives 5% mana; Eureka! is a new burst racial. Close to Human."}
+    ],
+    "horde": [
+      {"race": "Orc", "rating": "SOLID", "note": "Blood Fury for damage and Shatter Curse for curse/magic protection."},
+      {"race": "Undead", "rating": "SOLID", "note": "Touch of the Grave drains health on hits and spells."},
+      {"race": "Troll", "rating": "OK", "note": "Berserking does not speed DoTs, drains or channels, so it favors Destruction over Affliction."}
+    ],
+    "pick": "It is too early to tell: Human or Gnome for the Alliance, Orc or Undead for the Horde."
+  },
+  "professions": [
+    {"n": "Tailoring", "tier": "S", "note": "Uses all the cloth you find; half of Warlock BiS comes from Tailoring."},
+    {"n": "Enchanting", "tier": "A", "note": "Disenchant unwanted gear and craft Lesser and Greater Magic Wands."},
+    {"n": "First Aid", "tier": "A", "note": "A secondary profession: bandages (Heavy Silk, Mageweave) and health potions."},
+    {"n": "Alchemy", "tier": "B", "note": "Mana Well campfire buff restores mana every 5 seconds."},
+    {"n": "Fishing", "tier": "B", "note": "Fish Bowl campfire buff: +8% to all stats."},
+    {"n": "Skinning", "tier": "C", "note": "Camp Chair: +2% crit (DoTs can crit)."}
+  ],
+  "macros": [
+    {"label": "Amplify Curse + Bane of Agony", "a": ["Amplify Curse"], "lines": ["#showtooltip Amplify Curse", "/cast Amplify Curse", "/cast Bane of Agony"]}
+  ],
+  "trainers": ["Warlock trainer: every two levels (2, 4, 6, 8 ...).", "Demon quests come from a special Warlock trainer in your faction's main city."],
+  "after30": ""
+}

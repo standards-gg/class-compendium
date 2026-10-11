@@ -1,0 +1,82 @@
+{
+  "slug": "hunter",
+  "spec": "Beast Mastery",
+  "title": "BEAST MASTERY HUNTER",
+  "source": {"author": "Mobalytics", "name": "Mobalytics WoW Forever · Hunter Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide", "updated": "Oct 1, 2026"},
+  "headline": "Tame a beast at level 10, send it in and shoot from range; Summon Hawk adds more companions.",
+  "build": {
+    "tree": "Beast Mastery",
+    "early": "You cannot Tame Beast until level 10 and become much stronger once a pet is by your side. Visit the Hunter trainer at levels 10, 18 and 26 for Tame Beast, Multi-Shot and Rapid Fire.",
+    "order": [["Beast Mastery", "Deadly Aspects", 5], ["Beast Mastery", "Focused Fire", 2], ["Beast Mastery", "Pathfinding", 2], ["Beast Mastery", "Improved Revive Pet", 2], ["Beast Mastery", "Unleashed Fury", 5], ["Beast Mastery", "Bestial Swiftness", 1], ["Beast Mastery", "Summon Hawk", 1], ["Beast Mastery", "Ferocity", 2], ["Beast Mastery", "Intimidation", 1]],
+    "why": {"Deadly Aspects": "Buffs your damage.", "Focused Fire": "Further damage buff.", "Pathfinding": "Move faster.", "Improved Revive Pet": "Cheaper, faster pet revive.", "Unleashed Fury": "Buffs your pet's damage.", "Bestial Swiftness": "Your pet moves faster.", "Summon Hawk": "Two Hawks up at once.", "Ferocity": "More damage for your pet and Hawks.", "Intimidation": "High-threat attack for your pet (level 30)."}
+  },
+  "core": [
+    {"a": "Auto Shot", "t": "The foundation of your damage; keep it running."},
+    {"a": "Multi-Shot", "t": "After your next Auto Shot; hold it in groups until the tank has threat."},
+    {"a": "Arcane Shot", "t": "Shares its cooldown with Summon Hawk."},
+    {"a": "Summon Hawk", "t": "Use it twice on longer fights."},
+    {"a": "Raptor Strike", "t": "Finish enemies that reach you with melee swings."}
+  ],
+  "steps": [
+    {"lv": "1-30", "items": [
+      {"a": "Hunter's Mark", "t": "put it up, then send your beast in"},
+      {"a": "Auto Shot", "t": "open with it"},
+      {"a": "Serpent Sting", "t": "after Auto Shot"},
+      {"a": "Summon Hawk", "t": "send it in next, again if the fight is long"},
+      {"a": "Aimed Shot", "t": "or Multi-Shot after your next Auto Shot"},
+      {"a": "Raptor Strike", "t": "if you pull threat; Mongoose Bite on long fights"},
+      {"a": "Intimidation", "t": "level 30: pet opens with it for threat"}]}
+  ],
+  "tips": [
+    {"a": "Concussive Shot", "t": "slow for kiting"},
+    {"a": "Wing Clip", "t": "slow in melee"},
+    {"a": "Freezing Trap", "t": "freeze one of two"},
+    {"a": "Rapid Fire", "t": "groups only: threat"},
+    {"a": "Intimidation", "t": "pet threat"}
+  ],
+  "notes": [
+    "Bring plenty of ammo when questing or entering dungeons.",
+    "Tame a boar early (its Charge builds threat and it is not a picky eater), then a Tallstrider for Dust Cloud armor penetration.",
+    "Kite enemies you pull off your pet: shoot, move a little, repeat.",
+    "Summon Hawk shares a cooldown with Arcane Shot. If it underwhelms, or a fight is nearly over, use Arcane Shot instead."
+  ],
+  "stats": [
+    {"n": "Agility", "t": "Attack Power and critical strike chance. Look for it first."},
+    {"n": "Strength", "t": "Attack Power."},
+    {"n": "Intellect", "t": "Increases your mana pool."}
+  ],
+  "gear": [
+    "Take items with Agility first and the other stats when they show up.",
+    "Keep your bow or gun upgraded: ranged weapon damage is your main source of damage."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "A tank holds threat, so you can use Rapid Fire with less worry about pulling aggro.",
+    "Keep Hunter's Mark on the main target and let the tank get threat before Multi-Shot.",
+    "Explosive Trap and Frost Trap deal big area damage or slow a group so the tank can kite."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Dwarf", "rating": "GREAT", "note": "Probably the best Alliance race to 30: Mace Specialization, Stoneform, Big Game Hunter (extra damage to beasts)."},
+      {"race": "Night Elf", "rating": "GREAT", "note": "Elune's Light gives 10% crit for 15s; passive speed and dodge; Wisp Spirit helps after death."},
+      {"race": "Human", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Skyborne", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "horde": [
+      {"race": "Troll", "rating": "GREAT", "note": "5% more damage to beasts, Berserking, Rapid Regeneration and Regeneration: four helpful buffs for leveling."},
+      {"race": "Orc", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Tauren", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Skyborne", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "pick": "Dwarf or Night Elf for the Alliance, Troll for the Horde."
+  },
+  "professions": [],
+  "macros": [
+    {"label": "Auto Shot (keep shooting)", "a": ["Auto Shot"], "lines": ["#showtooltip Auto Shot", "/cleartarget [dead]", "/targetenemy [noharm]", "/cast !Auto Shot"]},
+    {"label": "Melee", "a": ["Raptor Strike"], "lines": ["/startattack", "/cast Raptor Strike", "/cast Mongoose Bite"]},
+    {"label": "Pet attack", "a": ["Intimidation"], "lines": ["/petattack", "/cast Charge", "/cast Dash"]},
+    {"label": "Pet passive / follow", "a": ["Feign Death"], "lines": ["/petpassive", "/petfollow"]}
+  ],
+  "trainers": ["Visit the Hunter trainer at levels 10, 18 and 26 for Tame Beast, Multi-Shot and Rapid Fire."],
+  "after30": ""
+}

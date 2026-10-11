@@ -1,0 +1,85 @@
+{
+  "slug": "druid",
+  "spec": "Feral",
+  "title": "FERAL DRUID",
+  "source": {"author": "Ruse_Cruize", "name": "Mobalytics WoW Forever · Druid Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/druid-leveling-guide", "updated": "Oct 9, 2026"},
+  "headline": "Three phases: spells and Moonfire, Bear Form at 10, then sneaky Cat Form burst at 20, with heals to reset between pulls.",
+  "build": {
+    "tree": "Feral Combat",
+    "early": "Before shapeshifts you rely on spells and auto-attacks: Moonfire from level 4 and Thorns from level 6. Bear Form arrives at 10 and Cat Form at 20.",
+    "order": [["Feral Combat", "Ferocity", 5], ["Feral Combat", "Heart of the Wild", 3], ["Feral Combat", "Feral Swiftness", 2], ["Feral Combat", "Feral Charge", 1], ["Feral Combat", "Sharpened Claws", 2], ["Feral Combat", "Savage Fury", 2], ["Feral Combat", "Predatory Strikes", 3], ["Feral Combat", "Blood Frenzy", 2], ["Feral Combat", "Leader of the Pack", 1]],
+    "why": {"Ferocity": "Solid in every fight, in Bear and Cat Form.", "Heart of the Wild": "Extra mana for heals and shapeshifts, plus stats in both forms.", "Feral Swiftness": "30% movement speed in Cat Form; dodge now works in every form.", "Feral Charge": "Mobility and an interrupt.", "Sharpened Claws": "Crit chance for fewer points than before.", "Savage Fury": "A nice damage increase.", "Predatory Strikes": "A global damage boost to your shapeshifts.", "Blood Frenzy": "Synergy with Sharpened Claws and Elune's Light.", "Leader of the Pack": "Damage buff for you and your party."}
+  },
+  "core": [
+    {"a": "Shred", "t": "Prowl up behind the target and open with it."},
+    {"a": "Rake", "t": "Keep it up if the enemy will live longer than 6 seconds."},
+    {"a": "Claw", "t": "Spam it to build combo points and deal damage."},
+    {"a": "Ferocious Bite", "t": "Spend combo points; Rip if the target lives 10+ more seconds."},
+    {"a": "Rejuvenation", "t": "Heal yourself between pulls: Rejuvenation, Regrowth, Healing Touch."}
+  ],
+  "steps": [
+    {"lv": "1-9", "items": [
+      {"a": "Moonfire", "t": "on enemies (from level 4)"},
+      {"a": "Rejuvenation", "t": "on yourself when hurt"},
+      {"a": "Wrath", "t": "with spare mana and at most 1 enemy in melee"}]},
+    {"lv": "10-19", "items": [
+      {"a": "Rejuvenation", "t": "heal first, then pull two enemies"},
+      {"a": "Moonfire", "t": "on each of them"},
+      {"a": "Feral Charge", "t": "to engage (if no kick needed)"},
+      {"a": "Enrage", "t": "for Rage"},
+      {"a": "Demoralizing Roar", "t": "to cut their damage (skip vs casters)"},
+      {"a": "Swipe", "t": "on groups; Maul on single targets"}]},
+    {"lv": "20+", "items": [
+      {"a": "Prowl", "t": "sneak up behind your target"},
+      {"a": "Shred", "t": "opener"},
+      {"a": "Rake", "t": "if the enemy will live 6+ seconds"},
+      {"a": "Claw", "t": "builder"},
+      {"a": "Ferocious Bite", "t": "finisher; Rip on longer fights"}]}
+  ],
+  "tips": [
+    {"a": "Entangling Roots", "t": "crowd control"},
+    {"a": "Thorns", "t": "more aggro and damage"},
+    {"a": "Mark of the Wild", "t": "buff the whole party"},
+    {"a": "Prowl", "t": "choose your fights"},
+    {"a": "Feral Charge", "t": "gap closer + kick"}
+  ],
+  "notes": [
+    "Cat and Bear Form now scale with weapon damage and use a new Feral Combat weapon skill: a high-DPS weapon matters.",
+    "Mana and energy regenerate continuously, so it is easier to spend down to 0 energy and less important to time casts.",
+    "Faerie Fire and Nature's Grasp are baseline; combo points transfer between targets; Druids can use polearms.",
+    "5 second rule: mana regeneration only starts after 5 seconds without spending mana, so batch your spells then shapeshift while it regenerates.",
+    "New abilities arrive on every even level: go back to the trainer every other level."
+  ],
+  "stats": [
+    {"n": "Strength", "t": "Highest damage per point."},
+    {"n": "Agility", "t": "Gives a little Attack Power in Cat Form, plus crit. Equal with Stamina."},
+    {"n": "Stamina", "t": "Reset less often."},
+    {"n": "Intellect", "t": "Maximizes your mana pool."},
+    {"n": "Spirit", "t": "Low value: healing is cheap and you do not use mana to kill."}
+  ],
+  "gear": [
+    "A high-DPS weapon is now extremely important because shapeshifted attacks scale with weapon damage.",
+    "Druids can now wield polearms."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "Keep Mark of the Wild on the whole party and pets; Thorns on whoever is being hit.",
+    "Thorns generates threat for the target: with a tank it raises their threat.",
+    "You can flex between tank (Bear) and damage (Cat), and even heal early dungeons with relative ease."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Night Elf", "rating": "GREAT", "note": "Elune's Light is a 10% crit cooldown, best in long fights. Quickness now also gives 2% run speed."},
+      {"race": "Skyborne", "rating": "OK", "note": "Walk on Air, 1% haste and Read Ley Line, which is good for leveling but not in Feral combat."}
+    ],
+    "horde": [
+      {"race": "Tauren", "rating": "GREAT", "note": "War Stomp, Endurance (+5% health and 1% hit), Plainsrunning and Cultivation make a strong profession-grinding race."},
+      {"race": "Skyborne", "rating": "OK", "note": "Walk on Air, 1% haste and a self-cast run speed buff."}
+    ],
+    "pick": "Tauren for the Horde, Night Elf for the Alliance."
+  },
+  "professions": [],
+  "macros": [],
+  "trainers": ["Visit the Druid trainer every other level."],
+  "after30": ""
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "paladin",
+  "spec": "Retribution",
+  "title": "RETRIBUTION PALADIN",
+  "source": {"author": "Ruse_Cruize", "name": "Mobalytics WoW Forever · Paladin Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide", "updated": "Oct 7, 2026"},
+  "headline": "Seal, Holy Strike, Judgement and Consecration: sustained damage, self healing and group buffs.",
+  "build": {
+    "tree": "Retribution",
+    "early": "Level 20 cap players: take Seal of Command before Pursuit of Justice. Vengeance is the long-term payoff but its full power is not visible in this beta.",
+    "order": [["Retribution", "Benediction", 5], ["Retribution", "Conviction", 5], ["Retribution", "Pursuit of Justice", 2], ["Retribution", "Seal of Command", 1], ["Retribution", "Sanctified Judgement", 2], ["Retribution", "Sacred Arbiter", 1], ["Retribution", "Sanctified Judgement", 1], ["Retribution", "Vindication", 3], ["Retribution", "Vengeance", 1]],
+    "why": {"Benediction": "Cheaper instant spells: Judgement, Seals, Consecration, Exorcism, Holy Strike, Hammer of Justice.", "Conviction": "+5% crit; synergy with later talents.", "Pursuit of Justice": "15% movement and mounted speed at all times.", "Seal of Command": "Big damage with Hammer of Justice; better on slow weapons.", "Sanctified Judgement": "More mana-efficient Judgement; unlocks Vengeance.", "Sacred Arbiter": "Damage bonus and easier Judgement uptime.", "Vindication": "Attack Power and a small enemy debuff.", "Vengeance": "Stacking damage buff once you have the crit to keep it up."}
+  },
+  "core": [
+    {"a": "Holy Strike", "t": "Instant weapon strike with Holy damage; use on cooldown."},
+    {"a": "Seal of Command", "t": "Weapon slower than 3.8s: Command. Faster: Righteousness."},
+    {"a": "Judgement", "t": "Use on cooldown."},
+    {"a": "Consecration", "t": "Keep it down against several enemies."},
+    {"a": "Flash of Light", "t": "Burst self-heal between pulls or off-healing."}
+  ],
+  "steps": [
+    {"lv": "1-30", "items": [
+      {"a": "Seal of Command", "t": "keep a Seal up at all times (Righteousness on fast weapons)"},
+      {"a": "Holy Strike", "t": "on cooldown"},
+      {"a": "Judgement", "t": "on cooldown"},
+      {"a": "Consecration", "t": "when fighting several enemies"},
+      {"a": "Flash of Light", "t": "burst heal"},
+      {"a": "Holy Light", "t": "slower, more efficient heal"}]}
+  ],
+  "tips": [
+    {"a": "Lay on Hands", "t": "emergency full heal"},
+    {"a": "Divine Shield", "t": "immune to damage"},
+    {"a": "Divine Protection", "t": "damage reduction"},
+    {"a": "Blessing of Freedom", "t": "break roots"},
+    {"a": "Hammer of Justice", "t": "stun"}
+  ],
+  "notes": [
+    "Mana only regenerates after 5 seconds without spending any, so cast several spells back to back and let it trickle in.",
+    "Use your utility: Blessing of Freedom, Sacrifice and Protection, Purify and Hammer of Justice for yourself and your party.",
+    "Group buffs matter: Blessing of Kings, Might and Wisdom plus Devotion and Retribution Aura make the whole party stronger."
+  ],
+  "stats": [
+    {"n": "Strength", "t": "More damage on every hit. Top for both races."},
+    {"n": "Agility", "t": "Crit chance (synergy with Vengeance) and defense. Second for Undead, third for Human."},
+    {"n": "Spirit", "t": "Second for Human, who lack Undead's natural regen and healing."},
+    {"n": "Intellect", "t": "Preferred over Stamina: decent healing efficiency, more mana per point, some spell crit."},
+    {"n": "Stamina", "t": "Keep at least a little for survivability."}
+  ],
+  "gear": [
+    "When two weapons have similar DPS, take the slower one: Holy Strike and Seal of Command both scale with weapon damage.",
+    "Weapon speed decides your Seal: slower than 3.8 seconds per swing means Seal of Command, faster means Seal of Righteousness.",
+    "Human order: Strength, Spirit, Agility, Intellect, Stamina. Undead order: Strength, Agility, Intellect, Stamina, Spirit."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "Consecration is your area damage: great for clearing groups of enemies while questing.",
+    "Off-heal with Flash of Light for bursts and Holy Light for sustained healing.",
+    "You bring Blessings and Auras that make the whole party stronger."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Human", "rating": "SOLID", "note": "Will to Survive breaks stuns, Perception counters stealth, The Human Spirit adds regen, Sword Specialization +2% crit with swords."},
+      {"race": "Dwarf", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "horde": [
+      {"race": "Undead", "rating": "GREAT", "note": "Strongest for leveling: Cannibalize resets quickly (and restores mana) and Touch of the Grave steals health on hit."}
+    ],
+    "pick": "Undead leads for leveling; Human may be better for Holy at endgame."
+  },
+  "professions": [],
+  "macros": [],
+  "trainers": [],
+  "after30": ""
+}

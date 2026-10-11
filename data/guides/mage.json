@@ -1,0 +1,84 @@
+{
+  "slug": "mage",
+  "spec": "Frost",
+  "title": "FROST MAGE",
+  "source": {"author": "Mobalytics-Oli", "name": "Mobalytics WoW Forever · Mage Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/mage-leveling-guide", "updated": "Sep 28, 2026"},
+  "headline": "Kite and slow with Frost: Frostbolt, Ice Lance and Frost Nova for one target, Blizzard for packs.",
+  "build": {
+    "tree": "Frost",
+    "early": "Arcane and Fire can level too but are less effective solo. At level 30 take Fingers of Frost, which gives your slows a chance to make the next spell treat the target as frozen.",
+    "order": [["Frost", "Improved Frostbolt", 5], ["Frost", "Frostbite", 2], ["Frost", "Ice Shards", 3], ["Frost", "Piercing Ice", 3], ["Frost", "Ice Lance", 1], ["Frost", "Improved Blizzard", 1], ["Frost", "Ice Shards", 2], ["Frost", "Shatter", 3], ["Frost", "Fingers of Frost", 1]],
+    "why": {"Improved Frostbolt": "Maxed first.", "Frostbite": "Frostbolt can freeze; with Improved Blizzard you can freeze several enemies.", "Ice Shards": "Crit damage that powers later talents.", "Piercing Ice": "+6% Frost damage on your main spells.", "Ice Lance": "Instant, 300% damage to frozen targets.", "Improved Blizzard": "15% slow for 1.5s, great for AoE kiting.", "Shatter": "Massive crits against frozen enemies.", "Fingers of Frost": "Level 30: slows can set up Ice Lance."}
+  },
+  "core": [
+    {"a": "Frostbolt", "t": "Main filler: cast it often to slow and fish for Fingers of Frost."},
+    {"a": "Ice Lance", "t": "Use on a frozen target (Frost Nova or Frostbite) or on a Fingers of Frost proc."},
+    {"a": "Frost Nova", "t": "Root enemies in range, then back up and keep kiting."},
+    {"a": "Blizzard", "t": "Bread-and-butter AoE; slows while it damages."},
+    {"a": "Cone of Cold", "t": "Mainly buys time to back away."}
+  ],
+  "steps": [
+    {"lv": "Single target", "items": [
+      {"a": "Frost Nova", "t": "when the target gets in range"},
+      {"a": "Ice Lance", "t": "on frozen or Fingers of Frost"},
+      {"a": "Frostbolt", "t": "filler, keeps it slowed"},
+      {"a": "Shoot", "t": "wand while it is slowed"}]},
+    {"lv": "AoE", "items": [
+      {"a": "Frost Nova", "t": "when mobs are clustered"},
+      {"a": "Blizzard", "t": "then back away and channel"},
+      {"a": "Cone of Cold", "t": "to buy time"},
+      {"a": "Arcane Explosion", "t": "finish low-health mobs"}]}
+  ],
+  "tips": [
+    {"a": "Blink", "t": "gap closer: widen the gap"},
+    {"a": "Ice Block", "t": "emergency"},
+    {"a": "Polymorph", "t": "buys time in groups"},
+    {"a": "Counterspell", "t": "interrupt casters"},
+    {"a": "Frost Nova", "t": "root and kite"}
+  ],
+  "notes": [
+    "Keep Arcane Intellect and Frost Armor (or Ice Armor) up at all times; swap to Mage Armor in dungeons when you are not tanking.",
+    "Downrank Blizzard, Frost Nova and Cone of Cold to save mana: you use them for the slow, not the damage.",
+    "Skip spells that Frost does not use, like Scorch, to save gold. Visit the trainer for higher ranks of your damage spells.",
+    "Keep Light Feathers and buy reagents such as Rune of Teleportation. Stock mana potions and conjured mana gems for longer uptime.",
+    "Buff passing players with Arcane Intellect: it costs you little and may be returned."
+  ],
+  "stats": [
+    {"n": "Spell Power", "t": "More damage; highly valuable when leveling a pure caster."},
+    {"n": "Intellect", "t": "Spell crit and a bigger mana pool: extremely important for a Mage."},
+    {"n": "Spirit", "t": "Regenerates mana and health so you rest less."},
+    {"n": "Stamina", "t": "More hit points."}
+  ],
+  "gear": [
+    "Use a wand while enemies are slowed to conserve mana.",
+    "Stack Intellect and Spell Power; Spirit helps you rest less."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "Frost Mages bring excellent single-target and area damage and can slow mobs to a crawl.",
+    "Your food, water and Arcane Intellect are valued by the whole party.",
+    "Polymorph buys time; Frost Nova works too but frozen enemies attack their nearest target.",
+    "Swap to Mage Armor instead of Ice or Frost Armor: you should not be tanking."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Gnome", "rating": "GREAT", "note": "Expansive Mind (+5% mana) and Eureka! (cheaper, stronger next 3 casts); Escape Artist is a PvP bonus."},
+      {"race": "Human", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Skyborne", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "horde": [
+      {"race": "Troll", "rating": "GREAT", "note": "Slight edge: Beast Slaying, Regeneration, Rapid Regeneration (pairs with Ice Block) and Berserking cast speed."},
+      {"race": "Orc", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Undead", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "pick": "Gnome for the Alliance, Troll for the Horde."
+  },
+  "professions": [],
+  "macros": [
+    {"label": "Water and food", "a": ["Conjure Water"], "lines": ["#showtooltip", "/castsequence reset=4 Conjure Water, Conjure Food"]},
+    {"label": "Buff yourself", "a": ["Arcane Intellect"], "lines": ["#showtooltip", "/cast [btn:2] Arcane Intellect, Frost Armor"]},
+    {"label": "Stop casting + Counterspell", "a": ["Counterspell"], "lines": ["#showtooltip", "/stopcasting", "/cast Counterspell"]}
+  ],
+  "trainers": ["Visit your Mage trainer for higher ranks of your key damage spells."],
+  "after30": ""
+}

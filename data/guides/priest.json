@@ -1,0 +1,77 @@
+{
+  "slug": "priest",
+  "spec": "Shadow",
+  "title": "SHADOW PRIEST",
+  "source": {"author": "Mobalytics-Oli", "name": "Mobalytics WoW Forever · Priest Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/priest-leveling-guide", "updated": "Sep 23, 2026"},
+  "headline": "Damage over time plus Mind Blast and Mind Flay, with a wand to finish: strong wand damage and mana sustain.",
+  "build": {
+    "tree": "Shadow Magic",
+    "early": "The first 2 points go into Wand Specialization (Discipline), assuming an early quest rewards a wand. If not, skip them and start in Shadow. Mind Blast is learnable at level 5, Mind Flay as early as level 21.",
+    "order": [["Discipline", "Wand Specialization", 2], ["Shadow Magic", "Spirit Tap", 5], ["Shadow Magic", "Improved Shadow Word: Pain", 2], ["Shadow Magic", "Shadow Focus", 3], ["Shadow Magic", "Shadow Reach", 2], ["Shadow Magic", "Mind Flay", 1], ["Shadow Magic", "Improved Mind Flay", 2], ["Shadow Magic", "Vampiric Embrace", 1], ["Shadow Magic", "Shadow Weaving", 3]],
+    "why": {"Wand Specialization": "Big boost to free wand damage.", "Spirit Tap": "Spirit and mana after each kill; pairs with wand finishing.", "Improved Shadow Word: Pain": "Shadow Word: Pain lasts 6 seconds longer.", "Shadow Focus": "Better chance to land Shadow spells.", "Shadow Reach": "+20% range on Shadow spells (30 to 36 yards).", "Mind Flay": "Channeled damage and a slow: a huge power spike.", "Improved Mind Flay": "More damage and range, slightly weaker slow.", "Vampiric Embrace": "Passive healing for you and your party.", "Shadow Weaving": "Stacking Shadow damage bonus on the target."}
+  },
+  "core": [
+    {"a": "Mind Blast", "t": "Open with it and use on cooldown (8s): your fastest, most bursty cast."},
+    {"a": "Shadow Word: Pain", "t": "Cast right after Mind Blast and keep it up as needed."},
+    {"a": "Mind Flay", "t": "Channel as the target closes the distance."},
+    {"a": "Power Word: Shield", "t": "Apply before combat; it protects against damage and pushback."},
+    {"a": "Psychic Scream", "t": "Fear enemies away when they reach melee."}
+  ],
+  "steps": [
+    {"lv": "1-30", "items": [
+      {"a": "Power Word: Shield", "t": "before you engage (30s)"},
+      {"a": "Mind Blast", "t": "to front-load damage"},
+      {"a": "Shadow Word: Pain", "t": "instantly after Mind Blast"},
+      {"a": "Mind Flay", "t": "while the target closes in"},
+      {"a": "Psychic Scream", "t": "or let the shield absorb at melee range"},
+      {"a": "Shoot", "t": "wand it down at about 20% HP"}]}
+  ],
+  "tips": [
+    {"a": "Psychic Scream", "t": "cheap way to peel"},
+    {"a": "Power Word: Shield", "t": "pre-pull"},
+    {"a": "Shoot", "t": "wand to save mana"},
+    {"a": "Mind Blast", "t": "burst on cooldown"},
+    {"a": "Vampiric Embrace", "t": "passive healing"}
+  ],
+  "notes": [
+    "Visit your class trainer every 2 levels (2, 4, 6, 8, 10 ...) so you do not miss upgrades.",
+    "Follow the MP5 rule: mana only regenerates after 5 seconds without casting. Pulling several enemies is possible but hurts your sustain.",
+    "Priest spells are mana-intensive: do not overkill with a damage spell when a mob is nearly dead, and consider Psychic Scream instead of re-shielding.",
+    "Sustain is a big part of leveling: less drinking means less downtime."
+  ],
+  "stats": [
+    {"n": "Intellect", "t": "Bigger mana pool."},
+    {"n": "Spirit", "t": "Health and mana regeneration."},
+    {"n": "Stamina", "t": "Extra health."},
+    {"n": "Spell Power", "t": "More damage and healing."}
+  ],
+  "gear": [
+    "Watch for wand upgrades, especially at low levels: a good wand is your best friend.",
+    "Wand finishing combines with Spirit Tap and the MP5 rule to cut downtime."
+  ],
+  "dungeon_gear": [],
+  "dungeon_tips": [
+    "Vampiric Embrace heals your party as you deal Shadow damage.",
+    "Eureka! (Gnome) or Berserking (Troll) are good burst windows in PvE.",
+    "Power Word: Shield and Psychic Scream keep pushback and incoming damage low."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Gnome", "rating": "GREAT", "note": "New Priest race. Eureka! cuts the cost of your next 3 casts and adds 10% damage or healing: the PvE pick."},
+      {"race": "Human", "rating": "GREAT", "note": "Will to Survive breaks stuns and Perception counters stealth: the PvP pick."},
+      {"race": "Dwarf", "rating": "", "note": "Not covered in the guide."},
+      {"race": "Night Elf", "rating": "", "note": "Not covered in the guide."}
+    ],
+    "horde": [
+      {"race": "Troll", "rating": "GREAT", "note": "Berserking is a flat 10% cast and attack speed burst; +5% damage to beasts and better combat regeneration. The PvE pick."},
+      {"race": "Undead", "rating": "GREAT", "note": "Will of the Forsaken (Fear, Sleep, Charm) and Touch of the Grave. The PvP pick."}
+    ],
+    "pick": "Human for PvP or Gnome for PvE (Alliance); Undead for PvP or Troll for PvE (Horde)."
+  },
+  "professions": [],
+  "macros": [
+    {"label": "Wand (auto-target)", "a": ["Shoot"], "lines": ["#showtooltip", "/cast !Shoot"]}
+  ],
+  "trainers": ["Visit your class trainer every 2 levels."],
+  "after30": ""
+}

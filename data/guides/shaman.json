@@ -1,0 +1,105 @@
+{
+  "slug": "shaman",
+  "spec": "Enhancement",
+  "title": "ENHANCEMENT SHAMAN",
+  "source": {"author": "NickTew", "name": "Mobalytics WoW Forever · Shaman Leveling Guide (Level 1-30)", "url": "https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide", "updated": "Oct 10, 2026"},
+  "headline": "A smooth leveler with some of the highest beta damage: front-load spells for the mp5 rule, then melee.",
+  "build": {
+    "tree": "Enhancement",
+    "early": "Levels 1-20: Thundering Strikes 5, Mental Dexterity 3, Improved Ghost Wolf 2 (or 2 in Improved Lightning Shield and respec at 20, when you learn Ghost Wolf), Shamanistic Focus 1. Legacy points: the extra five go to Improved Stormstrike, Spirit Weapons, Flurry and Mental Quickness.",
+    "order": [["Enhancement", "Thundering Strikes", 5], ["Enhancement", "Mental Dexterity", 3], ["Enhancement", "Improved Ghost Wolf", 2], ["Enhancement", "Shamanistic Focus", 1], ["Enhancement", "Elemental Weapons", 3], ["Enhancement", "Ancestral Knowledge", 1], ["Enhancement", "Stormstrike", 1], ["Enhancement", "Flurry", 4], ["Enhancement", "Improved Stormstrike", 1], ["Enhancement", "Improved Stormstrike", 1, "L"], ["Enhancement", "Spirit Weapons", 1, "L"], ["Enhancement", "Flurry", 1, "L"], ["Enhancement", "Mental Quickness", 2, "L"]],
+    "why": {"Thundering Strikes": "More crit.", "Mental Dexterity": "Intellect becomes attack power (half as much as Strength).", "Improved Ghost Wolf": "Use Ghost Wolf indoors; no damage, but you will not want to play without it.", "Shamanistic Focus": "Much cheaper shocks.", "Elemental Weapons": "Stronger Flametongue and Rockbiter.", "Ancestral Knowledge": "A point to reach the next tier.", "Stormstrike": "Your main melee strike (8s cooldown).", "Flurry": "A huge attack speed boost.", "Improved Stormstrike": "Less damage but big mana regeneration.", "Spirit Weapons": "Lets you parry; helps threat.", "Mental Quickness": "More attack power from Intellect."}
+  },
+  "core": [
+    {"a": "Stormstrike", "t": "Your main melee strike; slowest weapon is best once you have it."},
+    {"a": "Flame Shock", "t": "Pull with it; save the shock cooldown against dangerous casters."},
+    {"a": "Searing Totem", "t": "Drop it right after pulling, ideally still out of range."},
+    {"a": "Fire Nova", "t": "On more than 2 targets, or when you need the damage now."},
+    {"a": "Earth Shock", "t": "Interrupt, or damage on cooldown."}
+  ],
+  "steps": [
+    {"lv": "10-20", "items": [
+      {"a": "Lightning Shield", "t": "before the pull"},
+      {"a": "Flame Shock", "t": "to pull"},
+      {"a": "Searing Totem", "t": "drop it"},
+      {"a": "Fire Nova", "t": "on 3+ targets or for burst"},
+      {"a": "Earth Shock", "t": "on cooldown to kick or damage"}]},
+    {"lv": "24-30", "items": [
+      {"a": "Lightning Shield", "t": "before the pull"},
+      {"a": "Flame Shock", "t": "to pull"},
+      {"a": "Searing Totem", "t": "while still out of range"},
+      {"a": "Stormstrike", "t": "on cooldown"},
+      {"a": "Fire Nova", "t": "on more than 2 targets"},
+      {"a": "Earth Shock", "t": "kick or damage"}]},
+    {"lv": "Dungeon", "items": [
+      {"a": "Flame Shock", "t": "first"},
+      {"a": "Searing Totem", "t": "then the totem"},
+      {"a": "Fire Nova", "t": "on cooldown"},
+      {"a": "Stormstrike", "t": "on cooldown"},
+      {"a": "Earth Shock", "t": "only to kick a cast"}]}
+  ],
+  "tips": [
+    {"a": "Earthbind Totem", "t": "slow for kiting"},
+    {"a": "Frost Shock", "t": "slow a target"},
+    {"a": "Stoneclaw Totem", "t": "too many mobs"},
+    {"a": "Tremor Totem", "t": "cleanse fear/sleep"},
+    {"a": "Purge", "t": "strip buffs"}
+  ],
+  "notes": [
+    "Use the mp5 rule: mana regenerates 5 seconds after your last spell, so front-load your casts and then just melee. Spend freely if you want more damage at the cost of mana efficiency.",
+    "Keep Flametongue Weapon up (Rockbiter makes a tank's life harder; some mobs resist fire). At level 30 use Windfury Weapon.",
+    "Strength of Earth Totem is weak at low level but cheap with 30 yards of range: pre-place it before packs or a boss.",
+    "Totemic Projection moves your totems, but has a 1 minute cooldown: use it sparingly.",
+    "Mana potions are underrated for uptime."
+  ],
+  "stats": [
+    {"n": "Strength", "t": "2 attack power per point: your best stat."},
+    {"n": "Intellect", "t": "1 attack power per point, plus spell crit and a bigger mana pool."},
+    {"n": "Agility", "t": "Crit for attacks and spells, a bit less efficient per point."},
+    {"n": "Spirit", "t": "Helps mp5; only trade for it at 5+ Spirit for 1 point of something else."},
+    {"n": "Spell Power", "t": "Weak: Shaman spells scale at about 1/5 of other classes."}
+  ],
+  "gear": [
+    "Weapon: any two-hander with as much damage as possible. Once you have Stormstrike, take the slowest weapon you can find.",
+    "If you tank, use a shield and a good one-hander; otherwise a shield is not worth it.",
+    "Level 20 consumables: Longjaw Mud Snapper (10 AP, 5% XP), Elixir of Ogre Strength, Elixir of Lesser Agility, Elixir of Wisdom, Heavy Sharpening Stone and Heavy Weightstone."
+  ],
+  "dungeon_gear": [
+    {"dungeon": "Level 20 weapon picks", "items": "Forsaken Greataxe (Ruins of Lordaeron quest) · Hammerbone (Wailing Caverns: Leaders of the Fang quest) · Smite's Mighty Hammer (The Deadmines, Alliance)."}
+  ],
+  "dungeon_tips": [
+    "Fire Nova on 3+ targets is one of the best spells in the game, but mana-hungry: if you cannot drink, spend mana on Fire Nova first.",
+    "Use Earth Shock only for casts that must be kicked, such as Fear or Healing Touch.",
+    "Tremor Totem ticks every 4 seconds: drop it as the Fear lands, not before."
+  ],
+  "races": {
+    "alliance": [
+      {"race": "Dwarf", "rating": "GREAT", "note": "The only Alliance option: Stoneform, Mace Specialization and Big Game Hunter."}
+    ],
+    "horde": [
+      {"race": "Orc", "rating": "GREAT", "note": "Best raw DPS: Blood Fury, Axe Specialization, Shatter Curse and Hardiness."},
+      {"race": "Troll", "rating": "OK", "note": "Berserking is decent and Rapid Regeneration heals; Regeneration is basically useless."},
+      {"race": "Tauren", "rating": "OK", "note": "War Stomp is a nice utility stun; Plainsrunning does not stack with Ghost Wolf."},
+      {"race": "Skyborne", "rating": "WEAKEST", "note": "Wind Blessed, Skysight, Walk on Air: all around underwhelming."}
+    ],
+    "pick": "Orc > Troll > Tauren > Skyborne for raw damage; Dwarf is the only Alliance option."
+  },
+  "professions": [
+    {"n": "Alchemy", "tier": "S", "note": "Mana Well campfire buff: the best option for mp5."},
+    {"n": "Mining", "tier": "A", "note": "Lodestone campfire buff: melee attack power."},
+    {"n": "Fishing", "tier": "B", "note": "Fish Bowl campfire buff: 8% to all stats."},
+    {"n": "Blacksmithing", "tier": "B", "note": "Sharpening Wheel campfire buff: Strength."},
+    {"n": "Skinning", "tier": "C", "note": "Chair campfire buff: 2% crit."},
+    {"n": "Leatherworking", "tier": "C", "note": "The tent gives 5% rested XP: use it on cooldown."}
+  ],
+  "macros": [
+    {"label": "Stop casting + Earth Shock", "a": ["Earth Shock"], "lines": ["/stopcasting", "/cast Earth Shock"]},
+    {"label": "Earth Shock (mouseover)", "a": ["Earth Shock"], "lines": ["#showtooltip", "/stopcasting", "/cast [@mouseover, exists] Earth Shock; Earth Shock"]},
+    {"label": "Flame Shock (mouseover)", "a": ["Flame Shock"], "lines": ["#showtooltip", "/cast [@mouseover, exists] Flame Shock; Flame Shock"]},
+    {"label": "Frost Shock (mouseover)", "a": ["Frost Shock"], "lines": ["#showtooltip", "/cast [@mouseover, exists] Frost Shock; Frost Shock"]},
+    {"label": "Lesser Healing Wave (mouseover)", "a": ["Lesser Healing Wave"], "lines": ["#showtooltip", "/cast [@mouseover, exists] Lesser Healing Wave; Lesser Healing Wave"]},
+    {"label": "Healing Wave (mouseover)", "a": ["Healing Wave"], "lines": ["#showtooltip", "/cast [@mouseover, exists] Healing Wave; Healing Wave"]}
+  ],
+  "trainers": [],
+  "after30": ""
+}
