@@ -44,7 +44,7 @@
       h += '<div class="tt-use"><span>Use:</span> ' + para(e.use) + '</div>';
       foot = 'WoW Forever client data &middot; build ' + esc(BUILD);
     }
-    return h + '<div class="tt-foot">' + foot + '</div>';
+    return h;
   }
 
   function place(ev) {

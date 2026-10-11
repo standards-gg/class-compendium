@@ -60,6 +60,3 @@ python scripts/build_tooltips.py                      # Combat Rogue deck toolti
 
 The hand-made Combat Rogue deck is `build.py` + `render.py` (PNGs and a PDF in `png/` and `Combat-Rogue-1-30.pdf`).
 
-## Credits
-
-The CASC reader and BLP decoder in `scripts/client` come from [wow.export](https://github.com/Kruithne/wow.export) (MIT, see `scripts/client/WOW_EXPORT_LICENSE.txt`). Game icons and text are property of Blizzard Entertainment; this is an unofficial fan project.

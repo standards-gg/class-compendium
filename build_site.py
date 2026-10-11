@@ -115,7 +115,6 @@ h2{{font:900 italic 54px/.95 'Barlow Condensed';text-transform:uppercase;color:v
 <p class="lead">Nine classes, <b>10 slides each</b>: the build and talent order, rotation and panic buttons, a level plan with every trainer rank, stats and gear, dungeons, races, professions and macros. Hover any icon for its in-game tooltip, straight from the WoW Forever client data.</p>
 <div class="grid">
 {cards}</div>
-<div class="foot">Tooltips from the WoW Forever client data and <a href="https://talents.standards.gg">talents.standards.gg</a>. Unofficial fan project; game icons and text are property of Blizzard Entertainment. <a href="https://github.com/standards-gg/class-compendium">Source on GitHub</a></div>
 </div></body></html>'''
 open('index.html', 'w', encoding='utf-8').write(landing)
 
