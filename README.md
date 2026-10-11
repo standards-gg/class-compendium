@@ -1,61 +1,65 @@
-<p align="center"><img src="assets/logo.png" width="220" alt="logo"></p>
+<p align="center"><img src="assets/logo.png" width="200" alt="logo"></p>
 
-# COMBAT ROGUE · LEVEL 1 → 30
-### WoW Forever Beta · 10-slide pro-esports leveling deck
+# WoW Forever · Class Compendium
 
-[![PVP REALM BUILD](https://img.shields.io/badge/PVP_REALM_BUILD-0%2F21%2F0-fff56a?style=for-the-badge&labelColor=0a0c14)](https://talents.standards.gg/rogue/000000000000000003200331120141)
-[![PVE REALM BUILD](https://img.shields.io/badge/PVE_REALM_BUILD-0%2F21%2F0-6db6ff?style=for-the-badge&labelColor=0a0c14)](https://talents.standards.gg/rogue/000000000000000003200332110141)
+**[Open the live site →](https://standards-gg.github.io/rogue-compendium/)** Pick a class, get **10 slides**: build and talent order, rotation and panic buttons, a level plan with every trainer rank, stats and gear, dungeons, races, professions, macros and the 31–60 trainer list. Hover any icon for its in-game tooltip.
 
-> **PVP** build = hybrid PVE + PVP · **PVE** build = pure leveling. Both are 0/21/0 Combat. Full PDF: [`Combat-Rogue-1-30.pdf`](Combat-Rogue-1-30.pdf)
+> The slides are an **editable starting point**. Builds, rotations and picks are condensed from public leveling guides and are the authors' opinions, not official knowledge. Edit `data/guides/<class>.json` and rebuild to make them yours.
 
-![Cover](png/01-cover.png)
+## Classes
 
-| # | Slide | What's inside |
-|---|-------|---------------|
-| 01 | Cover | The kit at a glance, PVP / PVE build links |
-| 02 | [Talent Builds](png/02-talent-builds.png) | Both 0/21/0 trees, point-by-point talent order 10 → 30, the PVP Sprint / Endurance swap |
-| 03 | [Rotation & Buttons](png/03-rotation.png) | Core loop, Lv 1–25 / 26+ / 30 rotations, the OH NO! panic buttons |
-| 04 | [Level Plan](png/04-level-plan.png) | Class trainer abilities for every level 1 → 30, colour-coded must / good / skip |
-| 05 | [Poisons · Weapons · Stats](png/05-poisons-weapons-stats.png) | Poison picks, main hand vs off hand, stat values, hit caps, gear example |
-| 06 | [Dungeon Weapons](png/06-dungeon-weapons.png) | Every dungeon with level range and weapon drops (Horde quest items in red) |
-| 07 | [Races](png/07-races.png) | Alliance + Horde ranked for rogues, racials with icons |
-| 08 | [Professions](png/08-professions.png) | S → D tier list with camp bonuses and the Skinning → Leatherworking path |
-| 09 | [Macros & Trainers](png/09-macros-trainers.png) | Copy-paste macros, weapon trainer locations and coordinates |
-| 10 | [After 30](png/10-after-30.png) | Trainer plan 32 → 60 (buy your mount at 40) |
+| Class | Guide spec | Condensed from |
+|-------|-----------|----------------|
+| [Warrior](https://standards-gg.github.io/rogue-compendium/viewer.html?class=warrior) | Protection | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide) |
+| [Paladin](https://standards-gg.github.io/rogue-compendium/viewer.html?class=paladin) | Retribution | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide) |
+| [Hunter](https://standards-gg.github.io/rogue-compendium/viewer.html?class=hunter) | Beast Mastery | [Mobalytics](https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide) |
+| [Rogue](https://standards-gg.github.io/rogue-compendium/viewer.html?class=rogue) | Combat | [DonTheCrown](https://mobalytics.gg/wow-forever/classes/rogue-leveling-donthecrown) (hand-made deck, with PDF) |
+| [Priest](https://standards-gg.github.io/rogue-compendium/viewer.html?class=priest) | Shadow | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/priest-leveling-guide) |
+| [Shaman](https://standards-gg.github.io/rogue-compendium/viewer.html?class=shaman) | Enhancement | [NickTew](https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide) |
+| [Mage](https://standards-gg.github.io/rogue-compendium/viewer.html?class=mage) | Frost | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/mage-leveling-guide) |
+| [Warlock](https://standards-gg.github.io/rogue-compendium/viewer.html?class=warlock) | Affliction | [Crix](https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide) |
+| [Druid](https://standards-gg.github.io/rogue-compendium/viewer.html?class=druid) | Feral | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/druid-leveling-guide) |
 
-## Slides
+## The 10 slides
 
-![Talent builds](png/02-talent-builds.png)
-![Rotation](png/03-rotation.png)
-![Level plan](png/04-level-plan.png)
-![Poisons, weapons, stats](png/05-poisons-weapons-stats.png)
-![Dungeon weapons](png/06-dungeon-weapons.png)
-![Races](png/07-races.png)
-![Professions](png/08-professions.png)
-![Macros and trainers](png/09-macros-trainers.png)
-![After 30](png/10-after-30.png)
+1. **Cover**: class, spec, and a link to the recommended build in the [talent calculator](https://talents.standards.gg).
+2. **The build**: the talent tree with the guide's ranks and the point-by-point order from level 10.
+3. **Rotation & buttons**: core priorities, rotation per level range, panic buttons.
+4. **Level plan**: every trainer ability and exact rank by level 1–30, with the talent points spent at those levels.
+5. **Stats & gear**: stat priority, weapon and gear tips, things to remember.
+6. **Dungeons & gear**: the 35 dungeons by level, gear picks and group tips.
+7. **Races**: Alliance and Horde with ratings and every racial.
+8. **Professions**: the guide's picks plus the Forever profession bonuses.
+9. **Macros & trainers**.
+10. **After 30**: trainer abilities 31–60.
 
 ## Hover tooltips
 
-In the web version (`index.html` or any slide HTML) hover any icon for its in-game tooltip:
+- **Abilities, poisons, professions, consumables**: Blizzard's WoW Forever client data (product `wow_classic_beta`, build 1.60.1.70338) via wago.tools, rendered with `scripts/spelltext.py`. Level plan icons show the exact rank taught at that level.
+- **Talents and racials**: the [Standards.gg talent calculator](https://talents.standards.gg) data (shows the rank in the build, plus the next rank).
+- Not covered: items (dungeon weapons, gear). Item stats come from the game server and are not in the client tables.
 
-- **Abilities, poisons, professions, Thistle Tea:** Blizzard's WoW Forever client data (product `wow_classic_beta`, build 1.60.1.70338) via wago.tools. Level plan and After 30 icons show the exact rank the trainer teaches at that level, with cost, range, cast time, cooldown and the description.
-- **Talents and racials:** the [Standards.gg talent calculator](https://talents.standards.gg) data. Talent icons on slides 2 and 4 show the rank the build has at that point, with the next rank.
-- **No tooltip yet:** the dungeon weapons, the two cloaks, the weapon examples, the early gear and the Camp Tent. Item stats are served by the game server and are not in the client tables.
+## Edit and rebuild
 
-`python scripts/build_tooltips.py` regenerates `data/tooltips.json` (needs the DB2 CSVs from wago.tools in `$DB2_CACHE`, plus the forevertalent data; see the script header).
-
-## Rebuild
-
-Slides are plain HTML/CSS at 1920×1080 (`slides/*.html`), generated by `build.py` from the icon data in `src/`.
+Slide content for each class lives in `data/guides/<class>.json` (build order, rotation, stats, races, professions, macros, tips). Everything else is generated from game data.
 
 ```bash
-python build.py     # writes slides/*.html
-python render.py    # renders png/*.png at 2560x1440 (needs Microsoft Edge; edit EDGE path in render.py)
+python build_decks.py           # slides/<class>/*.html (all classes except Rogue)
+python render_decks.py          # thumbnails (needs Microsoft Edge; set EDGE if installed elsewhere)
+python build_site.py            # landing page, viewer, data/decks.json
 ```
 
-Open `index.html` to page through the deck, or any `slides/NN-*.html` on its own. Icons are in `assets/ic/` (upscaled 4× from the 64 px originals), fonts are bundled in `assets/fonts/`.
+Regenerating the game data (needs the DB2 CSVs from wago.tools in `$DB2_CACHE`, a local WoW: Forever install for icons and the forevertalent repo for talent text):
+
+```bash
+python scripts/build_classes.py                       # data/classes.json + tooltips
+tsx scripts/extract-icons.ts <ids.json> <outDir>      # icons from your own install
+python scripts/make_icons.py                          # crisp 128 px icons
+python scripts/build_tooltips.py                      # Combat Rogue deck tooltips
+```
+
+The hand-made Combat Rogue deck is `build.py` + `render.py` (PNGs and a PDF in `png/` and `Combat-Rogue-1-30.pdf`).
 
 ## Credits
 
-Game icons and names are property of Blizzard Entertainment; this is an unofficial fan guide.
+Guide content condensed from the Mobalytics WoW Forever leveling guides linked above. The CASC reader and BLP decoder in `scripts/client` come from [wow.export](https://github.com/Kruithne/wow.export) (MIT, see `scripts/client/WOW_EXPORT_LICENSE.txt`). Game icons and text are property of Blizzard Entertainment; this is an unofficial fan project.
