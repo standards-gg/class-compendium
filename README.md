@@ -2,7 +2,7 @@
 
 # WoW Forever · Class Compendium
 
-**[Open the live site →](https://standards-gg.github.io/rogue-compendium/)** Pick a class, get **10 slides**: build and talent order, rotation and panic buttons, a level plan with every trainer rank, stats and gear, dungeons, races, professions, macros and the 31–60 trainer list. Hover any icon for its in-game tooltip.
+**[Open the live site →](https://standards-gg.github.io/class-compendium/)** Pick a class, get **10 slides**: build and talent order, rotation and panic buttons, a level plan with every trainer rank, stats and gear, dungeons, races, professions, macros and the 31–60 trainer list. Hover any icon for its in-game tooltip.
 
 > The slides are an **editable starting point**. Builds, rotations and picks are condensed from public leveling guides and are the authors' opinions, not official knowledge. Edit `data/guides/<class>.json` and rebuild to make them yours.
 
@@ -10,15 +10,15 @@
 
 | Class | Guide spec | Condensed from |
 |-------|-----------|----------------|
-| [Warrior](https://standards-gg.github.io/rogue-compendium/viewer.html?class=warrior) | Protection | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide) |
-| [Paladin](https://standards-gg.github.io/rogue-compendium/viewer.html?class=paladin) | Retribution | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide) |
-| [Hunter](https://standards-gg.github.io/rogue-compendium/viewer.html?class=hunter) | Beast Mastery | [Mobalytics](https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide) |
-| [Rogue](https://standards-gg.github.io/rogue-compendium/viewer.html?class=rogue) | Combat | [DonTheCrown](https://mobalytics.gg/wow-forever/classes/rogue-leveling-donthecrown) (hand-made deck, with PDF) |
-| [Priest](https://standards-gg.github.io/rogue-compendium/viewer.html?class=priest) | Shadow | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/priest-leveling-guide) |
-| [Shaman](https://standards-gg.github.io/rogue-compendium/viewer.html?class=shaman) | Enhancement | [NickTew](https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide) |
-| [Mage](https://standards-gg.github.io/rogue-compendium/viewer.html?class=mage) | Frost | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/mage-leveling-guide) |
-| [Warlock](https://standards-gg.github.io/rogue-compendium/viewer.html?class=warlock) | Affliction | [Crix](https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide) |
-| [Druid](https://standards-gg.github.io/rogue-compendium/viewer.html?class=druid) | Feral | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/druid-leveling-guide) |
+| [Warrior](https://standards-gg.github.io/class-compendium/warrior/) | Protection | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/warrior-leveling-guide) |
+| [Paladin](https://standards-gg.github.io/class-compendium/paladin/) | Retribution | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/paladin-leveling-guide) |
+| [Hunter](https://standards-gg.github.io/class-compendium/hunter/) | Beast Mastery | [Mobalytics](https://mobalytics.gg/wow-forever/classes/hunter-leveling-guide) |
+| [Rogue](https://standards-gg.github.io/class-compendium/rogue/) | Combat | [DonTheCrown](https://mobalytics.gg/wow-forever/classes/rogue-leveling-donthecrown) (hand-made deck, with PDF) |
+| [Priest](https://standards-gg.github.io/class-compendium/priest/) | Shadow | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/priest-leveling-guide) |
+| [Shaman](https://standards-gg.github.io/class-compendium/shaman/) | Enhancement | [NickTew](https://mobalytics.gg/wow-forever/classes/shaman-leveling-guide) |
+| [Mage](https://standards-gg.github.io/class-compendium/mage/) | Frost | [Mobalytics-Oli](https://mobalytics.gg/wow-forever/classes/mage-leveling-guide) |
+| [Warlock](https://standards-gg.github.io/class-compendium/warlock/) | Affliction | [Crix](https://mobalytics.gg/wow-forever/classes/warlock-leveling-guide) |
+| [Druid](https://standards-gg.github.io/class-compendium/druid/) | Feral | [Ruse_Cruize](https://mobalytics.gg/wow-forever/classes/druid-leveling-guide) |
 
 ## The 10 slides
 

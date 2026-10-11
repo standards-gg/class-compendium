@@ -62,7 +62,7 @@ for slug in ORDER:
             top.append(a['ranks'][0]['img'])
     icons = ''.join(f'<img src="assets/icf/{i}.png" alt="">' for i in top)
     star = ' · full guide' if slug == 'rogue' else ''
-    cards += f'''<a class="cls" href="viewer.html?class={slug}" style="--c:{d['color']}">
+    cards += f'''<a class="cls" href="{slug}/" style="--c:{d['color']}">
 <div class="emb"><img src="assets/icf/e_{slug}.png" alt=""></div>
 <div class="tx"><h2>{E(d['name'])}</h2><div class="spec">{E(d['spec'])} &middot; 1&rarr;30{star}</div>
 <div class="trees">{' &middot; '.join(E(t) for t in d['trees'])}</div>
@@ -116,7 +116,7 @@ h2{{font:900 italic 54px/.95 'Barlow Condensed';text-transform:uppercase;color:v
 <div class="grid">
 {cards}</div>
 <div class="foot">Slides condensed from the Mobalytics WoW Forever leveling guides (and the Combat Rogue guide by DonTheCrown) as an editable starting point: builds, rotations and picks are the guides' opinions, not official knowledge. Tooltips: WoW Forever client data (wago.tools) and <a href="https://talents.standards.gg">talents.standards.gg</a>. Unofficial fan project; game icons and text are property of Blizzard Entertainment.
-&nbsp;<a href="https://github.com/standards-gg/rogue-compendium">Source on GitHub</a></div>
+&nbsp;<a href="https://github.com/standards-gg/class-compendium">Source on GitHub</a></div>
 </div></body></html>'''
 open('index.html', 'w', encoding='utf-8').write(landing)
 
@@ -180,4 +180,13 @@ fetch('data/decks.json').then(r=>r.json()).then(j=>{D=j;
 </script></body></html>
 '''
 open('viewer.html', 'w', encoding='utf-8').write(viewer)
+
+# one folder per class: /<class>/ opens that class's deck (GitHub Pages serves <class>/index.html)
+for slug, d in decks.items():
+    os.makedirs(slug, exist_ok=True)
+    open(f'{slug}/index.html', 'w', encoding='utf-8').write(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{E(d['name'])} · WoW Forever Class Compendium</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><link rel="canonical" href="../viewer.html?class={slug}">
+<meta http-equiv="refresh" content="0;url=../viewer.html?class={slug}"></head><body style="background:#04060d;color:#f4ecd8;font-family:sans-serif">
+<script>location.replace('../viewer.html?class={slug}'+location.hash)</script>
+<p><a style="color:#e3af4a" href="../viewer.html?class={slug}">Open the {E(d['name'])} guide</a></p></body></html>''')
 print('landing + viewer written;', len(decks), 'decks')
