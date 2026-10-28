@@ -21,14 +21,19 @@
   #ct{font:800 15px sans-serif;letter-spacing:.1em;color:#a9a490;min-width:64px;text-align:center}
   select{background:#0d1222;color:#f4ecd8;border:2px solid var(--c,#5a4a1e);border-radius:5px;font:700 14px sans-serif;padding:8px 10px;letter-spacing:.06em}
   @media(max-width:760px){#thumbs{display:none}#bar{gap:6px}a.btn,button{padding:10px 10px;font-size:12px}}
+  /* ?embed (the guide panel beside the talent trees on standards.gg): no bottom bar, the slide fills the frame from its centre */
+  .embed #bar{display:none}
+  .embed #stage{inset:0}
+  .embed .nav{bottom:0}
 </style></head><body>
 <div id="stage"><iframe id="frame" title="slide"></iframe></div>
 <div class="nav" id="prev">&#10094;</div><div class="nav" id="next">&#10095;</div>
 <div id="bar"><a class="btn" href="index.html">&#9664; Classes</a><select id="sel" aria-label="Class"></select><button id="b1">&#9664; Prev</button><span id="ct"></span><button id="b2">Next &#9654;</button><div id="thumbs"></div><button id="fs">Fullscreen</button></div>
 <script>
+const EMBED=new URLSearchParams(location.search).has('embed');if(EMBED)document.documentElement.classList.add('embed');
 const f=document.getElementById('frame'),st=document.getElementById('stage'),th=document.getElementById('thumbs'),ct=document.getElementById('ct'),sel=document.getElementById('sel');
 let D={},cls='rogue',S=[],T=[],i=0;
-function fit(){const s=Math.min(st.clientWidth/1920,st.clientHeight/1080);f.style.transform=`scale(${s})`;f.style.margin=`${-(1080*(1-s))/2}px ${-(1920*(1-s))/2}px`}
+function fit(){const s=(EMBED?Math.max:Math.min)(st.clientWidth/1920,st.clientHeight/1080);f.style.transform=`scale(${s})`;f.style.margin=`${-(1080*(1-s))/2}px ${-(1920*(1-s))/2}px`}
 function load(slug,k){
   cls=D[slug]?slug:Object.keys(D)[0]; const d=D[cls]; S=d.slides; T=d.thumbs;
   document.documentElement.style.setProperty('--c',d.color); document.title=d.name+' · WoW Forever Class Compendium';
@@ -38,7 +43,7 @@ function load(slug,k){
 }
 function go(k){
   i=Math.max(0,Math.min(S.length-1,k)); f.src=S[i]+'?v='+Date.now(); ct.textContent=(i+1)+' / '+S.length;
-  history.replaceState(null,'','?class='+cls+'#'+(i+1));
+  history.replaceState(null,'','?class='+cls+(EMBED?'&embed':'')+'#'+(i+1));
   [...th.children].forEach((c,j)=>c.classList.toggle('on',j===i)); th.children[i].scrollIntoView({block:'nearest',inline:'center'});
 }
 document.getElementById('prev').onclick=document.getElementById('b1').onclick=()=>go(i-1);
